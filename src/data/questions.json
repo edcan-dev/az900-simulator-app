@@ -257,6 +257,151 @@
       { "id": 1, "text": "A. Si", "correct": false },
       { "id": 2, "text": "B. No", "correct": true }
     ]
+  },
+  
+  {
+    "id": 11,
+    "type": "select_one",
+    "question_texts": [
+      { "text": "Tu empresa planea migrar todas sus máquinas virtuales a una suscripción de pago por uso de Azure. Actualmente, las máquinas virtuales están alojadas en hosts de Hyper-V en un centro de datos.", "type": "p" },
+      { "text": "Se requiere que te asegures de que la solución de Azure propuesta use el modelo de gasto correcto.", "type": "p" },
+      { "text": "Solución: Se recomienda el uso del modelo de gasto escalable.", "type": "p" },
+      { "text": "¿Cumple la solución con el objetivo?", "type": "p" }
+    ],
+    "options": [
+      { "id": 1, "text": "A. Sí", "correct": false },
+      { "id": 2, "text": "B. No", "correct": true }
+    ]
+  },
+  {
+    "id": 12,
+    "type": "select_one",
+    "question_texts": [
+      { "text": "Tu empresa planea migrar todas sus máquinas virtuales a una suscripción de pago por uso de Azure. Actualmente, las máquinas virtuales están alojadas en hosts de Hyper-V en un centro de datos.", "type": "p" },
+      { "text": "Se requiere que te asegures de que la solución de Azure propuesta use el modelo de gasto correcto.", "type": "p" },
+      { "text": "Solución: Se recomienda el uso del modelo de gasto operativo.", "type": "p" },
+      { "text": "¿Cumple la solución con el objetivo?", "type": "p" }
+    ],
+    "options": [
+      { "id": 1, "text": "A. Sí", "correct": true },
+      { "id": 2, "text": "B. No", "correct": false }
+    ]
+  },
+  {
+    "id": 13,
+    "type": "select_one",
+    "question_texts": [
+      { "text": "Se requiere implementar una solución de Inteligencia Artificial (IA) en Azure.", "type": "p" },
+      { "text": "Debes asegurarte de que puedes construir, probar y desplegar análisis predictivos para la solución.", "type": "p" },
+      { "text": "Solución: Se debe utilizar Azure Cosmos DB.", "type": "p" },
+      { "text": "¿Cumple la solución con el objetivo?", "type": "p" }
+    ],
+    "options": [
+      { "id": 1, "text": "A. Sí", "correct": false },
+      { "id": 2, "text": "B. No", "correct": true }
+    ]
+  },
+  {
+    "id": 14,
+    "type": "select_one",
+    "question_texts": [
+      { "text": "El bosque de Active Directory de tu empresa incluye miles de cuentas de usuario.", "type": "p" },
+      { "text": "Se te ha informado que todos los recursos de red se migrarán a Azure. Después de eso, se retirará el centro de datos local.", "type": "p" },
+      { "text": "Se requiere que adoptes una estrategia que reduzca el impacto en los usuarios una vez completada la migración.", "type": "p" },
+      { "text": "Solución: Planeas sincronizar todas las cuentas de usuario de Active Directory con Azure Active Directory (Azure AD).", "type": "p" },
+      { "text": "¿Cumple la solución con el objetivo?", "type": "p" }
+    ],
+    "options": [
+      { "id": 1, "text": "A. Sí", "correct": true },
+      { "id": 2, "text": "B. No", "correct": false }
+    ]
+  },
+  {
+    "id": 15,
+    "type": "select_one",
+    "question_texts": [
+      { "text": "Se requiere implementar una solución de Inteligencia Artificial (IA) en Azure.", "type": "p" },
+      { "text": "Debes asegurarte de que puedes construir, probar y desplegar análisis predictivos para la solución.", "type": "p" },
+      { "text": "Solución: Se debe utilizar Azure Machine Learning Studio.", "type": "p" },
+      { "text": "¿Cumple la solución con el objetivo?", "type": "p" }
+    ],
+    "options": [
+      { "id": 1, "text": "A. Sí", "correct": true },
+      { "id": 2, "text": "B. No", "correct": false }
+    ]
+  },
+  {
+    "id": 16,
+    "type": "select_one",
+    "question_texts": [
+      { "text": "La infraestructura de tu empresa incluye varias unidades de negocio que necesitan una gran cantidad de recursos de Azure para su funcionamiento diario.", "type": "p" },
+      { "text": "Los recursos requeridos por cada unidad de negocio son idénticos.", "type": "p" },
+      { "text": "Se requiere autorizar una estrategia para crear recursos de Azure automáticamente.", "type": "p" },
+      { "text": "Solución: Se recomienda incluir el servicio Azure API Management en la estrategia.", "type": "p" },
+      { "text": "¿Cumple la solución con el objetivo?", "type": "p" }
+    ],
+    "options": [
+      { "id": 1, "text": "A. Sí", "correct": false },
+      { "id": 2, "text": "B. No", "correct": true }
+    ]
+  },
+  {
+    "id": 17,
+    "type": "select_one",
+    "question_texts": [
+      { "text": "La infraestructura de tu empresa incluye varias unidades de negocio que necesitan una gran cantidad de recursos de Azure para su funcionamiento diario.", "type": "p" },
+      { "text": "Los recursos requeridos por cada unidad de negocio son idénticos.", "type": "p" },
+      { "text": "Se requiere autorizar una estrategia para crear recursos de Azure automáticamente.", "type": "p" },
+      { "text": "Solución: Se recomienda incluir los grupos de administración en la estrategia.", "type": "p" },
+      { "text": "¿Cumple la solución con el objetivo?", "type": "p" }
+    ],
+    "options": [
+      { "id": 1, "text": "A. Sí", "correct": false },
+      { "id": 2, "text": "B. No", "correct": true }
+    ]
+  },
+  {
+    "id": 18,
+    "type": "select_one",
+    "question_texts": [
+      { "text": "La infraestructura de tu empresa incluye varias unidades de negocio que necesitan una gran cantidad de recursos de Azure para su funcionamiento diario.", "type": "p" },
+      { "text": "Los recursos requeridos por cada unidad de negocio son idénticos.", "type": "p" },
+      { "text": "Se requiere autorizar una estrategia para crear recursos de Azure automáticamente.", "type": "p" },
+      { "text": "Solución: Se recomienda incluir plantillas de Azure Resource Manager en la estrategia.", "type": "p" },
+      { "text": "¿Cumple la solución con el objetivo?", "type": "p" }
+    ],
+    "options": [
+      { "id": 1, "text": "A. Sí", "correct": true },
+      { "id": 2, "text": "B. No", "correct": false }
+    ]
+  },
+  {
+    "id": 19,
+    "type": "select_one",
+    "question_texts": [
+      { "text": "Se te ha encargado implementar una aplicación empresarial crítica, que se instalará en una máquina virtual, en Azure.", "type": "p" },
+      { "text": "Se te informa que la estrategia de implementación debe permitir una disponibilidad garantizada del 99.99%. Debes asegurarte de usar la menor cantidad de máquinas virtuales y zonas de disponibilidad posibles.", "type": "p" },
+      { "text": "Solución: Incluyes dos máquinas virtuales y una zona de disponibilidad en tu estrategia.", "type": "p" },
+      { "text": "¿Cumple la solución con el objetivo?", "type": "p" }
+    ],
+    "options": [
+      { "id": 1, "text": "A. Sí", "correct": false },
+      { "id": 2, "text": "B. No", "correct": true }
+    ]
+  },
+  {
+    "id": 20,
+    "type": "select_one",
+    "question_texts": [
+      { "text": "Se te ha encargado implementar una aplicación empresarial crítica, que se instalará en una máquina virtual, en Azure.", "type": "p" },
+      { "text": "Se te informa que la estrategia de implementación debe permitir una disponibilidad garantizada del 99.99%. Debes asegurarte de usar la menor cantidad de máquinas virtuales y zonas de disponibilidad posibles.", "type": "p" },
+      { "text": "Solución: Incluyes una máquina virtual y dos zonas de disponibilidad en tu estrategia.", "type": "p" },
+      { "text": "¿Cumple la solución con el objetivo?", "type": "p" }
+    ],
+    "options": [
+      { "id": 1, "text": "A. Sí", "correct": false },
+      { "id": 2, "text": "B. No", "correct": true }
+    ]
   }
 
 ]
