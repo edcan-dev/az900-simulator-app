@@ -1,0 +1,262 @@
+[
+  {
+    "id": 1,
+    "type": "checkbox",
+    "question_texts": [
+      {
+        "text": "Su empresa desea suscribirse a un plan de soporte de Azure.",
+        "type": "p"
+      }, {
+        "text": "El plan de soporte debe permitir la apertura de nuevas solicitudes de soporte",
+        "type": "p"
+      }, {
+        "text": "¿Cuáles de los siguientes planes de soporte lo permiten?",
+        "type": "p"
+      }
+    ] ,
+    "options": [
+      { "id": 1, "text": "Basic", "correct": false },
+      { "id": 2, "text": "Developer", "correct": true },
+      { "id": 3, "text": "Standard", "correct": true },
+      { "id": 4, "text": "PROFESSIONAL DIRECT", "correct": true },
+      { "id": 5, "text": "PREMIER", "correct": true }
+    ]
+  },
+  {
+    "id": 2,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "text": "Su empresa tiene centros de datos en Los Ángeles y Nueva York. Tiene una suscripción a Microsoft Azure.",
+        "type": "p"
+      },
+      {
+        "text": "Está configurando los dos centros de datos como sitios agrupados geográficamente para lograr resiliencia del sitio.",
+        "type": "p"
+      },
+      {
+        "text": "Tiene los siguientes requisitos de almacenamiento de datos:",
+        "type": "ul",
+        "items": [
+          "Los datos deben almacenarse en múltiples nodos.",
+          "Los datos deben almacenarse en nodos en ubicaciones geográficas separadas.",
+          "Los datos se pueden leer tanto desde la ubicación secundaria como desde la ubicación principal."
+        ]
+      },
+      {
+        "text": "¿Cuál de las siguientes opciones de redundancia almacenada de Azure debería recomendar?",
+        "type": "p"
+      }
+    ] ,
+    "options": [
+      { "id": 1, "text": "A. Almacenamiento georredundante", "correct": false },
+      { "id": 2, "text": "B. Almacenamiento geo-redundante de solo lectura", "correct": true },
+      { "id": 3, "text": "C. Almacenamiento con redundancia de zona", "correct": false },
+      { "id": 4, "text": "D. Almacenamiento con redundancia local", "correct": false }
+    ]
+  },
+  {
+    "id": 3,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "text": "La suscripción de Azure de su empresa incluye un plan de soporte básico.",
+        "type": "p"
+      },
+      {
+        "text": "Desean solicitar a Microsoft una evaluación del diseño de un entorno de Azure. Sin embargo, el plan actual no lo contempla.",
+        "type": "p"
+      },
+      {
+        "text": "Desea asegurarse de que la empresa se suscriba a un plan de soporte que permita esta funcionalidad, manteniendo los gastos al mínimo.",
+        "type": "p"
+      },
+      {
+        "text": "Solución: Recomienda que la empresa se suscriba al plan de soporte Professional Direct.",
+        "type": "p"
+      },
+      {
+        "text": "¿La solución cumple el objetivo?",
+        "type": "p"
+      }
+    ] ,
+    "options": [
+      { "id": 1, "text": "A. Si", "correct": false },
+      { "id": 2, "text": "B. No", "correct": true }
+    ]
+
+  },
+  {
+    "id": 4,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "text": "Tiene la tarea de implementar máquinas virtuales de Azure para su empresa.",
+        "type": "p"
+      },
+      {
+        "text": "Es necesario utilizar la solución de implementación en la nube adecuada.",
+        "type": "p"
+      },{
+        "text": "Solución: Deberías utilizar software como servicio (SaaS).",
+        "type": "p"
+      },
+      {
+        "text": "¿La solución cumple el objetivo?",
+        "type": "p"
+      }
+    ] ,
+    "options": [
+      { "id": 1, "text": "A. Si", "correct": false },
+      { "id": 2, "text": "B. No", "correct": true }
+    ]
+
+  },
+  {
+    "id": 5,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "text": "Tiene la tarea de implementar máquinas virtuales de Azure para su empresa.",
+        "type": "p"
+      },{
+        "text": "Es necesario utilizar la solución de implementación en la nube adecuada.",
+        "type": "p"
+      },{
+        "text": "Solución: Deberías utilizar Plataforma como Servicio (PaaS).",
+        "type": "p"
+      },{
+        "text": "¿La solución cumple el objetivo?",
+        "type": "p"
+      }
+    ],
+    "options": [
+      { "id": 1, "text": "A. Si", "correct": false },
+      { "id": 2, "text": "B. No", "correct": true }
+    ]
+  },
+  {
+    "id": 6,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "text": "Tiene la tarea de implementar máquinas virtuales de Azure para su empresa.",
+        "type": "p"
+      },{
+        "text": "Es necesario utilizar la solución de implementación en la nube adecuada.",
+        "type": "p"
+      },{
+        "text": "Solución: Deberías utilizar Infraestructura como Servicio (IaaS).",
+        "type": "p"
+      },{
+        "text": "¿La solución cumple el objetivo?",
+        "type": "p"
+      }
+    ],
+    "options": [
+      { "id": 1, "text": "A. Si", "correct": false },
+      { "id": 2, "text": "B. No", "correct": true }
+    ]
+  }, {
+    "id": 7,
+    "type": "select_one",
+    "question_texts": [
+
+      {
+        "text": "Debe determinar qué plan de nivel web de Azure alojará las aplicaciones web. El plan de nivel web debe cumplir los siguientes requisitos:",
+        "type": "ul",
+        "items": [
+          "Las aplicaciones web usarán dominios personalizados.",
+          "Cada aplicación web requiere 10 GB de almacenamiento.",
+          "Cada aplicación web debe ejecutarse en instancias de cómputo dedicadas.",
+          "Debe incluirse el equilibrio de carga entre instancias.",
+          "Se deben minimizar los costos."
+        ]
+      },
+      {
+        "text": "¿Qué plan de nivel web debería usar?",
+        "type": "p"
+      }
+    ],
+    "options": [
+      { "id": 1, "text": "A. Estandar", "correct": true },
+      { "id": 2, "text": "B. Básico", "correct": false },
+      { "id": 3, "text": "C. Gratis", "correct": false },
+      { "id": 4, "text": "D. Compartido", "correct": false }
+    ]
+  }, {
+    "id": 8,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "text": "Planea migrar una empresa a Azure. Cada una de las numerosas divisiones de la empresa contará con un administrador para administrar los recursos de Azure que utiliza.",
+        "type": "p"
+      }, {
+        "text": "Debe asegurarse de que la implementación de Azure que utilice permita segmentar Azure para las divisiones, minimizando al mismo tiempo el esfuerzo administrativo.",
+        "type": "p"
+      }, {
+        "text": "Solución: Planea utilizar varios directorios de Azure Active Directory (Azure AD).",
+        "type": "p"
+      }, {
+        "text": "¿Cumple la solución con el objetivo?",
+        "type": "p"
+      }
+    ],
+    "options": [
+      { "id": 1, "text": "A. Si", "correct": false },
+      { "id": 2, "text": "B. No", "correct": true }
+    ]
+  }, {
+    "id": 9,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "text": "Planea alojar la aplicación web en Azure.",
+        "type": "p"
+      }, {
+        "text": "Debe determinar qué plan de nivel web de Azure alojará la aplicación web. El plan de nivel web debe cumplir los siguientes requisitos:",
+        "type": "ul",
+        "items": [
+          "El sitio web usará la URL miami.weyland.com.",
+          "El sitio web se implementará en dos instancias.",
+          "Debe incluir compatibilidad con SSL.",
+          "El sitio web requiere 12 GB de almacenamiento.",
+          "Debe minimizar los costos."
+        ]
+      }, {
+        "text": "¿Qué plan de nivel web debería usar?",
+        "type": "p"
+      }
+    ],
+    "options": [
+      { "id": 1, "text": "A. Estandar", "correct": true },
+      { "id": 2, "text": "B. Básico", "correct": false },
+      { "id": 3, "text": "C. Gratis", "correct": false },
+      { "id": 4, "text": "D. Compartido", "correct": false }
+    ]
+  }, {
+    "id": 10,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "text": "Su empresa planea migrar todas sus máquinas virtuales a una suscripción de pago por uso de Azure. Las máquinas virtuales están alojadas actualmente en hosts de Hyper-V en un centro de datos.",
+        "type": "p"
+      },{
+        "text": "Debe asegurarse de que la solución de Azure prevista utilice el modelo de gasto correcto.",
+        "type": "p"
+      },{
+        "text": "Solución: Debe recomendar el uso del modelo de gasto elástico.",
+        "type": "p"
+      },
+       {
+        "text": "¿Cumple la solución con el objetivo?",
+        "type": "p"
+      }
+    ],
+    "options": [
+      { "id": 1, "text": "A. Si", "correct": false },
+      { "id": 2, "text": "B. No", "correct": true }
+    ]
+  }
+
+]
