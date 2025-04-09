@@ -1682,10 +1682,555 @@ D. Azure App Service plans
 
 
 
+P304
+Your company plans to migrate all on-premises data to Azure.
+You need to identify whether Azure complies with the company's regional requirements.
+What should you use?
+A. the Knowledge Center
+B. Azure Marketplace
+C. the MyApps portal
+D. the Trust Center
+
+P306
+To complete the sentence, select the appropriate option in the answer area.
+If a resource group named RG1 has a delete lock _____ can delete RG1.
+A. only a member of the global administrators group
+B. the delete lock must be removed before an administrator
+C. an Azure policy must be modified before an administrator
+D. an Azure tag must be added before ad administrator
+
+P307
+_____ is the process of establishing the identity of a user or service that wants to access a resource.
+A. Authentication
+B. Authorization
+C. Conditional Access
+D. Synchronization
+
+P309
+What is guaranteed in an Azure Service Level Agreement (SLA) for virtual machines?
+A. uptime
+B. feature availability
+C. bandwidth
+D. performance
+
+P310
+An Azure service is available to all Azure customers when it is in _____.
+A. public preview
+B. private preview
+C. development
+D. an Enterprise Agreement (EA) subscription
+
+
+
+
+
+P311
+Your company plans to purchase an Azure subscription.
+The company's support policy states that the Azure environment must provide an option to access support engineers by phone or email.
+You need to recommend which support plan meets the support policy requirement.
+Solution: Recommend a Basic support plan.
+Does this meet the goal?
+A. Yes
+B. No
+
+P312
+Your company plans to purchase an Azure subscription.
+The company's support policy states that the Azure environment must provide an option to access support engineers by phone or email.
+You need to recommend which support plan meets the support policy requirement.
+Solution: Recommend a Standard support plan.
+Does this meet the goal?
+A. Yes
+B. No
+
+P313
+Your company plans to purchase an Azure subscription.
+The company's support policy states that the Azure environment must provide an option to access support engineers by phone or email.
+You need to recommend which support plan meets the support policy requirement.
+Solution: Recommend a Premier support plan.
+Does this meet the goal?
+A. Yes
+B. No
+
+P314
+Your company plans to request an architectural review of an Azure environment from Microsoft.
+The company currently has a Basic support plan.
+You need to recommend a new support plan for the company. The solution must minimize costs.
+Which support plan should you recommend?
+A. Premier
+B. Developer
+C. Professional Direct
+D. Standard
+
+P316
+What is required to use Azure Cost Management?
+A. a Dev/Test subscription
+B. Software Assurance
+C. an Enterprise Agreement (EA)
+D. a pay-as-you-go subscription
+
+P317
+To complete the sentence, select the appropriate option in the answer area.
+Your Azure trial account expired last week.
+You are now unable to _____.
+A. Create additional Azure Directory (Azure AD) user accounts
+B. start an existing Azure Virtual Machine
+C. access your data stored in Azure
+D. access the Azure Portal
+
+P318
+Your company plans to purchase an Azure subscription.
+The company's support policy states that the Azure environment must provide an option to access support engineers by phone or email.
+You need to recommend which support plan meets the support policy requirement.
+Solution: Recommend a Professional Direct support plan.
+Does this meet the goal?
+A. Yes
+B. No
+
+P319
+Your company has a Software Assurance agreement that includes Microsoft SQL Server licenses.
+You plan to deploy SQL Server on Azure virtual machines.
+What should you do to minimize licensing costs for the deployment?
+A. Deallocate the virtual machines during off hours.
+B. Use Azure Hybrid Benefit.
+C. Configure Azure Cost Management budgets.
+D. Use Azure reservations.
+
+P320
+Your company has 10 departments.
+The company plans to implement an Azure environment.
+You need to ensure that each department can use a different payment option for the Azure services it consumes.
+What should you create for each department?
+A. a reservation
+B. a subscription
+C. a resource group
+D. a container instance
+
+P325
+To complete the sentence, select the appropriate option in the answer area.
+You have an application that is comprised of an Azure web app that has a Service Level Agreement (SLA) of 99.95 percent and an Azure SQL database that has an SLA of 99.99 percent.
+The composite SLA for the application is _____.
+A. the product of both SLAs, which equals 99.94 percent
+B. the lowest SLA associated to the appllicacion, which is 99.95 percent
+C. the highest SLA associated to the application, which is 99.95
+D. the difference between the two SLAs, which is 0.05 percent
+
+P327
+Which statement accurately describes the Modern Lifecycle Policy for Azure services?
+A. Microsoft provides mainstream support for a service for five years.
+B. Microsoft provides a minimum of 12 months' notice before ending support for a service.
+C. After a service is made generally available, Microsoft provides support for the service for a minimum of four years.
+D. When a service is retired, you can purchase extended support for the service for up to five years.
+
+P328
+You need to request that Microsoft increase a subscription quota limit for your company.
+Which blade should you use from the Azure portal? To answer, select the appropriate blade in the answer area.
+A. Help + Support
+B. All resources
+C. Dashboard
+D. Resource groups
+
+P329
+To complete the sentence, select the appropriate option in the answer area.
+You can use _____ in Azure to send email alerts when the cost of the current biliing period for an Azure subscription exceeds a specific limit.
+A. Advisor recommendations
+B. Access Control (IAM)
+C. Budget alerts 
+D. Compliance 
+
+
+
+
+
+P332
+Your company has an Azure subscription that contains the following unused resources:
+✑ 20 user accounts in Azure Active Directory (Azure AD)
+✑ Five groups in Azure AD
+✑ 10 public IP addresses
+✑ 10 network interfaces
+You need to reduce the Azure costs for the company.
+Which unused resources should you remove?
+
+A. the network interfaces
+B. the public IP addresses
+C. the groups
+D. the user accounts
+
+P333
+Select the answer that correctly completes the sentence.
+You can use _____ to group objects logically for reporting departmental costs and tracking budgets.
+A. Azure Policy
+B. Azure Service Health
+C. resource tags
+D. security logs
+
+P337
+Who can use the Azure Total Cost of Ownership (TCO) calculator?
+A. billing readers for an Azure subscription only
+B. owners for an Azure subscription only
+C. anyone
+D. all users who have an account in Azure Active Directory (Azure AD) that is linked to an Azure subscription only
+
+P338
+To complete the sentence, select the appropriate option in the answer area.
+You deploy an Azure resource. The resource becomes unavaliable for an extended period due to a service outage.
+Microsoft will _____.
+A. refund your bank account
+B. migrate the resource to another subscription
+C. credit your Azure account
+D. send you a coupon code that you can redeem for Azure credits
+
+P339
+Which task can you perform by using Azure Advisor?
+A. Integrate Active Directory and Azure Active Directory (Azure AD).
+B. Estimate the costs of an Azure solution.
+C. Confirm that Azure subscription security follows best practices.
+D. Evaluate which on-premises resources can be migrated to Azure.
+
+P341
+You have an Azure application that uses the services shown in the following table.
+Service - Service Level Agreement (SLA)
+Azure Virtual Machines - 99.9%
+Azure SQL Database - 99.99%
+How should you calculate the composite SLA for the application?
+A. 0.999 * 0.9999 = 0.9989001 = 99.89001%
+B. 0.999 / 0.9999 = 0.9991 = 99.91%
+C. Max(0.999, 0.9999) = 0.9999 = 99.99%
+D. Min(0.999, 0.9999) = 0.999 = 99.9%
+
+P342
+Select the answer that correctly completes the sentence.
+_____ provide access to unused Azure compute capacity at deep discounts.
+A. Azure Container Instaces
+B. Azure Reserved Virtual Machine Instances
+C. Azure Spot Virtual Machine Instances
+D. Azure virtual machine scale sets
+
+P343
+Select the answer that correctly completes the sentence.
+To save on the costs of an unused Azure Virtual Machine that runs Windows 10, you should _____.
+A. disconnect the virtual machine during a Remote Desktop session
+B. put the virtual machine in sleep mode from a Remote Desktop Session
+C. select Stop for the virtual machine from the Azure Portal
+D. shut down the virtual machine from a Remote Desktop session
+
+P344
+Select the answer that correctly completes the sentence.
+All Azure Services that are in public preview are _____.
+A. provided without any documentation
+B. only configurable from Azure CLI
+C. excluded from the Service Level Agreements
+D. only configurable from the Azure Portal
+
+P345
+Select the answer that correctly completes the sentence.
+If an Azure virtual machine has a status of Stopped (deallocated), you will continue to pay for _____.
+A. compute capacity
+B. I/O operations
+C. networking
+D. storage
+
+P346
+Select the answer that correctly completes the sentence.
+The _____ explains what data Microsoft processes, how Microsoft processes the data, and the purpose of processing the data.
+A. Microsoft Online Privacy Statement
+B. Microsoft Product Terms
+C. Microsoft Online Service Level Agreement
+D. Online Subscription Agreement for Microsoft Azure
+
+P347
+Select the answer that correctly completes the sentence.
+You can access Compliance Manager from the _____.
+A. Azure Active Directory admin center.
+B. Azure Portal
+C. Microsoft 365 admin center
+D. Microsoft Service Trust Portal
+
+P349
+Select the answer that correctly completes the sentence.
+_____ evaluates signals to allow or deny sign-ins to Azure AD.
+A. A managed identity
+B. Conditional access
+C. Microsoft Intune
+
+
+
+
+
+P351
+Which Service Level Agreement (SLA) is provided for Azure services in public preview?
+A. Each service defines its own SLA
+B. The SLA will be 99%
+C. The SLA will be 1% less than the general availability (GA) SLA
+D. The SLA will be 99.95%
+
+P352
+_____ in Azure Firewall enables users on the internet to access a server on a virtual network.
+A. Application rules
+B. Network Address Translation (NAT) rules
+C. Network rules
+D. Service tags
+
+P355
+What is the longest term you can purchase for Azure Reserved VM instances?
+A. one year
+B. five years
+C. four years
+D. three years
+
+P357
+Your company has 10 offices. You plan to generate several billing reports from the Azure portal. Each report will contain the Azure resource utilization of each office.
+Which Azure Resource Manager feature should you use before you generate the reports?
+A. tags
+B. templates
+C. locks
+D. policies
+
+P359
+This question requires that you evaluate the underlined text to determine if it is correct.
+If Microsoft plans to end support for an Azure service that does NOT have a successor service, Microsoft will provide notification at least 12 months before.
+Instructions: Review the underlined text. If it makes the statement correct, select `No change is needed`. If the statement is incorrect, select the answer choice that makes the statement correct.
+A. No change is needed.
+B. 6 months
+C. 90 days
+D. 30 days
+
+
+
+
+
+P362
+Your company has an Azure subscription that contains the following unused resources:
+✑ 20 user accounts in Azure Active Directory (Azure AD)
+✑ Five groups in Azure AD
+✑ 10 public IP addresses
+✑ 10 network interfaces
+You need to reduce the Azure costs for the company.
+Solution: You remove the unused network interfaces.
+Does this meet the goal?
+A. Yes
+B. No
+
+P363
+Your company has an Azure subscription that contains the following unused resources:
+✑ 20 user accounts in Azure Active Directory (Azure AD)
+✑ Five groups in Azure AD
+✑ 10 public IP addresses
+✑ 10 network interfaces
+You need to reduce the Azure costs for the company.
+Solution: You remove the unused public IP addresses.
+Does this meet the goal?
+A. Yes
+B. No
+
+P364
+Your company has an Azure subscription that contains the following unused resources:
+✑ 20 user accounts in Azure Active Directory (Azure AD)
+✑ Five groups in Azure AD
+✑ 10 public IP addresses
+✑ 10 network interfaces
+You need to reduce the Azure costs for the company.
+Solution: You remove the unused user accounts.
+Does this meet the goal?
+A. Yes
+B. No
+
+P367
+This question requires that you evaluate the underlined text to determine if it is correct.
+A support plan solution that gives you best practice information, health status and notifications, and 24/7 access to billing information at the lowest possible cost is a Standard support plan.
+Instructions: Review the underlined text. If it makes the statement correct, select `No change is needed`. If the statement is incorrect, select the answer choice that makes the statement correct.
+A. No change is needed
+B. Developer
+C. Basic
+D. Premier
+
+P368
+In which Azure support plans can you open a new support request?
+A. Premier and Professional Direct only
+B. Premier, Professional Direct, and Standard only
+C. Premier, Professional Direct, Standard, and Developer only
+D. Premier, Professional Direct, Standard, Developer, and Basic
+
+P369
+This question requires that you evaluate the underlined text to determine if it is correct.
+You can create an Azure support request from support.microsoft.com.
+Instructions: Review the underlined text. If it makes the statement correct, select `No change is needed.` If the statement is incorrect, select the answer choice that makes the statement correct.
+A. No change is needed.
+B. the Azure portal
+C. the Knowledge Center
+D. the Security & Compliance admin center
+
+P370
+Your company has an Azure subscription that contains the following unused resources:
+✑ 20 user accounts in Azure Active Directory (Azure AD)
+✑ Five groups in Azure AD
+✑ 10 public IP addresses
+✑ 10 network interfaces
+You need to reduce the Azure costs for the company.
+Solution: You remove the unused groups.
+Does this meet the goal?
+A. Yes
+B. No
+
+
+
+
+
+P371
+This question requires that you evaluate the underlined text to determine if it is correct.
+The Azure Standard support plan is the lowest cost option to receive 24x7 access to support engineers by phone.
+Instructions: Review the underlined text. If it makes the statement correct, select `No change is needed`. If the statement is incorrect, select the answer choice that makes the statement correct.
+A. No change is needed
+B. Developer
+C. Basic
+D. Professional Direct
+
+P372
+To complete the sentence, select the appropriate option in the answer area.
+All Azure services that are in public preview are _____.
+A. provided without any documentation
+B. only configurable from Azure CLI 
+C. excluded from the Service Level Agreements
+D. Only configurable from the Azure portal
+
+P374
+You need to compare a company's cloud usage to industry standard best practices.
+What should you use?
+A. Azure Monitor
+B. Azure Service Health
+C. Application Insights in Azure Monitor
+D. Azure Advisor
+
+P375
+You need to start Azure Cloud Shell.
+What should you use?
+A. the Azure portal
+B. Azure Command-Line Interface (CLI)
+C. Azure PowerShell
+D. an Azure Resource Manager (ARM) template
+
+P376
+How many copies of data are maintained by an Azure Storage account that uses locally-redundant storage (LRS)?
+A. 3
+B. 4
+C. 6
+D. 9
+
+P377
+What enables a cloud service to adapt quickly to changing requirements?
+A. high availability
+B. predictability
+C. manageability
+D. agility
+
+P378
+What is an example of vertical scaling in a cloud environment?
+A. adding an additional CPU to an existing Azure virtual machine
+B. adding an additional Azure virtual machine
+C. adding an additional Azure Virtual Desktop session host
+D. adding an additional Azure App Service instance automatically
+
+
+
+
+
+P381
+What additional resource is required by an Azure virtual machine?
+A. a virtual network
+B. a service endpoint
+C. Azure Firewall
+D. a public IP address
+
+P383
+How many copies of data are maintained by an Azure Storage account that uses geo-redundant storage (GRS)?
+A. 3
+B. 4
+C. 6
+D. 9
+
+P384
+What is used to grant permission to Azure Virtual Desktop resources?
+A. tags
+B. role-based access control (RBAC) roles
+C. resource groups
+D. application security groups
+
+P388
+Select the answer that correctly completes the sentence.
+_____ ensures that you can calculate how much a cloud service will cost.
+A. Agility
+B. Elasticity
+C. High availability
+D. Predictability
+
+P389
+Which cloud service model minimizes the management responsibility of a customer?
+A. infrastructure as a service (IaaS)
+B. platform as a service (PaaS)
+C. software as a service (SaaS)
+
+P391
+Select the answer that correctly completes the sentence.
+An organization that hosts its own infrastrcuture _____ no longer requires a data center.
+A. in private cloud
+B. in hybrid cloud
+C. in the public cloud
+D. on a Hyper-V host
+
+P392
+Select the answer that correctly completes the sentence.
+When a cloud app can allocate and release resources, it has _____.
+A. elasticity
+B. governance
+C. high availability
+D. predictability
+E. reliability
+
+P393
+Select the answer that correctly completes the sentence.
+_____ runs application code in Azure without requiring a server.
+A. An Azure DevOps pipeline
+B. An Azure Resource Manager Template
+C. Azure Applicacion Gateway
+D. Azure Functions
+
+P397
+Select the answer that correctly completes the sentence.
+Premium block blobs storage accounts only support _____ redundancy.
+A. geo-redundancy storage (GRS)
+B. geo-zone-redundant storage (GZRS)
+C. locally-redundant storage (LRS)
+D. zone-redundant storage (ZRS)
+
+P398
+You have an Azure web app.
+You need to manage the settings of the web app from an iPhone.
+What are two Azure management tools that you can use? Each correct answer presents a complete solution.
+NOTE: Each correct selection is worth one point.
+A. Windows PowerShell
+B. Azure Cloud Shell
+C. the Azure portal
+D. Azure Storage Explorer
+
+P399
+You need to create a new Azure file share.
+What should you use? To answer, select the service in the answer area.
+NOTE: Each correct selection is worth one point.
+
+A. Resource Groups
+B. Quickstart Center
+C. App Services
+D. Azure Cosmos DB
+E. Storage Accounts
+
+
+
+
+
+>> CONTINUAR <<
 
 
 
 
 
 Preguntas Faltantes:
-34, 35, 48, 54, 55, 56, 58, 61, 62, 64, 67, 69, 70, 71, 75, 76, 78, 79, 80, 94, 100, 103, 107, 114, 119, 120, 121, 124, 125, 127, 128, 130, 133, 134, 137, 138, 139, 140, 149, 150, 159, 162, 166, 169, 170, 178, 180, 183, 187, 190, 192, 197, 200, 201, 202, 204, 211, 213, 215, 223, 224, 225, 226, 227, 234, 242, 243, 250, 252, 258, 264, 266, 268, 270, 272, 275, 283, 285, 286, 287, 292, 295, 300
+34, 35, 48, 54, 55, 56, 58, 61, 62, 64, 67, 69, 70, 71, 75, 76, 78, 79, 80, 94, 100, 103, 107, 114, 119, 120, 121, 124, 125, 127, 128, 130, 133, 134, 137, 138, 139, 140, 149, 150, 159, 162, 166, 169, 170, 178, 180, 183, 187, 190, 192, 197, 200, 201, 202, 204, 211, 213, 215, 223, 224, 225, 226, 227, 234, 242, 243, 250, 252, 258, 264, 266, 268, 270, 272, 275, 283, 285, 286, 287, 292, 295, 300, 301, 302, 303, 305, 308, 315, 321, 322, 323, 324, 326, 330, 331, 334, 335, 336, 340, 348, 350, 353, 354, 356, 358,360, 361, 365, 366, 373, 379, 380, 382, 385, 386, 387, 390, 394, 395, 396, 400, 

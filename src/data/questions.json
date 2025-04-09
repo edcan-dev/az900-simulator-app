@@ -5426,5 +5426,1485 @@
       { "text": "Políticas de Azure", "correct": false },
       { "text": "Planes de Azure App Service", "correct": false }
     ]
+  },
+  {
+    "id": 304,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Tu empresa planea migrar todos los datos locales a Azure."
+      },
+      {
+        "type": "p",
+        "text": "Necesitas identificar si Azure cumple con los requisitos regionales de la empresa."
+      },
+      {
+        "type": "p",
+        "text": "¿Qué deberías usar?"
+      }
+    ],
+    "options": [
+      { "text": "el Centro de Conocimiento", "correct": false },
+      { "text": "Azure Marketplace", "correct": false },
+      { "text": "el portal MyApps", "correct": false },
+      { "text": "el Centro de Confianza (Trust Center)", "correct": true }
+    ]
+  },
+  {
+    "id": 306,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Para completar la oración, selecciona la opción apropiada en el área de respuestas."
+      },
+      {
+        "type": "p",
+        "text": "Si un grupo de recursos llamado RG1 tiene un bloqueo de eliminación, _____ puede eliminar RG1."
+      }
+    ],
+    "options": [
+      {
+        "text": "solo un miembro del grupo de administradores globales",
+        "correct": false
+      },
+      {
+        "text": "el bloqueo de eliminación debe eliminarse antes de que un administrador pueda hacerlo",
+        "correct": true
+      },
+      {
+        "text": "una política de Azure debe modificarse antes de que un administrador pueda hacerlo",
+        "correct": false
+      },
+      {
+        "text": "una etiqueta de Azure debe agregarse antes de que un administrador pueda hacerlo",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 307,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "_____ es el proceso de establecer la identidad de un usuario o servicio que desea acceder a un recurso."
+      }
+    ],
+    "options": [
+      { "text": "Autenticación", "correct": true },
+      { "text": "Autorización", "correct": false },
+      { "text": "Acceso condicional", "correct": false },
+      { "text": "Sincronización", "correct": false }
+    ]
+  },
+  {
+    "id": 309,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "¿Qué se garantiza en un Acuerdo de Nivel de Servicio (SLA) de Azure para máquinas virtuales?"
+      }
+    ],
+    "options": [
+      { "text": "tiempo de actividad (uptime)", "correct": true },
+      { "text": "disponibilidad de características", "correct": false },
+      { "text": "ancho de banda", "correct": false },
+      { "text": "rendimiento", "correct": false }
+    ]
+  },
+  {
+    "id": 310,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Un servicio de Azure está disponible para todos los clientes de Azure cuando está en _____."
+      }
+    ],
+    "options": [
+      {
+        "text": "versión preliminar pública (public preview)",
+        "correct": true
+      },
+      {
+        "text": "versión preliminar privada (private preview)",
+        "correct": false
+      },
+      { "text": "desarrollo", "correct": false },
+      {
+        "text": "una suscripción de Acuerdo Empresarial (EA)",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 311,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Tu empresa planea comprar una suscripción de Azure."
+      },
+      {
+        "type": "p",
+        "text": "La política de soporte de la empresa establece que el entorno de Azure debe proporcionar una opción para acceder a ingenieros de soporte por teléfono o correo electrónico."
+      },
+      {
+        "type": "p",
+        "text": "Debes recomendar qué plan de soporte cumple con el requisito de la política de soporte."
+      },
+      {
+        "type": "p",
+        "text": "Solución: Recomendar un plan de soporte Básico."
+      },
+      {
+        "type": "p",
+        "text": "¿Cumple con el objetivo?"
+      }
+    ],
+    "options": [
+      { "text": "Sí", "correct": false },
+      { "text": "No", "correct": true }
+    ]
+  },
+  {
+    "id": 312,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Tu empresa planea comprar una suscripción de Azure."
+      },
+      {
+        "type": "p",
+        "text": "La política de soporte de la empresa establece que el entorno de Azure debe proporcionar una opción para acceder a ingenieros de soporte por teléfono o correo electrónico."
+      },
+      {
+        "type": "p",
+        "text": "Solución: Recomendar un plan de soporte Estándar."
+      },
+      {
+        "type": "p",
+        "text": "¿Cumple con el objetivo?"
+      }
+    ],
+    "options": [
+      { "text": "Sí", "correct": true },
+      { "text": "No", "correct": false }
+    ]
+  },
+  {
+    "id": 313,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Tu empresa planea comprar una suscripción de Azure."
+      },
+      {
+        "type": "p",
+        "text": "La política de soporte de la empresa establece que el entorno de Azure debe proporcionar una opción para acceder a ingenieros de soporte por teléfono o correo electrónico."
+      },
+      {
+        "type": "p",
+        "text": "Solución: Recomendar un plan de soporte Premier."
+      },
+      {
+        "type": "p",
+        "text": "¿Cumple con el objetivo?"
+      }
+    ],
+    "options": [
+      { "text": "Sí", "correct": true },
+      { "text": "No", "correct": false }
+    ]
+  },
+  {
+    "id": 314,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Tu empresa planea solicitar una revisión arquitectónica de un entorno de Azure por parte de Microsoft."
+      },
+      {
+        "type": "p",
+        "text": "La empresa actualmente tiene un plan de soporte Básico."
+      },
+      {
+        "type": "p",
+        "text": "Debes recomendar un nuevo plan de soporte para la empresa. La solución debe minimizar los costos."
+      },
+      {
+        "type": "p",
+        "text": "¿Qué plan de soporte deberías recomendar?"
+      }
+    ],
+    "options": [
+      { "text": "Premier", "correct": false },
+      { "text": "Desarrollador", "correct": false },
+      { "text": "Professional Direct", "correct": true },
+      { "text": "Estándar", "correct": false }
+    ]
+  },
+  {
+    "id": 316,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "¿Qué se requiere para usar Azure Cost Management?"
+      }
+    ],
+    "options": [
+      { "text": "una suscripción Dev/Test", "correct": false },
+      { "text": "Software Assurance", "correct": false },
+      { "text": "un Acuerdo Empresarial (EA)", "correct": true },
+      { "text": "una suscripción de pago por uso", "correct": false }
+    ]
+  },
+  {
+    "id": 317,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Tu cuenta de prueba de Azure expiró la semana pasada."
+      },
+      {
+        "type": "p",
+        "text": "Ahora ya no puedes _____."
+      }
+    ],
+    "options": [
+      {
+        "text": "crear cuentas de usuario adicionales en Azure Active Directory (Azure AD)",
+        "correct": false
+      },
+      {
+        "text": "iniciar una máquina virtual existente en Azure",
+        "correct": true
+      },
+      { "text": "acceder a tus datos almacenados en Azure", "correct": false },
+      { "text": "acceder al Portal de Azure", "correct": false }
+    ]
+  },
+  {
+    "id": 318,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Tu empresa planea comprar una suscripción de Azure."
+      },
+      {
+        "type": "p",
+        "text": "La política de soporte de la empresa establece que el entorno de Azure debe proporcionar una opción para acceder a ingenieros de soporte por teléfono o correo electrónico."
+      },
+      {
+        "type": "p",
+        "text": "Solución: Recomendar un plan de soporte Professional Direct."
+      },
+      {
+        "type": "p",
+        "text": "¿Cumple con el objetivo?"
+      }
+    ],
+    "options": [
+      { "text": "Sí", "correct": true },
+      { "text": "No", "correct": false }
+    ]
+  },
+  {
+    "id": 319,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Tu empresa tiene un acuerdo de Software Assurance que incluye licencias de Microsoft SQL Server."
+      },
+      {
+        "type": "p",
+        "text": "Planeas implementar SQL Server en máquinas virtuales de Azure."
+      },
+      {
+        "type": "p",
+        "text": "¿Qué deberías hacer para minimizar los costos de licenciamiento para la implementación?"
+      }
+    ],
+    "options": [
+      {
+        "text": "Desasignar las máquinas virtuales durante las horas no laborales.",
+        "correct": false
+      },
+      {
+        "text": "Usar el Beneficio Híbrido de Azure (Azure Hybrid Benefit).",
+        "correct": true
+      },
+      {
+        "text": "Configurar presupuestos en Azure Cost Management.",
+        "correct": false
+      },
+      { "text": "Usar reservas de Azure.", "correct": false }
+    ]
+  },
+  {
+    "id": 320,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Tu empresa tiene 10 departamentos."
+      },
+      {
+        "type": "p",
+        "text": "La empresa planea implementar un entorno de Azure."
+      },
+      {
+        "type": "p",
+        "text": "Debes asegurarte de que cada departamento pueda usar una opción de pago diferente para los servicios de Azure que consume."
+      },
+      {
+        "type": "p",
+        "text": "¿Qué deberías crear para cada departamento?"
+      }
+    ],
+    "options": [
+      { "text": "una reserva", "correct": false },
+      { "text": "una suscripción", "correct": true },
+      { "text": "un grupo de recursos", "correct": false },
+      { "text": "una instancia de contenedor", "correct": false }
+    ]
+  },
+  {
+    "id": 325,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Para completar la oración, selecciona la opción apropiada en el área de respuestas."
+      },
+      {
+        "type": "p",
+        "text": "Tienes una aplicación que está compuesta por una aplicación web de Azure con un Acuerdo de Nivel de Servicio (SLA) de 99.95 por ciento y una base de datos Azure SQL con un SLA de 99.99 por ciento."
+      },
+      {
+        "type": "p",
+        "text": "El SLA compuesto para la aplicación es _____."
+      }
+    ],
+    "options": [
+      {
+        "text": "el producto de ambos SLA, que equivale a 99.94 por ciento",
+        "correct": true
+      },
+      {
+        "text": "el SLA más bajo asociado a la aplicación, que es 99.95 por ciento",
+        "correct": false
+      },
+      {
+        "text": "el SLA más alto asociado a la aplicación, que es 99.95 por ciento",
+        "correct": false
+      },
+      {
+        "text": "la diferencia entre los dos SLA, que es 0.05 por ciento",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 327,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "¿Qué afirmación describe con precisión la Política de Ciclo de Vida Moderno para los servicios de Azure?"
+      }
+    ],
+    "options": [
+      {
+        "text": "Microsoft proporciona soporte principal para un servicio durante cinco años.",
+        "correct": false
+      },
+      {
+        "text": "Microsoft proporciona un aviso mínimo de 12 meses antes de finalizar el soporte de un servicio.",
+        "correct": true
+      },
+      {
+        "text": "Después de que un servicio esté disponible generalmente, Microsoft proporciona soporte durante un mínimo de cuatro años.",
+        "correct": false
+      },
+      {
+        "text": "Cuando se retira un servicio, puedes comprar soporte extendido por hasta cinco años.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 328,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Necesitas solicitar que Microsoft aumente un límite de cuota de suscripción para tu empresa."
+      },
+      {
+        "type": "p",
+        "text": "¿Qué panel (blade) deberías usar desde el portal de Azure?"
+      }
+    ],
+    "options": [
+      { "text": "Ayuda y soporte (Help + Support)", "correct": true },
+      { "text": "Todos los recursos", "correct": false },
+      { "text": "Panel", "correct": false },
+      { "text": "Grupos de recursos", "correct": false }
+    ]
+  },
+  {
+    "id": 329,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Para completar la oración, selecciona la opción apropiada en el área de respuestas."
+      },
+      {
+        "type": "p",
+        "text": "Puedes usar _____ en Azure para enviar alertas por correo electrónico cuando el costo del período de facturación actual de una suscripción de Azure supere un límite específico."
+      }
+    ],
+    "options": [
+      { "text": "Recomendaciones de Advisor", "correct": false },
+      { "text": "Control de acceso (IAM)", "correct": false },
+      { "text": "Alertas de presupuesto", "correct": true },
+      { "text": "Cumplimiento", "correct": false }
+    ]
+  },
+  {
+    "id": 332,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Tu empresa tiene una suscripción de Azure que contiene los siguientes recursos sin usar:"
+      },
+      {
+        "type": "ul",
+        "text": "Recursos de Azure sin usar",
+        "items": [
+          "20 cuentas de usuario en Azure Active Directory (Azure AD)",
+          "Cinco grupos en Azure AD",
+          "10 direcciones IP públicas",
+          "10 interfaces de red"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Necesitas reducir los costos de Azure para la empresa."
+      },
+      {
+        "type": "p",
+        "text": "¿Qué recursos sin usar deberías eliminar?"
+      }
+    ],
+    "options": [
+      { "text": "A. las interfaces de red", "correct": false },
+      { "text": "B. las direcciones IP públicas", "correct": true },
+      { "text": "C. los grupos", "correct": false },
+      { "text": "D. las cuentas de usuario", "correct": false }
+    ]
+  },
+  {
+    "id": 333,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Selecciona la respuesta que completa correctamente la oración."
+      },
+      {
+        "type": "p",
+        "text": "Puedes usar _____ para agrupar objetos lógicamente con el fin de generar informes de costos departamentales y realizar seguimiento de presupuestos."
+      }
+    ],
+    "options": [
+      { "text": "A. Azure Policy", "correct": false },
+      { "text": "B. Azure Service Health", "correct": false },
+      { "text": "C. etiquetas de recursos (resource tags)", "correct": true },
+      { "text": "D. registros de seguridad", "correct": false }
+    ]
+  },
+  {
+    "id": 337,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "¿Quién puede usar la calculadora de Costo Total de Propiedad (TCO) de Azure?"
+      }
+    ],
+    "options": [
+      {
+        "text": "A. solo los lectores de facturación de una suscripción de Azure",
+        "correct": false
+      },
+      {
+        "text": "B. solo los propietarios de una suscripción de Azure",
+        "correct": false
+      },
+      { "text": "C. cualquier persona", "correct": true },
+      {
+        "text": "D. todos los usuarios con una cuenta en Azure AD vinculada a una suscripción de Azure",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 338,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Para completar la oración, selecciona la opción adecuada."
+      },
+      {
+        "type": "p",
+        "text": "Implementas un recurso de Azure. El recurso se vuelve inaccesible por un periodo prolongado debido a una interrupción del servicio. Microsoft _____."
+      }
+    ],
+    "options": [
+      { "text": "A. reembolsará tu cuenta bancaria", "correct": false },
+      { "text": "B. migrará el recurso a otra suscripción", "correct": false },
+      { "text": "C. acreditará tu cuenta de Azure", "correct": true },
+      {
+        "text": "D. te enviará un código de cupón que puedes canjear por créditos de Azure",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 339,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "¿Qué tarea puedes realizar usando Azure Advisor?"
+      }
+    ],
+    "options": [
+      {
+        "text": "A. Integrar Active Directory y Azure Active Directory (Azure AD).",
+        "correct": false
+      },
+      {
+        "text": "B. Estimar los costos de una solución de Azure.",
+        "correct": false
+      },
+      {
+        "text": "C. Confirmar que la seguridad de la suscripción de Azure siga las mejores prácticas.",
+        "correct": true
+      },
+      {
+        "text": "D. Evaluar qué recursos locales pueden migrarse a Azure.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 341,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Tienes una aplicación de Azure que utiliza los siguientes servicios:"
+      },
+      {
+        "type": "ul",
+        "text": "Nivel de Acuerdo de Nivel de Servicio (SLA)",
+        "items": [
+          "Máquinas Virtuales de Azure - 99.9%",
+          "Base de datos SQL de Azure - 99.99%"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "¿Cómo deberías calcular el SLA compuesto para la aplicación?"
+      }
+    ],
+    "options": [
+      { "text": "A. 0.999 * 0.9999 = 0.9989001 = 99.89001%", "correct": true },
+      { "text": "B. 0.999 / 0.9999 = 0.9991 = 99.91%", "correct": false },
+      {
+        "text": "C. Máximo(0.999, 0.9999) = 0.9999 = 99.99%",
+        "correct": false
+      },
+      { "text": "D. Mínimo(0.999, 0.9999) = 0.999 = 99.9%", "correct": false }
+    ]
+  },
+  {
+    "id": 342,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Selecciona la respuesta que completa correctamente la oración."
+      },
+      {
+        "type": "p",
+        "text": "_____ proporciona acceso a capacidad de cómputo de Azure sin usar a grandes descuentos."
+      }
+    ],
+    "options": [
+      { "text": "A. Instancias de contenedor de Azure", "correct": false },
+      {
+        "text": "B. Instancias de máquina virtual reservadas de Azure",
+        "correct": false
+      },
+      {
+        "text": "C. Instancias de máquina virtual Spot de Azure",
+        "correct": true
+      },
+      {
+        "text": "D. Conjuntos de escalado de máquinas virtuales de Azure",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 343,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Selecciona la respuesta que completa correctamente la oración."
+      },
+      {
+        "type": "p",
+        "text": "Para ahorrar costos de una máquina virtual de Azure sin usar que ejecuta Windows 10, deberías _____."
+      }
+    ],
+    "options": [
+      {
+        "text": "A. desconectar la máquina virtual durante una sesión de Escritorio Remoto",
+        "correct": false
+      },
+      {
+        "text": "B. poner la máquina virtual en modo de suspensión desde una sesión de Escritorio Remoto",
+        "correct": false
+      },
+      {
+        "text": "C. seleccionar Detener para la máquina virtual desde el Portal de Azure",
+        "correct": true
+      },
+      {
+        "text": "D. apagar la máquina virtual desde una sesión de Escritorio Remoto",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 344,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Selecciona la respuesta que completa correctamente la oración."
+      },
+      {
+        "type": "p",
+        "text": "Todos los servicios de Azure que están en versión preliminar pública están _____."
+      }
+    ],
+    "options": [
+      { "text": "A. provistos sin ninguna documentación", "correct": false },
+      {
+        "text": "B. configurables solo desde la CLI de Azure",
+        "correct": false
+      },
+      {
+        "text": "C. excluidos de los Acuerdos de Nivel de Servicio (SLA)",
+        "correct": true
+      },
+      {
+        "text": "D. configurables solo desde el Portal de Azure",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 345,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Selecciona la respuesta que completa correctamente la oración."
+      },
+      {
+        "type": "p",
+        "text": "Si una máquina virtual de Azure tiene el estado Detenida (desasignada), seguirás pagando por _____."
+      }
+    ],
+    "options": [
+      { "text": "A. capacidad de cómputo", "correct": false },
+      { "text": "B. operaciones de entrada/salida", "correct": false },
+      { "text": "C. red", "correct": false },
+      { "text": "D. almacenamiento", "correct": true }
+    ]
+  },
+  {
+    "id": 346,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Selecciona la respuesta que completa correctamente la oración."
+      },
+      {
+        "type": "p",
+        "text": "El _____ explica qué datos procesa Microsoft, cómo los procesa y con qué propósito."
+      }
+    ],
+    "options": [
+      { "text": "A. Microsoft Online Privacy Statement", "correct": true },
+      { "text": "B. Microsoft Product Terms", "correct": false },
+      {
+        "text": "C. Microsoft Online Service Level Agreement",
+        "correct": false
+      },
+      {
+        "text": "D. Acuerdo de suscripción en línea para Microsoft Azure",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 347,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Selecciona la respuesta que completa correctamente la oración."
+      },
+      {
+        "type": "p",
+        "text": "Puedes acceder a Compliance Manager desde _____."
+      }
+    ],
+    "options": [
+      {
+        "text": "A. el centro de administración de Azure Active Directory",
+        "correct": false
+      },
+      { "text": "B. el Portal de Azure", "correct": false },
+      {
+        "text": "C. el centro de administración de Microsoft 365",
+        "correct": false
+      },
+      { "text": "D. el Portal Microsoft Service Trust", "correct": true }
+    ]
+  },
+  {
+    "id": 349,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Selecciona la respuesta que completa correctamente la oración."
+      },
+      {
+        "type": "p",
+        "text": "_____ evalúa señales para permitir o denegar inicios de sesión en Azure AD."
+      }
+    ],
+    "options": [
+      { "text": "A. Una identidad administrada", "correct": false },
+      { "text": "B. Acceso condicional", "correct": true },
+      { "text": "C. Microsoft Intune", "correct": false }
+    ]
+  },
+  {
+    "id": 351,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "¿Qué Acuerdo de Nivel de Servicio (SLA) se proporciona para los servicios de Azure en versión preliminar pública?"
+      }
+    ],
+    "options": [
+      { "text": "A. Cada servicio define su propio SLA", "correct": false },
+      { "text": "B. El SLA será del 99%", "correct": false },
+      {
+        "text": "C. El SLA será 1% menor que el SLA de disponibilidad general (GA)",
+        "correct": false
+      },
+      { "text": "D. El SLA será del 99.95%", "correct": false }
+    ]
+  },
+  {
+    "id": 352,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "_____ en Azure Firewall permite a los usuarios de internet acceder a un servidor en una red virtual."
+      }
+    ],
+    "options": [
+      { "text": "A. Reglas de aplicación", "correct": false },
+      {
+        "text": "B. Reglas de traducción de direcciones de red (NAT)",
+        "correct": true
+      },
+      { "text": "C. Reglas de red", "correct": false },
+      { "text": "D. Etiquetas de servicio", "correct": false }
+    ]
+  },
+  {
+    "id": 355,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "¿Cuál es el período más largo que puedes adquirir para instancias reservadas de máquinas virtuales de Azure?"
+      }
+    ],
+    "options": [
+      { "text": "A. un año", "correct": false },
+      { "text": "B. cinco años", "correct": false },
+      { "text": "C. cuatro años", "correct": false },
+      { "text": "D. tres años", "correct": true }
+    ]
+  },
+  {
+    "id": 357,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Tu empresa tiene 10 oficinas. Planeas generar varios informes de facturación desde el portal de Azure. Cada informe contendrá la utilización de recursos de Azure de cada oficina."
+      },
+      {
+        "type": "p",
+        "text": "¿Qué característica de Azure Resource Manager deberías usar antes de generar los informes?"
+      }
+    ],
+    "options": [
+      { "text": "A. etiquetas (tags)", "correct": true },
+      { "text": "B. plantillas (templates)", "correct": false },
+      { "text": "C. bloqueos (locks)", "correct": false },
+      { "text": "D. políticas (policies)", "correct": false }
+    ]
+  },
+  {
+    "id": 359,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Esta pregunta requiere que evalúes el texto subrayado para determinar si es correcto."
+      },
+      {
+        "type": "p",
+        "text": "Si Microsoft planea finalizar el soporte para un servicio de Azure que NO tiene un servicio sucesor, Microsoft proporcionará una notificación con al menos 12 meses de anticipación."
+      }
+    ],
+    "options": [
+      { "text": "A. No se necesitan cambios.", "correct": true },
+      { "text": "B. 6 meses", "correct": false },
+      { "text": "C. 90 días", "correct": false },
+      { "text": "D. 30 días", "correct": false }
+    ]
+  },
+  {
+    "id": 362,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Tu empresa tiene una suscripción de Azure que contiene los siguientes recursos sin usar:"
+      },
+      {
+        "type": "ul",
+        "text": "",
+        "items": [
+          "20 cuentas de usuario en Azure Active Directory (Azure AD)",
+          "Cinco grupos en Azure AD",
+          "10 direcciones IP públicas",
+          "10 interfaces de red"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Necesitas reducir los costos de Azure para la empresa."
+      },
+      {
+        "type": "p",
+        "text": "Solución: Eliminas las interfaces de red sin usar."
+      },
+      {
+        "type": "p",
+        "text": "¿Cumple esto con el objetivo?"
+      }
+    ],
+    "options": [
+      { "text": "A. Sí", "correct": false },
+      { "text": "B. No", "correct": true }
+    ]
+  },
+  {
+    "id": 363,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Tu empresa tiene una suscripción de Azure que contiene los siguientes recursos sin usar:"
+      },
+      {
+        "type": "ul",
+        "text": "",
+        "items": [
+          "20 cuentas de usuario en Azure Active Directory (Azure AD)",
+          "Cinco grupos en Azure AD",
+          "10 direcciones IP públicas",
+          "10 interfaces de red"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Necesitas reducir los costos de Azure para la empresa."
+      },
+      {
+        "type": "p",
+        "text": "Solución: Eliminas las direcciones IP públicas sin usar."
+      },
+      {
+        "type": "p",
+        "text": "¿Cumple esto con el objetivo?"
+      }
+    ],
+    "options": [
+      { "text": "A. Sí", "correct": true },
+      { "text": "B. No", "correct": false }
+    ]
+  },
+  {
+    "id": 364,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Tu empresa tiene una suscripción de Azure que contiene los siguientes recursos sin usar:"
+      },
+      {
+        "type": "ul",
+        "text": "",
+        "items": [
+          "20 cuentas de usuario en Azure Active Directory (Azure AD)",
+          "Cinco grupos en Azure AD",
+          "10 direcciones IP públicas",
+          "10 interfaces de red"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Necesitas reducir los costos de Azure para la empresa."
+      },
+      {
+        "type": "p",
+        "text": "Solución: Eliminas las cuentas de usuario sin usar."
+      },
+      {
+        "type": "p",
+        "text": "¿Cumple esto con el objetivo?"
+      }
+    ],
+    "options": [
+      { "text": "A. Sí", "correct": false },
+      { "text": "B. No", "correct": true }
+    ]
+  },
+  {
+    "id": 367,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Esta pregunta requiere que evalúes el texto subrayado para determinar si es correcto."
+      },
+      {
+        "type": "p",
+        "text": "Una solución de plan de soporte que te proporciona información sobre buenas prácticas, estado de salud y notificaciones, y acceso 24/7 a información de facturación al costo más bajo posible es un plan de soporte Standard."
+      }
+    ],
+    "options": [
+      { "text": "A. No se necesitan cambios", "correct": false },
+      { "text": "B. Developer", "correct": true },
+      { "text": "C. Basic", "correct": false },
+      { "text": "D. Premier", "correct": false }
+    ]
+  },
+  {
+    "id": 368,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "¿En qué planes de soporte de Azure puedes abrir una nueva solicitud de soporte?"
+      }
+    ],
+    "options": [
+      { "text": "A. Solo Premier y Professional Direct", "correct": false },
+      {
+        "text": "B. Solo Premier, Professional Direct y Standard",
+        "correct": false
+      },
+      {
+        "text": "C. Solo Premier, Professional Direct, Standard y Developer",
+        "correct": true
+      },
+      {
+        "text": "D. Premier, Professional Direct, Standard, Developer y Basic",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 369,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Esta pregunta requiere que evalúes el texto subrayado para determinar si es correcto."
+      },
+      {
+        "type": "p",
+        "text": "Puedes crear una solicitud de soporte de Azure desde support.microsoft.com."
+      }
+    ],
+    "options": [
+      { "text": "A. No se necesitan cambios.", "correct": false },
+      { "text": "B. el portal de Azure", "correct": true },
+      {
+        "text": "C. el Centro de Conocimiento (Knowledge Center)",
+        "correct": false
+      },
+      {
+        "text": "D. el centro de administración de Seguridad y Cumplimiento",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 370,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Tu empresa tiene una suscripción de Azure que contiene los siguientes recursos sin usar:"
+      },
+      {
+        "type": "ul",
+        "text": "",
+        "items": [
+          "20 cuentas de usuario en Azure Active Directory (Azure AD)",
+          "Cinco grupos en Azure AD",
+          "10 direcciones IP públicas",
+          "10 interfaces de red"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Necesitas reducir los costos de Azure para la empresa."
+      },
+      {
+        "type": "p",
+        "text": "Solución: Eliminas los grupos sin usar."
+      },
+      {
+        "type": "p",
+        "text": "¿Cumple esto con el objetivo?"
+      }
+    ],
+    "options": [
+      { "text": "A. Sí", "correct": false },
+      { "text": "B. No", "correct": true }
+    ]
+  },
+  {
+    "id": 371,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Esta pregunta requiere que evalúes el texto subrayado para determinar si es correcto."
+      },
+      {
+        "type": "p",
+        "text": "El plan de soporte Azure Standard es la opción de menor costo para recibir acceso 24x7 a ingenieros de soporte por teléfono."
+      }
+    ],
+    "options": [
+      { "text": "A. No se necesitan cambios", "correct": true },
+      { "text": "B. Developer", "correct": false },
+      { "text": "C. Basic", "correct": false },
+      { "text": "D. Professional Direct", "correct": false }
+    ]
+  },
+  {
+    "id": 372,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Para completar la oración, selecciona la opción adecuada."
+      },
+      {
+        "type": "p",
+        "text": "Todos los servicios de Azure que están en vista previa pública están _____."
+      }
+    ],
+    "options": [
+      { "text": "A. provistos sin documentación alguna", "correct": false },
+      { "text": "B. configurables solo desde Azure CLI", "correct": false },
+      {
+        "text": "C. excluidos de los Acuerdos de Nivel de Servicio (SLA)",
+        "correct": true
+      },
+      {
+        "text": "D. configurables solo desde el portal de Azure",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 374,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Necesitas comparar el uso de la nube de una empresa con las mejores prácticas estándar de la industria."
+      },
+      {
+        "type": "p",
+        "text": "¿Qué deberías usar?"
+      }
+    ],
+    "options": [
+      { "text": "A. Azure Monitor", "correct": false },
+      { "text": "B. Azure Service Health", "correct": false },
+      { "text": "C. Application Insights en Azure Monitor", "correct": false },
+      { "text": "D. Azure Advisor", "correct": true }
+    ]
+  },
+  {
+    "id": 375,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Necesitas iniciar Azure Cloud Shell."
+      },
+      {
+        "type": "p",
+        "text": "¿Qué deberías usar?"
+      }
+    ],
+    "options": [
+      { "text": "A. el portal de Azure", "correct": true },
+      { "text": "B. Azure Command-Line Interface (CLI)", "correct": false },
+      { "text": "C. Azure PowerShell", "correct": false },
+      {
+        "text": "D. una plantilla de Azure Resource Manager (ARM)",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 376,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "¿Cuántas copias de datos se mantienen en una cuenta de almacenamiento de Azure que usa almacenamiento localmente redundante (LRS)?"
+      }
+    ],
+    "options": [
+      { "text": "A. 3", "correct": true },
+      { "text": "B. 4", "correct": false },
+      { "text": "C. 6", "correct": false },
+      { "text": "D. 9", "correct": false }
+    ]
+  },
+  {
+    "id": 377,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "¿Qué permite que un servicio en la nube se adapte rápidamente a requisitos cambiantes?"
+      }
+    ],
+    "options": [
+      { "text": "A. alta disponibilidad", "correct": false },
+      { "text": "B. previsibilidad", "correct": false },
+      { "text": "C. capacidad de administración", "correct": false },
+      { "text": "D. agilidad", "correct": true }
+    ]
+  },
+  {
+    "id": 378,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "¿Cuál es un ejemplo de escalado vertical en un entorno de nube?"
+      }
+    ],
+    "options": [
+      {
+        "text": "A. agregar una CPU adicional a una máquina virtual de Azure existente",
+        "correct": true
+      },
+      {
+        "text": "B. agregar una máquina virtual adicional de Azure",
+        "correct": false
+      },
+      {
+        "text": "C. agregar un host de sesión adicional de Azure Virtual Desktop",
+        "correct": false
+      },
+      {
+        "text": "D. agregar automáticamente una instancia adicional de Azure App Service",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 381,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "¿Qué recurso adicional se requiere para una máquina virtual de Azure?"
+      }
+    ],
+    "options": [
+      { "text": "A. una red virtual", "correct": true },
+      { "text": "B. un punto de servicio", "correct": false },
+      { "text": "C. Azure Firewall", "correct": false },
+      { "text": "D. una dirección IP pública", "correct": false }
+    ]
+  },
+  {
+    "id": 383,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "¿Cuántas copias de datos se mantienen en una cuenta de almacenamiento de Azure que usa almacenamiento geo-redundante (GRS)?"
+      }
+    ],
+    "options": [
+      { "text": "A. 3", "correct": false },
+      { "text": "B. 4", "correct": false },
+      { "text": "C. 6", "correct": true },
+      { "text": "D. 9", "correct": false }
+    ]
+  },
+  {
+    "id": 384,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "¿Qué se usa para otorgar permisos a los recursos de Azure Virtual Desktop?"
+      }
+    ],
+    "options": [
+      { "text": "A. etiquetas", "correct": false },
+      {
+        "text": "B. control de acceso basado en roles (RBAC)",
+        "correct": true
+      },
+      { "text": "C. grupos de recursos", "correct": false },
+      { "text": "D. grupos de seguridad de aplicaciones", "correct": false }
+    ]
+  },
+  {
+    "id": 388,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Selecciona la respuesta que completa correctamente la oración."
+      },
+      {
+        "type": "p",
+        "text": "_____ asegura que puedes calcular cuánto costará un servicio en la nube."
+      }
+    ],
+    "options": [
+      { "text": "A. Agilidad", "correct": false },
+      { "text": "B. Elasticidad", "correct": false },
+      { "text": "C. Alta disponibilidad", "correct": false },
+      { "text": "D. Previsibilidad", "correct": true }
+    ]
+  },
+  {
+    "id": 389,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "¿Qué modelo de servicio en la nube minimiza la responsabilidad de gestión del cliente?"
+      }
+    ],
+    "options": [
+      { "text": "A. infraestructura como servicio (IaaS)", "correct": false },
+      { "text": "B. plataforma como servicio (PaaS)", "correct": false },
+      { "text": "C. software como servicio (SaaS)", "correct": true }
+    ]
+  },
+  {
+    "id": 391,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Selecciona la respuesta que completa correctamente la oración."
+      },
+      {
+        "type": "p",
+        "text": "Una organización que aloja su propia infraestructura _____ ya no requiere un centro de datos."
+      }
+    ],
+    "options": [
+      { "text": "A. en la nube privada", "correct": true },
+      { "text": "B. en la nube híbrida", "correct": false },
+      { "text": "C. en la nube pública", "correct": false },
+      { "text": "D. en un host Hyper-V", "correct": false }
+    ]
+  },
+  {
+    "id": 392,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Selecciona la respuesta que completa correctamente la oración."
+      },
+      {
+        "type": "p",
+        "text": "Cuando una aplicación en la nube puede asignar y liberar recursos, tiene _____."
+      }
+    ],
+    "options": [
+      { "text": "A. elasticidad", "correct": true },
+      { "text": "B. gobernanza", "correct": false },
+      { "text": "C. alta disponibilidad", "correct": false },
+      { "text": "D. previsibilidad", "correct": false },
+      { "text": "E. confiabilidad", "correct": false }
+    ]
+  },
+  {
+    "id": 393,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Selecciona la respuesta que completa correctamente la oración."
+      },
+      {
+        "type": "p",
+        "text": "_____ ejecuta el código de la aplicación en Azure sin requerir un servidor."
+      }
+    ],
+    "options": [
+      { "text": "A. Un pipeline de Azure DevOps", "correct": false },
+      {
+        "text": "B. Una plantilla de Azure Resource Manager",
+        "correct": false
+      },
+      { "text": "C. Azure Application Gateway", "correct": false },
+      { "text": "D. Azure Functions", "correct": true }
+    ]
+  },
+  {
+    "id": 397,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Selecciona la respuesta que completa correctamente la oración."
+      },
+      {
+        "type": "p",
+        "text": "Las cuentas de almacenamiento de blobs de bloque premium solo admiten _____ redundancia."
+      }
+    ],
+    "options": [
+      { "text": "A. almacenamiento geo-redundante (GRS)", "correct": false },
+      {
+        "text": "B. almacenamiento geo-zona redundante (GZRS)",
+        "correct": false
+      },
+      {
+        "text": "C. almacenamiento localmente redundante (LRS)",
+        "correct": true
+      },
+      {
+        "text": "D. almacenamiento redundante por zona (ZRS)",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": 398,
+    "type": "checkbox",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Tienes una aplicación web de Azure."
+      },
+      {
+        "type": "p",
+        "text": "Necesitas gestionar la configuración de la aplicación web desde un iPhone."
+      },
+      {
+        "type": "p",
+        "text": "¿Cuáles son dos herramientas de gestión de Azure que puedes usar? Cada respuesta correcta presenta una solución completa."
+      }
+    ],
+    "options": [
+      { "text": "A. Windows PowerShell", "correct": false },
+      { "text": "B. Azure Cloud Shell", "correct": true },
+      { "text": "C. el portal de Azure", "correct": true },
+      { "text": "D. Azure Storage Explorer", "correct": false }
+    ]
+  },
+  {
+    "id": 399,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Necesitas crear un nuevo compartimiento de archivos de Azure."
+      },
+      {
+        "type": "p",
+        "text": "¿Qué debes usar?"
+      }
+    ],
+    "options": [
+      { "text": "A. Grupos de recursos", "correct": false },
+      { "text": "B. Quickstart Center", "correct": false },
+      { "text": "C. App Services", "correct": false },
+      { "text": "D. Azure Cosmos DB", "correct": false },
+      { "text": "E. Cuentas de almacenamiento", "correct": true }
+    ]
   }
 ]
