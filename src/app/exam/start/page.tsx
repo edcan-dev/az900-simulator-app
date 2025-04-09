@@ -7,6 +7,7 @@ export default function StartExamPage() {
   return (
     <main>
       <QuestionsContainer questions={questions} />
+      {/* <QuestionsContainer questions={questions.slice(265)} /> */}
     </main>
   );
 }
