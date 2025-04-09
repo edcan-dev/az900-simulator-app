@@ -6,14 +6,16 @@
       {
         "text": "Su empresa desea suscribirse a un plan de soporte de Azure.",
         "type": "p"
-      }, {
+      },
+      {
         "text": "El plan de soporte debe permitir la apertura de nuevas solicitudes de soporte",
         "type": "p"
-      }, {
+      },
+      {
         "text": "¿Cuáles de los siguientes planes de soporte lo permiten?",
         "type": "p"
       }
-    ] ,
+    ],
     "options": [
       { "id": 1, "text": "Basic", "correct": false },
       { "id": 2, "text": "Developer", "correct": true },
@@ -47,12 +49,24 @@
         "text": "¿Cuál de las siguientes opciones de redundancia almacenada de Azure debería recomendar?",
         "type": "p"
       }
-    ] ,
+    ],
     "options": [
       { "id": 1, "text": "A. Almacenamiento georredundante", "correct": false },
-      { "id": 2, "text": "B. Almacenamiento geo-redundante de solo lectura", "correct": true },
-      { "id": 3, "text": "C. Almacenamiento con redundancia de zona", "correct": false },
-      { "id": 4, "text": "D. Almacenamiento con redundancia local", "correct": false }
+      {
+        "id": 2,
+        "text": "B. Almacenamiento geo-redundante de solo lectura",
+        "correct": true
+      },
+      {
+        "id": 3,
+        "text": "C. Almacenamiento con redundancia de zona",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "text": "D. Almacenamiento con redundancia local",
+        "correct": false
+      }
     ]
   },
   {
@@ -79,12 +93,11 @@
         "text": "¿La solución cumple el objetivo?",
         "type": "p"
       }
-    ] ,
+    ],
     "options": [
-      { "id": 1, "text": "A. Si", "correct": false },
-      { "id": 2, "text": "B. No", "correct": true }
+      { "id": 1, "text": "A. Si", "correct": true },
+      { "id": 2, "text": "B. No", "correct": false }
     ]
-
   },
   {
     "id": 4,
@@ -97,7 +110,8 @@
       {
         "text": "Es necesario utilizar la solución de implementación en la nube adecuada.",
         "type": "p"
-      },{
+      },
+      {
         "text": "Solución: Deberías utilizar software como servicio (SaaS).",
         "type": "p"
       },
@@ -105,12 +119,11 @@
         "text": "¿La solución cumple el objetivo?",
         "type": "p"
       }
-    ] ,
+    ],
     "options": [
       { "id": 1, "text": "A. Si", "correct": false },
       { "id": 2, "text": "B. No", "correct": true }
     ]
-
   },
   {
     "id": 5,
@@ -119,13 +132,16 @@
       {
         "text": "Tiene la tarea de implementar máquinas virtuales de Azure para su empresa.",
         "type": "p"
-      },{
+      },
+      {
         "text": "Es necesario utilizar la solución de implementación en la nube adecuada.",
         "type": "p"
-      },{
+      },
+      {
         "text": "Solución: Deberías utilizar Plataforma como Servicio (PaaS).",
         "type": "p"
-      },{
+      },
+      {
         "text": "¿La solución cumple el objetivo?",
         "type": "p"
       }
@@ -142,13 +158,16 @@
       {
         "text": "Tiene la tarea de implementar máquinas virtuales de Azure para su empresa.",
         "type": "p"
-      },{
+      },
+      {
         "text": "Es necesario utilizar la solución de implementación en la nube adecuada.",
         "type": "p"
-      },{
+      },
+      {
         "text": "Solución: Deberías utilizar Infraestructura como Servicio (IaaS).",
         "type": "p"
-      },{
+      },
+      {
         "text": "¿La solución cumple el objetivo?",
         "type": "p"
       }
@@ -157,11 +176,11 @@
       { "id": 1, "text": "A. Si", "correct": false },
       { "id": 2, "text": "B. No", "correct": true }
     ]
-  }, {
+  },
+  {
     "id": 7,
     "type": "select_one",
     "question_texts": [
-
       {
         "text": "Debe determinar qué plan de nivel web de Azure alojará las aplicaciones web. El plan de nivel web debe cumplir los siguientes requisitos:",
         "type": "ul",
@@ -184,20 +203,24 @@
       { "id": 3, "text": "C. Gratis", "correct": false },
       { "id": 4, "text": "D. Compartido", "correct": false }
     ]
-  }, {
+  },
+  {
     "id": 8,
     "type": "select_one",
     "question_texts": [
       {
         "text": "Planea migrar una empresa a Azure. Cada una de las numerosas divisiones de la empresa contará con un administrador para administrar los recursos de Azure que utiliza.",
         "type": "p"
-      }, {
+      },
+      {
         "text": "Debe asegurarse de que la implementación de Azure que utilice permita segmentar Azure para las divisiones, minimizando al mismo tiempo el esfuerzo administrativo.",
         "type": "p"
-      }, {
+      },
+      {
         "text": "Solución: Planea utilizar varios directorios de Azure Active Directory (Azure AD).",
         "type": "p"
-      }, {
+      },
+      {
         "text": "¿Cumple la solución con el objetivo?",
         "type": "p"
       }
@@ -206,14 +229,16 @@
       { "id": 1, "text": "A. Si", "correct": false },
       { "id": 2, "text": "B. No", "correct": true }
     ]
-  }, {
+  },
+  {
     "id": 9,
     "type": "select_one",
     "question_texts": [
       {
         "text": "Planea alojar la aplicación web en Azure.",
         "type": "p"
-      }, {
+      },
+      {
         "text": "Debe determinar qué plan de nivel web de Azure alojará la aplicación web. El plan de nivel web debe cumplir los siguientes requisitos:",
         "type": "ul",
         "items": [
@@ -223,7 +248,8 @@
           "El sitio web requiere 12 GB de almacenamiento.",
           "Debe minimizar los costos."
         ]
-      }, {
+      },
+      {
         "text": "¿Qué plan de nivel web debería usar?",
         "type": "p"
       }
@@ -234,21 +260,24 @@
       { "id": 3, "text": "C. Gratis", "correct": false },
       { "id": 4, "text": "D. Compartido", "correct": false }
     ]
-  }, {
+  },
+  {
     "id": 10,
     "type": "select_one",
     "question_texts": [
       {
         "text": "Su empresa planea migrar todas sus máquinas virtuales a una suscripción de pago por uso de Azure. Las máquinas virtuales están alojadas actualmente en hosts de Hyper-V en un centro de datos.",
         "type": "p"
-      },{
+      },
+      {
         "text": "Debe asegurarse de que la solución de Azure prevista utilice el modelo de gasto correcto.",
         "type": "p"
-      },{
+      },
+      {
         "text": "Solución: Debe recomendar el uso del modelo de gasto elástico.",
         "type": "p"
       },
-       {
+      {
         "text": "¿Cumple la solución con el objetivo?",
         "type": "p"
       }
@@ -258,14 +287,23 @@
       { "id": 2, "text": "B. No", "correct": true }
     ]
   },
-  
+
   {
     "id": 11,
     "type": "select_one",
     "question_texts": [
-      { "text": "Tu empresa planea migrar todas sus máquinas virtuales a una suscripción de pago por uso de Azure. Actualmente, las máquinas virtuales están alojadas en hosts de Hyper-V en un centro de datos.", "type": "p" },
-      { "text": "Se requiere que te asegures de que la solución de Azure propuesta use el modelo de gasto correcto.", "type": "p" },
-      { "text": "Solución: Se recomienda el uso del modelo de gasto escalable.", "type": "p" },
+      {
+        "text": "Tu empresa planea migrar todas sus máquinas virtuales a una suscripción de pago por uso de Azure. Actualmente, las máquinas virtuales están alojadas en hosts de Hyper-V en un centro de datos.",
+        "type": "p"
+      },
+      {
+        "text": "Se requiere que te asegures de que la solución de Azure propuesta use el modelo de gasto correcto.",
+        "type": "p"
+      },
+      {
+        "text": "Solución: Se recomienda el uso del modelo de gasto escalable.",
+        "type": "p"
+      },
       { "text": "¿Cumple la solución con el objetivo?", "type": "p" }
     ],
     "options": [
@@ -277,9 +315,18 @@
     "id": 12,
     "type": "select_one",
     "question_texts": [
-      { "text": "Tu empresa planea migrar todas sus máquinas virtuales a una suscripción de pago por uso de Azure. Actualmente, las máquinas virtuales están alojadas en hosts de Hyper-V en un centro de datos.", "type": "p" },
-      { "text": "Se requiere que te asegures de que la solución de Azure propuesta use el modelo de gasto correcto.", "type": "p" },
-      { "text": "Solución: Se recomienda el uso del modelo de gasto operativo.", "type": "p" },
+      {
+        "text": "Tu empresa planea migrar todas sus máquinas virtuales a una suscripción de pago por uso de Azure. Actualmente, las máquinas virtuales están alojadas en hosts de Hyper-V en un centro de datos.",
+        "type": "p"
+      },
+      {
+        "text": "Se requiere que te asegures de que la solución de Azure propuesta use el modelo de gasto correcto.",
+        "type": "p"
+      },
+      {
+        "text": "Solución: Se recomienda el uso del modelo de gasto operativo.",
+        "type": "p"
+      },
       { "text": "¿Cumple la solución con el objetivo?", "type": "p" }
     ],
     "options": [
@@ -291,8 +338,14 @@
     "id": 13,
     "type": "select_one",
     "question_texts": [
-      { "text": "Se requiere implementar una solución de Inteligencia Artificial (IA) en Azure.", "type": "p" },
-      { "text": "Debes asegurarte de que puedes construir, probar y desplegar análisis predictivos para la solución.", "type": "p" },
+      {
+        "text": "Se requiere implementar una solución de Inteligencia Artificial (IA) en Azure.",
+        "type": "p"
+      },
+      {
+        "text": "Debes asegurarte de que puedes construir, probar y desplegar análisis predictivos para la solución.",
+        "type": "p"
+      },
       { "text": "Solución: Se debe utilizar Azure Cosmos DB.", "type": "p" },
       { "text": "¿Cumple la solución con el objetivo?", "type": "p" }
     ],
@@ -305,10 +358,22 @@
     "id": 14,
     "type": "select_one",
     "question_texts": [
-      { "text": "El bosque de Active Directory de tu empresa incluye miles de cuentas de usuario.", "type": "p" },
-      { "text": "Se te ha informado que todos los recursos de red se migrarán a Azure. Después de eso, se retirará el centro de datos local.", "type": "p" },
-      { "text": "Se requiere que adoptes una estrategia que reduzca el impacto en los usuarios una vez completada la migración.", "type": "p" },
-      { "text": "Solución: Planeas sincronizar todas las cuentas de usuario de Active Directory con Azure Active Directory (Azure AD).", "type": "p" },
+      {
+        "text": "El bosque de Active Directory de tu empresa incluye miles de cuentas de usuario.",
+        "type": "p"
+      },
+      {
+        "text": "Se te ha informado que todos los recursos de red se migrarán a Azure. Después de eso, se retirará el centro de datos local.",
+        "type": "p"
+      },
+      {
+        "text": "Se requiere que adoptes una estrategia que reduzca el impacto en los usuarios una vez completada la migración.",
+        "type": "p"
+      },
+      {
+        "text": "Solución: Planeas sincronizar todas las cuentas de usuario de Active Directory con Azure Active Directory (Azure AD).",
+        "type": "p"
+      },
       { "text": "¿Cumple la solución con el objetivo?", "type": "p" }
     ],
     "options": [
@@ -320,9 +385,18 @@
     "id": 15,
     "type": "select_one",
     "question_texts": [
-      { "text": "Se requiere implementar una solución de Inteligencia Artificial (IA) en Azure.", "type": "p" },
-      { "text": "Debes asegurarte de que puedes construir, probar y desplegar análisis predictivos para la solución.", "type": "p" },
-      { "text": "Solución: Se debe utilizar Azure Machine Learning Studio.", "type": "p" },
+      {
+        "text": "Se requiere implementar una solución de Inteligencia Artificial (IA) en Azure.",
+        "type": "p"
+      },
+      {
+        "text": "Debes asegurarte de que puedes construir, probar y desplegar análisis predictivos para la solución.",
+        "type": "p"
+      },
+      {
+        "text": "Solución: Se debe utilizar Azure Machine Learning Studio.",
+        "type": "p"
+      },
       { "text": "¿Cumple la solución con el objetivo?", "type": "p" }
     ],
     "options": [
@@ -334,10 +408,22 @@
     "id": 16,
     "type": "select_one",
     "question_texts": [
-      { "text": "La infraestructura de tu empresa incluye varias unidades de negocio que necesitan una gran cantidad de recursos de Azure para su funcionamiento diario.", "type": "p" },
-      { "text": "Los recursos requeridos por cada unidad de negocio son idénticos.", "type": "p" },
-      { "text": "Se requiere autorizar una estrategia para crear recursos de Azure automáticamente.", "type": "p" },
-      { "text": "Solución: Se recomienda incluir el servicio Azure API Management en la estrategia.", "type": "p" },
+      {
+        "text": "La infraestructura de tu empresa incluye varias unidades de negocio que necesitan una gran cantidad de recursos de Azure para su funcionamiento diario.",
+        "type": "p"
+      },
+      {
+        "text": "Los recursos requeridos por cada unidad de negocio son idénticos.",
+        "type": "p"
+      },
+      {
+        "text": "Se requiere autorizar una estrategia para crear recursos de Azure automáticamente.",
+        "type": "p"
+      },
+      {
+        "text": "Solución: Se recomienda incluir el servicio Azure API Management en la estrategia.",
+        "type": "p"
+      },
       { "text": "¿Cumple la solución con el objetivo?", "type": "p" }
     ],
     "options": [
@@ -349,10 +435,22 @@
     "id": 17,
     "type": "select_one",
     "question_texts": [
-      { "text": "La infraestructura de tu empresa incluye varias unidades de negocio que necesitan una gran cantidad de recursos de Azure para su funcionamiento diario.", "type": "p" },
-      { "text": "Los recursos requeridos por cada unidad de negocio son idénticos.", "type": "p" },
-      { "text": "Se requiere autorizar una estrategia para crear recursos de Azure automáticamente.", "type": "p" },
-      { "text": "Solución: Se recomienda incluir los grupos de administración en la estrategia.", "type": "p" },
+      {
+        "text": "La infraestructura de tu empresa incluye varias unidades de negocio que necesitan una gran cantidad de recursos de Azure para su funcionamiento diario.",
+        "type": "p"
+      },
+      {
+        "text": "Los recursos requeridos por cada unidad de negocio son idénticos.",
+        "type": "p"
+      },
+      {
+        "text": "Se requiere autorizar una estrategia para crear recursos de Azure automáticamente.",
+        "type": "p"
+      },
+      {
+        "text": "Solución: Se recomienda incluir los grupos de administración en la estrategia.",
+        "type": "p"
+      },
       { "text": "¿Cumple la solución con el objetivo?", "type": "p" }
     ],
     "options": [
@@ -364,10 +462,22 @@
     "id": 18,
     "type": "select_one",
     "question_texts": [
-      { "text": "La infraestructura de tu empresa incluye varias unidades de negocio que necesitan una gran cantidad de recursos de Azure para su funcionamiento diario.", "type": "p" },
-      { "text": "Los recursos requeridos por cada unidad de negocio son idénticos.", "type": "p" },
-      { "text": "Se requiere autorizar una estrategia para crear recursos de Azure automáticamente.", "type": "p" },
-      { "text": "Solución: Se recomienda incluir plantillas de Azure Resource Manager en la estrategia.", "type": "p" },
+      {
+        "text": "La infraestructura de tu empresa incluye varias unidades de negocio que necesitan una gran cantidad de recursos de Azure para su funcionamiento diario.",
+        "type": "p"
+      },
+      {
+        "text": "Los recursos requeridos por cada unidad de negocio son idénticos.",
+        "type": "p"
+      },
+      {
+        "text": "Se requiere autorizar una estrategia para crear recursos de Azure automáticamente.",
+        "type": "p"
+      },
+      {
+        "text": "Solución: Se recomienda incluir plantillas de Azure Resource Manager en la estrategia.",
+        "type": "p"
+      },
       { "text": "¿Cumple la solución con el objetivo?", "type": "p" }
     ],
     "options": [
@@ -379,9 +489,18 @@
     "id": 19,
     "type": "select_one",
     "question_texts": [
-      { "text": "Se te ha encargado implementar una aplicación empresarial crítica, que se instalará en una máquina virtual, en Azure.", "type": "p" },
-      { "text": "Se te informa que la estrategia de implementación debe permitir una disponibilidad garantizada del 99.99%. Debes asegurarte de usar la menor cantidad de máquinas virtuales y zonas de disponibilidad posibles.", "type": "p" },
-      { "text": "Solución: Incluyes dos máquinas virtuales y una zona de disponibilidad en tu estrategia.", "type": "p" },
+      {
+        "text": "Se te ha encargado implementar una aplicación empresarial crítica, que se instalará en una máquina virtual, en Azure.",
+        "type": "p"
+      },
+      {
+        "text": "Se te informa que la estrategia de implementación debe permitir una disponibilidad garantizada del 99.99%. Debes asegurarte de usar la menor cantidad de máquinas virtuales y zonas de disponibilidad posibles.",
+        "type": "p"
+      },
+      {
+        "text": "Solución: Incluyes dos máquinas virtuales y una zona de disponibilidad en tu estrategia.",
+        "type": "p"
+      },
       { "text": "¿Cumple la solución con el objetivo?", "type": "p" }
     ],
     "options": [
@@ -393,15 +512,4919 @@
     "id": 20,
     "type": "select_one",
     "question_texts": [
-      { "text": "Se te ha encargado implementar una aplicación empresarial crítica, que se instalará en una máquina virtual, en Azure.", "type": "p" },
-      { "text": "Se te informa que la estrategia de implementación debe permitir una disponibilidad garantizada del 99.99%. Debes asegurarte de usar la menor cantidad de máquinas virtuales y zonas de disponibilidad posibles.", "type": "p" },
-      { "text": "Solución: Incluyes una máquina virtual y dos zonas de disponibilidad en tu estrategia.", "type": "p" },
+      {
+        "text": "Se te ha encargado implementar una aplicación empresarial crítica, que se instalará en una máquina virtual, en Azure.",
+        "type": "p"
+      },
+      {
+        "text": "Se te informa que la estrategia de implementación debe permitir una disponibilidad garantizada del 99.99%. Debes asegurarte de usar la menor cantidad de máquinas virtuales y zonas de disponibilidad posibles.",
+        "type": "p"
+      },
+      {
+        "text": "Solución: Incluyes una máquina virtual y dos zonas de disponibilidad en tu estrategia.",
+        "type": "p"
+      },
       { "text": "¿Cumple la solución con el objetivo?", "type": "p" }
     ],
     "options": [
       { "id": 1, "text": "A. Sí", "correct": false },
       { "id": 2, "text": "B. No", "correct": true }
     ]
-  }
+  },
+  {
+    "id": 21,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Tienes la tarea de implementar una aplicación LOB crítica que se instalará en una máquina virtual en Azure.Debes asegurarte de que la estrategia requiera la menor cantidad posible de máquinas virtuales y zonas de disponibilidad."
+      },
+      {
+        "type": "p",
+        "text": "Se te informa que la estrategia de implementación de la aplicación debe permitir una disponibilidad garantizada del 99.99 por ciento."
+      },
+      {
+        "type": "p",
+        "text": "Debes asegurarte de que la estrategia requiera la menor cantidad posible de máquinas virtuales y zonas de disponibilidad."
+      },
+      {
+        "type": "p",
+        "text": "Solución: Incluyes dos máquinas virtuales y dos zonas de disponibilidad en tu estrategia. ¿La solución cumple con el objetivo?"
+      }
+    ],
+    "options": [
+      {
+        "text": "Sí",
+        "correct": true
+      },
+      {
+        "text": "No",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Los desarrolladores de tu empresa planean implementar una gran cantidad de máquinas virtuales personalizadas semanalmente. También eliminarán estas máquinas virtuales durante la misma semana en que fueron implementadas."
+      },
+      {
+        "type": "p",
+        "text": "El 60% tiene instalado Windows Server 2016, y el 40% restante, Ubuntu Linux. Debes asegurarte de que el esfuerzo administrativo requerido para este proceso se reduzca utilizando un servicio de Azure adecuado."
+      },
+      {
+        "type": "p",
+        "text": "Solución: Recomiendas el uso de Microsoft Managed Desktop. ¿La solución cumple con el objetivo?"
+      }
+    ],
+    "options": [
+      {
+        "text": "Sí",
+        "correct": false
+      },
+      {
+        "text": "No",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Los desarrolladores de tu empresa planean implementar una gran cantidad de máquinas virtuales personalizadas semanalmente."
+      },
+      {
+        "type": "p",
+        "text": "También eliminarán estas máquinas virtuales durante la misma semana en que fueron implementadas. El 60% tiene instalado Windows Server 2016, y el 40% restante, Ubuntu Linux."
+      },
+      {
+        "type": "p",
+        "text": "Debes asegurarte de que el esfuerzo administrativo requerido para este proceso se reduzca utilizando un servicio de Azure adecuado."
+      },
+      {
+        "type": "p",
+        "text": "Solución: Recomiendas el uso de Instancias de Máquinas Virtuales Reservadas de Azure. ¿La solución cumple con el objetivo?"
+      }
+    ],
+    "options": [
+      {
+        "text": "Sí",
+        "correct": false
+      },
+      {
+        "text": "No",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Los desarrolladores de tu empresa planean implementar una gran cantidad de máquinas virtuales personalizadas semanalmente."
+      },
+      {
+        "type": "p",
+        "text": "También eliminarán estas máquinas virtuales durante la misma semana en que fueron implementadas. El 60% tiene instalado Windows Server 2016, y el 40% restante, Ubuntu Linux."
+      },
+      {
+        "type": "p",
+        "text": "Debes asegurarte de que el esfuerzo administrativo requerido para este proceso se reduzca utilizando un servicio de Azure adecuado."
+      },
+      {
+        "type": "p",
+        "text": "Solución: Recomiendas el uso de Azure DevTest Labs. ¿La solución cumple con el objetivo?"
+      }
+    ],
+    "options": [
+      {
+        "text": "Sí",
+        "correct": true
+      },
+      {
+        "text": "No",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Tu empresa tiene máquinas virtuales (VM) alojadas en Microsoft Azure. Las VMs están ubicadas en una única red virtual de Azure llamada VNet1."
+      },
+      {
+        "type": "p",
+        "text": "La empresa tiene usuarios que trabajan de forma remota y requieren acceso a las VMs en VNet1. Debes proporcionar acceso a los trabajadores remotos."
+      }
+    ],
+    "options": [
+      {
+        "text": "Configurar una VPN de sitio a sitio (S2S)",
+        "correct": false
+      },
+      {
+        "text": "Configurar una VPN de red a red (VNet-to-VNet)",
+        "correct": false
+      },
+      {
+        "text": "Configurar una VPN de punto a sitio (P2S)",
+        "correct": true
+      },
+      {
+        "text": "Configurar DirectAccess en una máquina virtual con Windows Server 2012",
+        "correct": false
+      },
+      {
+        "text": "Configurar una VPN de múltiples sitios",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Te han informado sobre las intenciones de tu empresa de automatizar el despliegue de servidores a Azure. Sin embargo, existe preocupación de que las credenciales administrativas puedan ser descubiertas durante este proceso."
+      },
+      {
+        "type": "p",
+        "text": "Debes asegurarte de que durante el despliegue, las credenciales administrativas estén cifradas utilizando una solución adecuada de Azure."
+      },
+      {
+        "type": "p",
+        "text": "Solución: Recomiendas el uso de Azure Information Protection."
+      },
+      {
+        "type": "p",
+        "text": "¿Cumple la solución con el objetivo?"
+      }
+    ],
+    "options": [
+      {
+        "text": "Sí",
+        "correct": false
+      },
+      {
+        "text": "No",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Te han informado sobre las intenciones de tu empresa de automatizar el despliegue de servidores a Azure. Sin embargo, existe preocupación de que las credenciales administrativas puedan ser descubiertas durante este proceso."
+      },
+      {
+        "type": "p",
+        "text": "Debes asegurarte de que durante el despliegue, las credenciales administrativas estén cifradas utilizando una solución adecuada de Azure."
+      },
+      {
+        "type": "p",
+        "text": "Solución: Recomiendas el uso de Azure Multi-Factor Authentication (MFA)."
+      },
+      {
+        "type": "p",
+        "text": "¿Cumple la solución con el objetivo?"
+      }
+    ],
+    "options": [
+      {
+        "text": "Sí",
+        "correct": false
+      },
+      {
+        "text": "No",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "type": "checkbox",
+    "question_texts": [
+      {
+        "text": "La empresa desea desarrollar una solución en la nube con Azure Government. Azure Government solo puede ser utilizado por ciertos tipos de clientes para desarrollar soluciones en la nube.",
+        "type": "p"
+      },
+      {
+        "text": "¿Cuáles de los siguientes tipos de clientes pueden usar Azure Government en esta situación? Responda arrastrando la opción correcta de la lista al área de respuestas.",
+        "type": "p"
+      },
+      {
+        "text": "Seleccionar y colocar:",
+        "type": "p"
+      }
+    ],
+    "options": [
+      {
+        "id": 1,
+        "text": "un contratista gubernamental de cualquier país",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "una entidad gubernamental de cualquier país",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "un contratista gubernamental europeo",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "text": "una entidad gubernamental europea",
+        "correct": false
+      },
+      {
+        "id": 5,
+        "text": "un contratista gubernamental de Estados Unidos",
+        "correct": true
+      },
+      {
+        "id": 6,
+        "text": "una entidad gubernamental de Estados Unidos",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Tu empresa tiene un entorno de Azure Active Directory (Azure AD). Los usuarios ocasionalmente se conectan a Azure AD a través de Internet."
+      },
+      {
+        "type": "p",
+        "text": "Te han encargado asegurarte de que los usuarios que se conectan a Azure AD desde una dirección IP no identificada, sean alentados automáticamente a cambiar sus contraseñas."
+      },
+      {
+        "type": "p",
+        "text": "Solución: Configuras el uso de Azure AD Identity Protection."
+      },
+      {
+        "type": "p",
+        "text": "¿Cumple la solución con el objetivo?"
+      }
+    ],
+    "options": [
+      {
+        "text": "Sí",
+        "correct": true
+      },
+      {
+        "text": "No",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Tu empresa tiene un entorno de Azure Active Directory (Azure AD). Los usuarios ocasionalmente se conectan a Azure AD a través de Internet."
+      },
+      {
+        "type": "p",
+        "text": "Te han encargado asegurarte de que los usuarios que se conectan a Azure AD desde una dirección IP no identificada, sean alentados automáticamente a cambiar sus contraseñas."
+      },
+      {
+        "type": "p",
+        "text": "Solución: Configuras el uso de Azure AD Privileged Identity Management."
+      },
+      {
+        "type": "p",
+        "text": "¿Cumple la solución con el objetivo?"
+      }
+    ],
+    "options": [
+      {
+        "text": "Sí",
+        "correct": false
+      },
+      {
+        "text": "No",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Estás planificando una estrategia para desplegar numerosos servidores web y servidores de bases de datos en Azure."
+      },
+      {
+        "type": "p",
+        "text": "Esta estrategia debe permitir controlar los tipos de conexión entre los servidores web y los servidores de bases de datos."
+      },
+      {
+        "type": "p",
+        "text": "Solución: Incluyes grupos de seguridad de red (NSG) en tu estrategia."
+      },
+      {
+        "type": "p",
+        "text": "¿Cumple la solución con el objetivo?"
+      }
+    ],
+    "options": [
+      {
+        "text": "Sí",
+        "correct": true
+      },
+      {
+        "text": "No",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Estás planificando una estrategia para desplegar numerosos servidores web y servidores de bases de datos en Azure."
+      },
+      {
+        "type": "p",
+        "text": "Esta estrategia debe permitir controlar los tipos de conexión entre los servidores web y los servidores de bases de datos."
+      },
+      {
+        "type": "p",
+        "text": "Solución: Incluyes una puerta de enlace de red local en tu estrategia."
+      },
+      {
+        "type": "p",
+        "text": "¿Cumple la solución con el objetivo?"
+      }
+    ],
+    "options": [
+      {
+        "text": "Sí",
+        "correct": false
+      },
+      {
+        "text": "No",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "El bosque de Active Directory de tu empresa incluye miles de cuentas de usuario."
+      },
+      {
+        "type": "p",
+        "text": "Te han informado que todos los recursos de red se migrarán a Azure. Después de eso, el centro de datos local será retirado."
+      },
+      {
+        "type": "p",
+        "text": "Debes emplear una estrategia que reduzca el impacto en los usuarios una vez que se haya completado la migración planeada."
+      },
+      {
+        "type": "p",
+        "text": "Solución: Planeas requerir Azure Multi-Factor Authentication (MFA)."
+      },
+      {
+        "type": "p",
+        "text": "¿Cumple la solución con el objetivo?"
+      }
+    ],
+    "options": [
+      {
+        "text": "Sí",
+        "correct": false
+      },
+      {
+        "text": "No",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Cuando implementas una solución de Software como Servicio (SaaS), eres responsable de:"
+      }
+    ],
+    "options": [
+      {
+        "text": "Configurar alta disponibilidad",
+        "correct": false
+      },
+      {
+        "text": "Definir reglas de escalabilidad",
+        "correct": false
+      },
+      {
+        "text": "Instalar la solución SaaS",
+        "correct": false
+      },
+      {
+        "text": "Configurar la solución SaaS",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Tienes una red local que contiene varios servidores."
+      },
+      {
+        "type": "p",
+        "text": "Planeas migrar todos los servidores a Azure."
+      },
+      {
+        "type": "p",
+        "text": "Debes recomendar una solución para asegurar que algunos de los servidores estén disponibles si un centro de datos de Azure se desconecta por un período prolongado."
+      },
+      {
+        "type": "p",
+        "text": "¿Qué deberías incluir en la recomendación?"
+      }
+    ],
+    "options": [
+      {
+        "text": "Tolerancia a fallos",
+        "correct": true
+      },
+      {
+        "text": "Elasticidad",
+        "correct": false
+      },
+      {
+        "text": "Escalabilidad",
+        "correct": false
+      },
+      {
+        "text": "Baja latencia",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Una organización que aloja su infraestructura _____ ya no requiere un centro de datos."
+      }
+    ],
+    "options": [
+      {
+        "text": "En una nube privada",
+        "correct": false
+      },
+      {
+        "text": "En una nube híbrida",
+        "correct": false
+      },
+      {
+        "text": "En la nube pública",
+        "correct": true
+      },
+      {
+        "text": "En un host Hyper-V",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "type": "checkbox",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "¿Cuáles son dos características de la nube pública? Cada respuesta correcta presenta una solución completa."
+      }
+    ],
+    "options": [
+      {
+        "text": "Hardware dedicado",
+        "correct": false
+      },
+      {
+        "text": "Conexiones no seguras",
+        "correct": false
+      },
+      {
+        "text": "Almacenamiento limitado",
+        "correct": false
+      },
+      {
+        "text": "Precios medidos",
+        "correct": true
+      },
+      {
+        "text": "Gestión de autoservicio",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Cuando planeas migrar un sitio web público a Azure, debes planificar:"
+      }
+    ],
+    "options": [
+      {
+        "text": "Desplegar una VPN",
+        "correct": false
+      },
+      {
+        "text": "Pagar costos mensuales de uso",
+        "correct": true
+      },
+      {
+        "text": "Pagar para transferir todos los datos del sitio web a Azure",
+        "correct": false
+      },
+      {
+        "text": "Reducir el número de conexiones al sitio web",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Tu empresa planea migrar todos sus datos y recursos a Azure."
+      },
+      {
+        "type": "p",
+        "text": "El plan de migración de la empresa establece que solo deben utilizarse soluciones de Plataforma como Servicio (PaaS) en Azure."
+      },
+      {
+        "type": "p",
+        "text": "Debes desplegar un entorno de Azure que cumpla con el plan de migración de la empresa."
+      },
+      {
+        "type": "p",
+        "text": "Solución: Creas un Azure App Service y bases de datos Azure SQL."
+      },
+      {
+        "type": "p",
+        "text": "¿Cumple la solución con el objetivo?"
+      }
+    ],
+    "options": [
+      {
+        "text": "Sí",
+        "correct": true
+      },
+      {
+        "text": "No",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Tu empresa planea migrar todos sus datos y recursos a Azure."
+      },
+      {
+        "type": "p",
+        "text": "El plan de migración de la empresa establece que solo deben utilizarse soluciones de Plataforma como Servicio (PaaS) en Azure."
+      },
+      {
+        "type": "p",
+        "text": "Debes desplegar un entorno de Azure que cumpla con el plan de migración de la empresa."
+      },
+      {
+        "type": "p",
+        "text": "Solución: Creas un Azure App Service y máquinas virtuales de Azure con Microsoft SQL Server instalado."
+      },
+      {
+        "type": "p",
+        "text": "¿Cumple la solución con el objetivo?"
+      }
+    ],
+    "options": [
+      {
+        "text": "Sí",
+        "correct": false
+      },
+      {
+        "text": "No",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Tu empresa planea migrar todos sus datos y recursos a Azure."
+      },
+      {
+        "type": "p",
+        "text": "El plan de migración de la empresa establece que solo deben utilizarse soluciones de Plataforma como Servicio (PaaS) en Azure."
+      },
+      {
+        "type": "p",
+        "text": "Debes desplegar un entorno de Azure que cumpla con el plan de migración de la empresa."
+      },
+      {
+        "type": "p",
+        "text": "Solución: Creas un Azure App Service y cuentas de Azure Storage."
+      },
+      {
+        "type": "p",
+        "text": "¿Cumple la solución con el objetivo?"
+      }
+    ],
+    "options": [
+      {
+        "text": "Sí",
+        "correct": true
+      },
+      {
+        "text": "No",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Tu empresa aloja una aplicación de contabilidad llamada App1 que es utilizada por todos los clientes de la empresa."
+      },
+      {
+        "type": "p",
+        "text": "App1 tiene un uso bajo durante las primeras tres semanas de cada mes y un uso muy alto durante la última semana de cada mes."
+      },
+      {
+        "type": "p",
+        "text": "¿Qué beneficio de los Servicios en la Nube de Azure apoya la gestión de costos para este patrón de uso?"
+      }
+    ],
+    "options": [
+      {
+        "text": "Alta disponibilidad",
+        "correct": false
+      },
+      {
+        "text": "Alta latencia",
+        "correct": false
+      },
+      {
+        "text": "Elasticidad",
+        "correct": true
+      },
+      {
+        "text": "Balanceo de carga",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Planeas migrar una aplicación web a Azure. La aplicación web es accesada por usuarios externos."
+      },
+      {
+        "type": "p",
+        "text": "Debes recomendar una solución de despliegue en la nube para minimizar la cantidad de esfuerzo administrativo necesario para gestionar la aplicación web."
+      },
+      {
+        "type": "p",
+        "text": "¿Qué deberías incluir en la recomendación?"
+      }
+    ],
+    "options": [
+      {
+        "text": "Software como Servicio (SaaS)",
+        "correct": false
+      },
+      {
+        "text": "Plataforma como Servicio (PaaS)",
+        "correct": true
+      },
+      {
+        "text": "Infraestructura como Servicio (IaaS)",
+        "correct": false
+      },
+      {
+        "text": "Base de Datos como Servicio (DaaS)",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "¿Qué solución de despliegue en la nube se utiliza para máquinas virtuales de Azure y bases de datos Azure SQL? Para responder, selecciona las opciones adecuadas:"
+      }
+    ],
+    "options": [
+      {
+        "text": "IaaS y PaaS",
+        "correct": true
+      },
+      {
+        "text": "PaaS e IaaS",
+        "correct": true
+      },
+      {
+        "text": "SaaS e IaaS",
+        "correct": false
+      },
+      {
+        "text": "PaaS e IaaS",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Tienes una red local que contiene 100 servidores."
+      },
+      {
+        "type": "p",
+        "text": "Debes recomendar una solución que proporcione recursos adicionales a tus usuarios. La solución debe minimizar los costos de capital y operativos."
+      },
+      {
+        "type": "p",
+        "text": "¿Qué deberías incluir en la recomendación?"
+      }
+    ],
+    "options": [
+      {
+        "text": "Migración completa a la nube pública",
+        "correct": true
+      },
+      {
+        "text": "Un centro de datos adicional",
+        "correct": false
+      },
+      {
+        "text": "Una nube privada",
+        "correct": false
+      },
+      {
+        "text": "Una nube híbrida",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Planeas migrar varios servidores desde una red local a Azure."
+      },
+      {
+        "type": "p",
+        "text": "¿Cuál es una ventaja de usar un servicio en la nube pública para los servidores en lugar de una red local?"
+      }
+    ],
+    "options": [
+      {
+        "text": "La nube pública es propiedad del público, NO de una corporación privada",
+        "correct": false
+      },
+      {
+        "text": "La nube pública es una solución de crowdsourcing que permite a las corporaciones mejorar la nube",
+        "correct": false
+      },
+      {
+        "text": "Todos los recursos de la nube pública pueden ser accesados libremente por cada miembro del público",
+        "correct": false
+      },
+      {
+        "text": "La nube pública es una entidad compartida donde varias corporaciones utilizan una porción de los recursos en la nube",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Azure Site Recovery proporciona _____ para máquinas virtuales."
+      }
+    ],
+    "options": [
+      {
+        "text": "Tolerancia a fallos",
+        "correct": false
+      },
+      {
+        "text": "Recuperación ante desastres",
+        "correct": true
+      },
+      {
+        "text": "Elasticidad",
+        "correct": false
+      },
+      {
+        "text": "Alta disponibilidad",
+        "correct": false
+      }
+    ]
+  },
 
+  {
+    "id": 51,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "¿En qué tipo de modelo de nube todos los recursos de hardware son propiedad de un tercero y se comparten entre múltiples inquilinos?"
+      }
+    ],
+    "options": [
+      {
+        "text": "Privada",
+        "correct": false
+      },
+      {
+        "text": "Híbrida",
+        "correct": false
+      },
+      {
+        "text": "Pública",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "_____ es un servicio de virtualización de escritorios y aplicaciones que permite el uso de una versión alojada en la nube de Windows desde cualquier ubicación."
+      }
+    ],
+    "options": [
+      {
+        "text": "Un conjunto de disponibilidad",
+        "correct": false
+      },
+      {
+        "text": "Máquinas Virtuales de Azure Sport",
+        "correct": false
+      },
+      {
+        "text": "Azure Virtual Desktop",
+        "correct": true
+      },
+      {
+        "text": "Escalabilidad de Máquinas Virtuales de Azure",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Tienes 1,000 máquinas virtuales alojadas en hosts Hyper-V en un centro de datos."
+      },
+      {
+        "type": "p",
+        "text": "Planeas migrar todas las máquinas virtuales a una suscripción de Azure de pago por uso."
+      },
+      {
+        "type": "p",
+        "text": "Necesitas identificar qué modelo de gasto utilizar para la solución de Azure planificada."
+      },
+      {
+        "type": "p",
+        "text": "¿Qué modelo de gasto deberías identificar?"
+      }
+    ],
+    "options": [
+      {
+        "text": "Operacional",
+        "correct": true
+      },
+      {
+        "text": "Elástico",
+        "correct": false
+      },
+      {
+        "text": "Capital",
+        "correct": false
+      },
+      {
+        "text": "Escalable",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "type": "checkbox",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Tu empresa tiene una red local que contiene varios servidores."
+      },
+      {
+        "text": "La empresa planea reducir las siguientes responsabilidades administrativas:",
+        "type": "ul",
+        "items": [
+          "Respaldar datos de aplicaciones",
+          "Reemplazar hardware de servidores fallidos",
+          "Gestionar la seguridad física del servidor",
+          "Actualizar los sistemas operativos de los servidores",
+          "Gestionar permisos para documentos compartidos"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "La empresa planea migrar los servidores a máquinas virtuales de Azure."
+      },
+      {
+        "type": "p",
+        "text": "Necesitas identificar qué responsabilidades administrativas serán eliminadas después de la migración planificada."
+      },
+      {
+        "type": "p",
+        "text": "¿Qué dos responsabilidades deberías identificar?"
+      }
+    ],
+    "options": [
+      {
+        "text": "Reemplazar hardware de servidores fallidos",
+        "correct": true
+      },
+      {
+        "text": "Respaldar datos de aplicaciones",
+        "correct": false
+      },
+      {
+        "text": "Gestionar la seguridad física del servidor",
+        "correct": true
+      },
+      {
+        "text": "Actualizar los sistemas operativos de los servidores",
+        "correct": false
+      },
+      {
+        "text": "Gestionar permisos para documentos compartidos",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Planeas provisionar recursos de Infraestructura como Servicio (IaaS) en Azure."
+      },
+      {
+        "type": "p",
+        "text": "¿Qué recurso es un ejemplo de IaaS?"
+      }
+    ],
+    "options": [
+      {
+        "text": "Una aplicación web de Azure",
+        "correct": false
+      },
+      {
+        "text": "Una máquina virtual de Azure",
+        "correct": true
+      },
+      {
+        "text": "Una aplicación lógica de Azure",
+        "correct": false
+      },
+      {
+        "text": "Una base de datos SQL de Azure",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "¿A qué modelos de nube se pueden desplegar servidores físicos?"
+      }
+    ],
+    "options": [
+      {
+        "text": "Solo nube privada y nube híbrida",
+        "correct": true
+      },
+      {
+        "text": "Solo nube privada",
+        "correct": false
+      },
+      {
+        "text": "Nube privada, nube híbrida y nube pública",
+        "correct": false
+      },
+      {
+        "text": "Solo nube híbrida",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Tienes 50 máquinas virtuales alojadas en las instalaciones y 50 máquinas virtuales alojadas en Azure. Las máquinas virtuales en las instalaciones y las de Azure se conectan entre sí."
+      },
+      {
+        "type": "p",
+        "text": "¿Qué tipo de modelo de nube es este?"
+      }
+    ],
+    "options": [
+      {
+        "text": "Híbrida",
+        "correct": true
+      },
+      {
+        "text": "Privada",
+        "correct": false
+      },
+      {
+        "text": "Pública",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Tu empresa planea migrar todos sus datos y recursos a Azure."
+      },
+      {
+        "type": "p",
+        "text": "El plan de migración de la empresa establece que solo deben utilizarse soluciones de Plataforma como Servicio (PaaS) en Azure."
+      },
+      {
+        "type": "p",
+        "text": "Necesitas desplegar un entorno de Azure que cumpla con el plan de migración de la empresa."
+      },
+      {
+        "type": "p",
+        "text": "Solución: Creas máquinas virtuales de Azure, bases de datos SQL de Azure y cuentas de almacenamiento de Azure."
+      },
+      {
+        "type": "p",
+        "text": "¿Cumple esta solución con el objetivo?"
+      }
+    ],
+    "options": [
+      {
+        "text": "Sí",
+        "correct": false
+      },
+      {
+        "text": "No",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Tu empresa planea desplegar varias aplicaciones personalizadas en Azure. Las aplicaciones proporcionarán servicios de facturación a los clientes de la empresa."
+      },
+      {
+        "type": "p",
+        "text": "Cada aplicación tendrá varias aplicaciones y servicios prerequisito instalados."
+      },
+      {
+        "type": "p",
+        "text": "Necesitas recomendar una solución de despliegue en la nube para todas las aplicaciones."
+      },
+      {
+        "type": "p",
+        "text": "¿Qué deberías recomendar?"
+      }
+    ],
+    "options": [
+      {
+        "text": "Software como servicio (SaaS)",
+        "correct": false
+      },
+      {
+        "text": "Plataforma como servicio (PaaS)",
+        "correct": true
+      },
+      {
+        "text": "Infraestructura como servicio (IaaS)",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Azure Cosmos DB es un ejemplo de una oferta de _____."
+      }
+    ],
+    "options": [
+      {
+        "text": "Plataforma como servicio (PaaS)",
+        "correct": true
+      },
+      {
+        "text": "Infraestructura como servicio (IaaS)",
+        "correct": false
+      },
+      {
+        "text": "Serverless",
+        "correct": false
+      },
+      {
+        "text": "Software como servicio (SaaS)",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Puedes asignar un _____ a cada recurso de Azure."
+      }
+    ],
+    "options": [
+      {
+        "text": "blueprint",
+        "correct": false
+      },
+      {
+        "text": "lock",
+        "correct": false
+      },
+      {
+        "text": "policy",
+        "correct": true
+      },
+      {
+        "text": "service endpoint",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Tu empresa planea migrar todos sus datos y recursos a Azure."
+      },
+      {
+        "type": "p",
+        "text": "El plan de migración de la empresa establece que solo deben utilizarse soluciones de Plataforma como Servicio (PaaS) en Azure."
+      },
+      {
+        "type": "p",
+        "text": "Necesitas desplegar un entorno de Azure que cumpla con el plan de migración de la empresa."
+      },
+      {
+        "type": "p",
+        "text": "¿Qué deberías crear?"
+      }
+    ],
+    "options": [
+      {
+        "text": "Máquinas virtuales de Azure, bases de datos SQL de Azure y cuentas de almacenamiento de Azure.",
+        "correct": false
+      },
+      {
+        "text": "Un Azure App Service y máquinas virtuales de Azure que tienen Microsoft SQL Server instalado.",
+        "correct": false
+      },
+      {
+        "text": "Un Azure App Service y bases de datos SQL de Azure.",
+        "correct": true
+      },
+      {
+        "text": "Cuentas de almacenamiento de Azure y servidores web en máquinas virtuales de Azure.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "¿Qué proporciona un cliente en un modelo de software como servicio (SaaS)?"
+      }
+    ],
+    "options": [
+      {
+        "text": "datos de aplicación",
+        "correct": true
+      },
+      {
+        "text": "almacenamiento de datos",
+        "correct": false
+      },
+      {
+        "text": "recursos de computación",
+        "correct": false
+      },
+      {
+        "text": "software de aplicación",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "¿Cuál es la primera etapa del Marco de Adopción de la Nube de Microsoft para Azure?"
+      }
+    ],
+    "options": [
+      {
+        "text": "Adoptar la nube.",
+        "correct": false
+      },
+      {
+        "text": "Hacer un plan.",
+        "correct": false
+      },
+      {
+        "text": "Preparar tu organización.",
+        "correct": true
+      },
+      {
+        "text": "Definir tu estrategia.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Azure Site Recovery proporciona _____ para las máquinas virtuales."
+      }
+    ],
+    "options": [
+      {
+        "text": "tolerancia a fallos",
+        "correct": false
+      },
+      {
+        "text": "recuperación ante desastres",
+        "correct": true
+      },
+      {
+        "text": "elasticidad",
+        "correct": false
+      },
+      {
+        "text": "alta disponibilidad",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "ul",
+        "text": "Planeas usar Azure para alojar dos aplicaciones llamadas App1 y App2. Las aplicaciones deben cumplir con los siguientes requisitos:",
+        "items": [
+          "App2 debe ejecutarse interactivamente con el sistema operativo del servidor.",
+          "Debes poder modificar el código de App1.",
+          "El esfuerzo administrativo para gestionar el sistema operativo de App1 debe ser minimizado."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "¿Qué tipo de servicio en la nube deberías usar para cada aplicación?"
+      }
+    ],
+    "options": [
+      {
+        "text": "App1 IaaS y App2 PaaS",
+        "correct": false
+      },
+      {
+        "text": "App1 PaaS y App2 SaaS",
+        "correct": false
+      },
+      {
+        "text": "App1 SaaS y App2 IaaS",
+        "correct": false
+      },
+      {
+        "text": "App1 PaaS y App2 IaaS",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Tienes una aplicación de contabilidad llamada App1 que usa una base de datos heredada."
+      },
+      {
+        "type": "p",
+        "text": "Planeas mover App1 a la nube."
+      },
+      {
+        "type": "p",
+        "text": "¿Qué modelo de servicio deberías usar?"
+      }
+    ],
+    "options": [
+      {
+        "text": "plataforma como servicio (PaaS)",
+        "correct": false
+      },
+      {
+        "text": "infraestructura como servicio (IaaS)",
+        "correct": true
+      },
+      {
+        "text": "software como servicio (SaaS)",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Microsoft 365 es un ejemplo de cuál modelo de servicio en la nube?"
+      }
+    ],
+    "options": [
+      {
+        "text": "infraestructura como servicio (IaaS)",
+        "correct": false
+      },
+      {
+        "text": "plataforma como servicio (PaaS)",
+        "correct": false
+      },
+      {
+        "text": "software como servicio (SaaS)",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Una aplicación web de Azure que consulta un servidor Microsoft SQL local es un ejemplo de una nube _____."
+      }
+    ],
+    "options": [
+      {
+        "text": "híbrida",
+        "correct": true
+      },
+      {
+        "text": "multi-proveedor",
+        "correct": false
+      },
+      {
+        "text": "privada",
+        "correct": false
+      },
+      {
+        "text": "pública",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Una base de datos de Microsoft SQL Server que está alojada en la nube y tiene actualizaciones de software gestionadas por Azure es un ejemplo de _____."
+      }
+    ],
+    "options": [
+      {
+        "text": "recuperación ante desastres como servicio (DRaaS)",
+        "correct": false
+      },
+      {
+        "text": "infraestructura como servicio (IaaS)",
+        "correct": false
+      },
+      {
+        "text": "plataforma como servicio (PaaS)",
+        "correct": true
+      },
+      {
+        "text": "software como servicio (SaaS)",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "¿Qué modelo de computación en la nube incluye recursos tanto locales como basados en la nube?"
+      }
+    ],
+    "options": [
+      {
+        "text": "híbrido",
+        "correct": true
+      },
+      {
+        "text": "público",
+        "correct": false
+      },
+      {
+        "text": "privado",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "El autoscaling es un ejemplo de _____"
+      }
+    ],
+    "options": [
+      {
+        "text": "agilidad",
+        "correct": false
+      },
+      {
+        "text": "elasticidad",
+        "correct": true
+      },
+      {
+        "text": "geo-distribución",
+        "correct": false
+      },
+      {
+        "text": "previsibilidad",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "_____ admite la sincronización entre los almacenes locales y Azure Storage."
+      }
+    ],
+    "options": [
+      {
+        "text": "Azure Blob Storage",
+        "correct": true
+      },
+      {
+        "text": "Azure Files",
+        "correct": false
+      },
+      {
+        "text": "Azure Queue Storage",
+        "correct": false
+      },
+      {
+        "text": "Azure Table Storage",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "¿Qué término representa la capacidad de aumentar la capacidad computacional de una máquina virtual agregando memoria o CPUs?"
+      }
+    ],
+    "options": [
+      {
+        "text": "agilidad",
+        "correct": false
+      },
+      {
+        "text": "escalado vertical",
+        "correct": true
+      },
+      {
+        "text": "escalado horizontal",
+        "correct": false
+      },
+      {
+        "text": "elasticidad",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "type": "checkbox",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "¿Cuáles son dos beneficios de la computación en la nube? Cada respuesta correcta presenta una solución completa."
+      }
+    ],
+    "options": [
+      {
+        "text": "habilita la provisión rápida de recursos",
+        "correct": true
+      },
+      {
+        "text": "ha aumentado la complejidad administrativa",
+        "correct": false
+      },
+      {
+        "text": "tiene las mismas opciones de configuración que los sistemas locales",
+        "correct": false
+      },
+      {
+        "text": "cambia los gastos de capital (CAPEX) por gastos operativos (OPEX)",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "¿Qué característica tiene una red virtual de Azure?"
+      }
+    ],
+    "options": [
+      {
+        "text": "análisis de costos de recursos",
+        "correct": false
+      },
+      {
+        "text": "inspección de paquetes",
+        "correct": false
+      },
+      {
+        "text": "geo-redundancia",
+        "correct": false
+      },
+      {
+        "text": "aislación y segmentación",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "_____ permite que los recursos de Azure se desplieguen cerca de los usuarios."
+      }
+    ],
+    "options": [
+      {
+        "text": "Elasticidad",
+        "correct": false
+      },
+      {
+        "text": "Geo-distribución",
+        "correct": true
+      },
+      {
+        "text": "Alta disponibilidad",
+        "correct": false
+      },
+      {
+        "text": "Escalabilidad",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "¿Qué beneficio de la computación en la nube proporciona acceso continuo de los usuarios a una aplicación en la nube con un tiempo mínimo de inactividad?"
+      }
+    ],
+    "options": [
+      {
+        "text": "agilidad",
+        "correct": false
+      },
+      {
+        "text": "escalabilidad",
+        "correct": false
+      },
+      {
+        "text": "elasticidad",
+        "correct": false
+      },
+      {
+        "text": "alta disponibilidad",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Necesitas identificar el tipo de falla para la cual una Zona de Disponibilidad de Azure puede ser utilizada para proteger el acceso a los servicios de Azure."
+      },
+      {
+        "type": "p",
+        "text": "¿Qué deberías identificar?"
+      }
+    ],
+    "options": [
+      {
+        "text": "una falla en el servidor físico",
+        "correct": false
+      },
+      {
+        "text": "una falla en una región de Azure",
+        "correct": true
+      },
+      {
+        "text": "una falla de almacenamiento",
+        "correct": false
+      },
+      {
+        "text": "una falla en un centro de datos de Azure",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Planeas extender la red de tu empresa a Azure."
+      },
+      {
+        "type": "p",
+        "text": "La red contiene un dispositivo VPN que utiliza una dirección IP de 131.107.200.1."
+      },
+      {
+        "type": "p",
+        "text": "Necesitas crear un recurso de Azure que defina el dispositivo VPN en Azure."
+      },
+      {
+        "type": "p",
+        "text": "¿Qué recurso de Azure deberías crear?"
+      }
+    ],
+    "options": [
+      {
+        "text": "NAT gateways",
+        "correct": false
+      },
+      {
+        "text": "Application gateways",
+        "correct": false
+      },
+      {
+        "text": "Local network gateways",
+        "correct": true
+      },
+      {
+        "text": "Virtual network gateways",
+        "correct": false
+      },
+      {
+        "text": "On-premises Data gateways",
+        "correct": false
+      },
+      {
+        "text": "Azure Data Box Gateway",
+        "correct": false
+      },
+      {
+        "text": "Azure Stack Edge / Data Box Gateway",
+        "correct": false
+      },
+      {
+        "text": "Web Application Firewall policies",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Planeas desplegar varias máquinas virtuales de Azure."
+      },
+      {
+        "type": "p",
+        "text": "Necesitas garantizar que los servicios que se ejecutan en las máquinas virtuales estén disponibles si falla un solo centro de datos."
+      },
+      {
+        "type": "p",
+        "text": "Solución: Despliegas las máquinas virtuales en dos o más grupos de recursos."
+      },
+      {
+        "type": "p",
+        "text": "¿Cumple esto con el objetivo?"
+      }
+    ],
+    "options": [
+      {
+        "text": "Sí",
+        "correct": false
+      },
+      {
+        "text": "No",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Planeas desplegar varias máquinas virtuales de Azure."
+      },
+      {
+        "type": "p",
+        "text": "Necesitas garantizar que los servicios que se ejecutan en las máquinas virtuales estén disponibles si falla un solo centro de datos."
+      },
+      {
+        "type": "p",
+        "text": "Solución: Despliegas las máquinas virtuales en un conjunto de escalado."
+      },
+      {
+        "type": "p",
+        "text": "¿Cumple esto con el objetivo?"
+      }
+    ],
+    "options": [
+      {
+        "text": "Sí",
+        "correct": true
+      },
+      {
+        "text": "No",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Esta pregunta requiere que evalúes el texto subrayado para determinar si es correcto."
+      },
+      {
+        "type": "p",
+        "text": "Los grupos de recursos permiten a las organizaciones administrar el cumplimiento de los recursos de Azure en varias suscripciones."
+      }
+    ],
+    "options": [
+      { "text": "No se necesita ningún cambio", "correct": false },
+      { "text": "Grupos de administración", "correct": true },
+      { "text": "Políticas de Azure", "correct": false },
+      {
+        "text": "Planes del servicio de aplicaciones de Azure",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "type": "checkbox",
+    "question_texts": [
+      { "type": "p", "text": "Tu empresa planea migrar a Azure." },
+      {
+        "type": "p",
+        "text": "La empresa tiene varios departamentos. Todos los recursos de Azure utilizados por cada departamento serán administrados por un administrador de departamento."
+      },
+      {
+        "type": "p",
+        "text": "¿Cuáles son dos técnicas posibles para segmentar Azure por departamentos?"
+      }
+    ],
+    "options": [
+      { "text": "Múltiples suscripciones", "correct": true },
+      {
+        "text": "Múltiples directorios de Azure Active Directory (Azure AD)",
+        "correct": false
+      },
+      { "text": "Múltiples regiones", "correct": false },
+      { "text": "Múltiples grupos de recursos", "correct": true }
+    ]
+  },
+  {
+    "id": 104,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Tienes varias máquinas virtuales en una suscripción de Azure."
+      },
+      { "type": "p", "text": "Creas una nueva suscripción." }
+    ],
+    "options": [
+      {
+        "text": "Las máquinas virtuales no se pueden mover a la nueva suscripción.",
+        "correct": false
+      },
+      {
+        "text": "Las máquinas virtuales se pueden mover a la nueva suscripción.",
+        "correct": true
+      },
+      {
+        "text": "Las máquinas virtuales se pueden mover a la nueva suscripción solo si están todas en el mismo grupo de recursos.",
+        "correct": false
+      },
+      {
+        "text": "Las máquinas virtuales se pueden mover a la nueva suscripción solo si ejecutan Windows Server 2016.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "type": "checkbox",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Tienes un entorno de Azure que contiene múltiples máquinas virtuales."
+      },
+      {
+        "type": "p",
+        "text": "Planeas implementar una solución que permita a los equipos cliente de tu red local comunicarse con las máquinas virtuales de Azure."
+      },
+      {
+        "type": "p",
+        "text": "Necesitas recomendar qué recursos de Azure deben crearse para la solución planificada."
+      }
+    ],
+    "options": [
+      { "text": "Una puerta de enlace de red virtual", "correct": true },
+      { "text": "Un equilibrador de carga (load balancer)", "correct": false },
+      { "text": "Un gateway de aplicación", "correct": false },
+      { "text": "Una red virtual", "correct": true },
+      { "text": "Una subred de puerta de enlace", "correct": true }
+    ]
+  },
+  {
+    "id": 106,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Intentas crear varias instancias administradas de Microsoft SQL Server en un entorno de Azure y recibes un mensaje que indica que debes aumentar los límites de tu suscripción de Azure."
+      },
+      { "type": "p", "text": "¿Qué debes hacer para aumentar los límites?" }
+    ],
+    "options": [
+      { "text": "Crear una alerta de estado del servicio", "correct": false },
+      { "text": "Actualizar tu plan de soporte", "correct": false },
+      { "text": "Modificar una política de Azure", "correct": false },
+      { "text": "Crear una nueva solicitud de soporte", "correct": true }
+    ]
+  },
+  {
+    "id": 109,
+    "type": "select_one",
+    "question_texts": [
+      { "type": "p", "text": "Planeas crear una máquina virtual en Azure." },
+      {
+        "type": "p",
+        "text": "Necesitas identificar qué servicio de almacenamiento debe utilizarse para almacenar los discos de datos no administrados de la máquina virtual."
+      }
+    ],
+    "options": [
+      { "text": "Contenedores", "correct": true },
+      { "text": "Compartidos de archivos", "correct": false },
+      { "text": "Tablas", "correct": false },
+      { "text": "Colas", "correct": false }
+    ]
+  },
+  {
+    "id": 110,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Tu empresa planea mover varios servidores a Azure."
+      },
+      {
+        "type": "p",
+        "text": "La política de cumplimiento de la empresa establece que un servidor llamado FinServer debe estar en un segmento de red separado."
+      },
+      {
+        "type": "p",
+        "text": "Estás evaluando qué servicios de Azure pueden usarse para cumplir con los requisitos de cumplimiento."
+      },
+      { "type": "p", "text": "¿Qué solución de Azure deberías recomendar?" }
+    ],
+    "options": [
+      {
+        "text": "Un grupo de recursos para FinServer y otro grupo de recursos para los demás servidores",
+        "correct": false
+      },
+      {
+        "text": "Una red virtual para FinServer y otra red virtual para los demás servidores",
+        "correct": true
+      },
+      {
+        "text": "Una VPN para FinServer y una puerta de enlace de red virtual para cada uno de los otros servidores",
+        "correct": false
+      },
+      {
+        "text": "Un solo grupo de recursos para todos los servidores y un bloqueo de recursos para FinServer",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 111,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Planeas asignar una unidad de red desde varios equipos con Windows 10 hacia Azure Storage."
+      },
+      {
+        "type": "p",
+        "text": "Necesitas crear una solución de almacenamiento en Azure para la unidad asignada planificada."
+      }
+    ],
+    "options": [
+      { "text": "Una base de datos de Azure SQL", "correct": false },
+      { "text": "Un disco de datos de máquina virtual", "correct": false },
+      {
+        "text": "Un servicio de archivos en una cuenta de almacenamiento",
+        "correct": true
+      },
+      {
+        "text": "Un servicio Blob en una cuenta de almacenamiento",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 112,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Planeas implementar una solución de base de datos en Azure."
+      },
+      {
+        "type": "ul",
+        "text": "Necesitas implementar una solución de base de datos que cumpla con los siguientes requisitos:",
+        "items": [
+          "Poder agregar datos concurrentemente desde múltiples regiones",
+          "Poder almacenar documentos JSON"
+        ]
+      }
+    ],
+    "options": [
+      { "text": "Azure Cosmos DB", "correct": true },
+      { "text": "Azure Database for MySQL servers", "correct": false },
+      { "text": "Azure Database for MariaDB servers", "correct": false },
+      { "text": "Data warehouses de SQL", "correct": false },
+      { "text": "Azure Cache for Redis", "correct": false },
+      { "text": "Data factories", "correct": false },
+      { "text": "Virtual Clusters", "correct": false },
+      { "text": "Elastic Job agents", "correct": false },
+      { "text": "Bases de datos SQL", "correct": false },
+      { "text": "Azure Database for PostgreSQL servers", "correct": false },
+      { "text": "Servidores SQL", "correct": false },
+      { "text": "Azure Database Migration Services", "correct": false },
+      { "text": "Bases de datos extendidas de SQL Server", "correct": false },
+      { "text": "Pools elásticos de SQL", "correct": false },
+      { "text": "Bases de datos administradas", "correct": false },
+      { "text": "Instancias administradas de SQL", "correct": false }
+    ]
+  },
+  {
+    "id": 113,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Tu empresa planea comenzar a usar Azure y migrará todos sus recursos de red a Azure."
+      },
+      {
+        "type": "p",
+        "text": "Necesitas iniciar el proceso de planificación explorando Azure."
+      },
+      { "type": "p", "text": "¿Qué deberías crear primero?" }
+    ],
+    "options": [
+      { "text": "Una suscripción", "correct": true },
+      { "text": "Un grupo de recursos", "correct": false },
+      { "text": "Una red virtual", "correct": false },
+      { "text": "Un grupo de administración", "correct": false }
+    ]
+  },
+  {
+    "id": 115,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Los datos que se almacenan en el nivel de acceso Archivado de una cuenta de almacenamiento de Azure _____."
+      }
+    ],
+    "options": [
+      {
+        "text": "pueden ser accedidos en cualquier momento usando azcopy.exe",
+        "correct": false
+      },
+      {
+        "text": "solo pueden ser leídos usando Azure Backup",
+        "correct": false
+      },
+      {
+        "text": "deben ser restaurados antes de poder accederse",
+        "correct": false
+      },
+      {
+        "text": "deben ser rehidratados antes de poder accederse",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": 116,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Planeas implementar una aplicación crítica para el negocio en Azure."
+      },
+      {
+        "type": "p",
+        "text": "La aplicación se ejecutará en una máquina virtual de Azure."
+      },
+      {
+        "type": "p",
+        "text": "Necesitas recomendar una solución de implementación para la aplicación. La solución debe proporcionar una disponibilidad garantizada del 99.99%."
+      },
+      {
+        "type": "p",
+        "text": "¿Cuál es el número mínimo de máquinas virtuales y el número mínimo de zonas de disponibilidad que deberías recomendar para la implementación?"
+      }
+    ],
+    "options": [
+      {
+        "text": "Mínimo de VMs: 2, Mínimo de zonas de disponibilidad: 2",
+        "correct": true
+      },
+      {
+        "text": "Mínimo de VMs: 1, Mínimo de zonas de disponibilidad: 2",
+        "correct": false
+      },
+      {
+        "text": "Mínimo de VMs: 3, Mínimo de zonas de disponibilidad: 2",
+        "correct": false
+      },
+      {
+        "text": "Mínimo de VMs: 3, Mínimo de zonas de disponibilidad: 1",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 117,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "¿Qué servicio de Azure deberías usar para recopilar eventos de múltiples recursos en un repositorio centralizado?"
+      }
+    ],
+    "options": [
+      { "text": "Azure Event Hubs", "correct": false },
+      { "text": "Azure Analysis Services", "correct": false },
+      { "text": "Azure Monitor", "correct": true },
+      { "text": "Azure Stream Analytics", "correct": false }
+    ]
+  },
+  {
+    "id": 118,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Una Zona de Disponibilidad en Azure tiene ubicaciones físicamente separadas _____."
+      }
+    ],
+    "options": [
+      { "text": "en dos continentes", "correct": false },
+      { "text": "dentro de una única región de Azure", "correct": true },
+      { "text": "dentro de múltiples regiones de Azure", "correct": false },
+      { "text": "dentro de un solo centro de datos de Azure", "correct": false }
+    ]
+  },
+  {
+    "id": 122,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Planeas implementar varias máquinas virtuales de Azure. Necesitas asegurarte de que los servicios que se ejecutan en las máquinas virtuales estén disponibles si falla un único centro de datos."
+      },
+      {
+        "type": "p",
+        "text": "Solución: implementas las máquinas virtuales en dos o más conjuntos de escalado."
+      },
+      {
+        "type": "p",
+        "text": "¿Cumple esto con el objetivo?"
+      }
+    ],
+    "options": [
+      { "text": "Sí", "correct": false },
+      { "text": "No", "correct": true }
+    ]
+  },
+  {
+    "id": 123,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Necesitas recibir notificaciones cuando Microsoft planea realizar mantenimiento que pueda afectar los recursos implementados en una suscripción de Azure."
+      },
+      {
+        "type": "p",
+        "text": "¿Qué deberías usar?"
+      }
+    ],
+    "options": [
+      { "text": "Azure Monitor", "correct": false },
+      { "text": "Azure Service Health", "correct": true },
+      { "text": "Azure Advisor", "correct": false },
+      { "text": "Microsoft Trust Center", "correct": false }
+    ]
+  },
+  {
+    "id": 126,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "_____ puede calcular el ahorro en costos debido a la reducción en el consumo eléctrico como resultado de migrar servidores Microsoft SQL locales a Azure."
+      }
+    ],
+    "options": [
+      {
+        "text": "La herramienta Azure Migrate: Server Assessment",
+        "correct": false
+      },
+      {
+        "text": "La calculadora de Costo Total de Propiedad (TCO) de Azure",
+        "correct": true
+      },
+      {
+        "text": "El Asistente de Migración de Base de Datos",
+        "correct": false
+      },
+      { "text": "La calculadora de precios de Azure", "correct": false }
+    ]
+  },
+  {
+    "id": 129,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Selecciona la respuesta que completa correctamente la oración."
+      },
+      {
+        "type": "p",
+        "text": "Un servicio en la nube que admite un máximo de 20 instancias es más _____ que un servicio que admite un máximo de cinco instancias."
+      }
+    ],
+    "options": [
+      { "text": "Distribuido", "correct": false },
+      { "text": "Escalable", "correct": true },
+      { "text": "Seguro", "correct": false }
+    ]
+  },
+  {
+    "id": 131,
+    "type": "checkbox",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Planeas implementar varias máquinas virtuales de Azure. Necesitas asegurarte de que los servicios que se ejecutan en las máquinas virtuales sigan disponibles si falla un único centro de datos."
+      },
+      {
+        "type": "p",
+        "text": "¿Cuáles son dos posibles soluciones? Cada respuesta correcta presenta una solución completa."
+      }
+    ],
+    "options": [
+      {
+        "text": "Implementar las máquinas virtuales en dos o más zonas de disponibilidad",
+        "correct": true
+      },
+      {
+        "text": "Implementar las máquinas virtuales en dos o más grupos de recursos",
+        "correct": false
+      },
+      {
+        "text": "Implementar las máquinas virtuales en un conjunto de escalado",
+        "correct": false
+      },
+      {
+        "text": "Implementar las máquinas virtuales en dos o más regiones",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": 132,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Planeas implementar 20 máquinas virtuales en un entorno de Azure. Para asegurarte de que una máquina virtual llamada VM1 no pueda conectarse a las otras máquinas virtuales, VM1 debe _____"
+      }
+    ],
+    "options": [
+      {
+        "text": "Ser implementada en una red virtual separada",
+        "correct": true
+      },
+      {
+        "text": "Ejecutar un sistema operativo diferente al de las otras máquinas virtuales",
+        "correct": false
+      },
+      {
+        "text": "Ser implementada en un grupo de recursos separado",
+        "correct": false
+      },
+      { "text": "Tener dos interfaces de red", "correct": false }
+    ]
+  },
+  {
+    "id": 135,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "¿Cuál es la falla más grave de la que se puede proteger el acceso a los servicios de Azure mediante una zona de disponibilidad de Azure?"
+      }
+    ],
+    "options": [
+      { "text": "Falla de un servidor físico", "correct": false },
+      { "text": "Falla de una región de Azure", "correct": true },
+      { "text": "Falla de almacenamiento", "correct": false },
+      { "text": "Falla de un centro de datos de Azure", "correct": false }
+    ]
+  },
+  {
+    "id": 136,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Necesitas comprar un dispositivo de seguridad virtual de terceros que implementarás en una suscripción de Azure. ¿Qué debes usar?"
+      }
+    ],
+    "options": [
+      { "text": "Suscripciones de Azure", "correct": false },
+      { "text": "Azure Security Center", "correct": false },
+      { "text": "Azure Marketplace", "correct": true },
+      { "text": "Microsoft Store", "correct": false }
+    ]
+  },
+  {
+    "id": 141,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Tienes varias máquinas virtuales en una suscripción de Azure. Creas una nueva suscripción."
+      },
+      {
+        "type": "p",
+        "text": "¿Qué opción es correcta?"
+      }
+    ],
+    "options": [
+      {
+        "text": "Las máquinas virtuales no se pueden mover a la nueva suscripción",
+        "correct": false
+      },
+      {
+        "text": "Las máquinas virtuales se pueden mover a la nueva suscripción",
+        "correct": true
+      },
+      {
+        "text": "Las máquinas virtuales se pueden mover a la nueva suscripción solo si están todas en el mismo grupo de recursos",
+        "correct": false
+      },
+      {
+        "text": "Las máquinas virtuales se pueden mover a la nueva suscripción solo si ejecutan Windows Server 2019",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 142,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Necesitas comprar un dispositivo de seguridad virtual de terceros que implementarás en una suscripción de Azure. ¿Qué debes usar?"
+      }
+    ],
+    "options": [
+      { "text": "Suscripciones de Azure", "correct": false },
+      { "text": "Microsoft Defender for Cloud", "correct": false },
+      { "text": "Azure Marketplace", "correct": true },
+      { "text": "Microsoft Store", "correct": false }
+    ]
+  },
+  {
+    "id": 143,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Selecciona la respuesta que completa correctamente la oración."
+      },
+      {
+        "type": "p",
+        "text": "_____ es una solución IoT altamente segura que incluye una unidad de microcontrolador (MCU) y un sistema operativo Linux personalizado."
+      }
+    ],
+    "options": [
+      { "text": "Azure Arc", "correct": false },
+      { "text": "Azure IoT Central", "correct": false },
+      { "text": "Azure IoT Hub", "correct": false },
+      { "text": "Azure Sphere", "correct": true }
+    ]
+  },
+  {
+    "id": 144,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Planeas implementar un servicio en máquinas virtuales de Azure. Necesitas asegurarte de que el servicio estará disponible si falla un centro de datos. ¿Qué debes usar como parte de la implementación de la máquina virtual?"
+      }
+    ],
+    "options": [
+      { "text": "Conjuntos de disponibilidad", "correct": true },
+      { "text": "Grupos de colocación de proximidad", "correct": false },
+      { "text": "Grupos de hosts", "correct": false },
+      { "text": "Zonas de disponibilidad", "correct": false }
+    ]
+  },
+  {
+    "id": 145,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Tu empresa tiene una suscripción de Azure que contiene recursos en varias regiones. Necesitas asegurarte de que los administradores solo puedan crear recursos en esas regiones. ¿Qué debes usar?"
+      }
+    ],
+    "options": [
+      { "text": "Un bloqueo de solo lectura", "correct": false },
+      { "text": "Una política de Azure", "correct": true },
+      { "text": "Un grupo de administración", "correct": false },
+      { "text": "Una reserva", "correct": false }
+    ]
+  },
+  {
+    "id": 146,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Una región de Azure _____"
+      }
+    ],
+    "options": [
+      {
+        "text": "Contiene uno o más centros de datos que están conectados mediante una red de baja latencia",
+        "correct": true
+      },
+      {
+        "text": "Se encuentra en cada país donde Microsoft tiene una oficina subsidiaria",
+        "correct": false
+      },
+      {
+        "text": "Se encuentra en cada país de Europa y América",
+        "correct": false
+      },
+      {
+        "text": "Contiene uno o más centros de datos que están conectados mediante una red de alta latencia",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 147,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Puedes usar el agente de Azure File Sync para sincronizar los datos locales a un _____ de Azure."
+      }
+    ],
+    "options": [
+      { "text": "Contenedor de blobs", "correct": false },
+      { "text": "Contenedor de Azure Data Lake Storage", "correct": false },
+      { "text": "Compartición de archivos", "correct": true },
+      { "text": "Cola", "correct": false }
+    ]
+  },
+  {
+    "id": 148,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "¿Cuál es la función de una VPN Site-To-Site?"
+      }
+    ],
+    "options": [
+      {
+        "text": "Proporciona una conexión segura entre una computadora en una red pública y la red corporativa",
+        "correct": false
+      },
+      {
+        "text": "Proporciona una conexión privada dedicada a Azure que no viaja por Internet",
+        "correct": false
+      },
+      {
+        "text": "Proporciona una conexión desde un dispositivo VPN local a una puerta de enlace VPN de Azure",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": 151,
+    "type": "checkbox",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Necesitas administrar contenedores. ¿Qué dos servicios puedes usar? Cada respuesta correcta presenta una solución completa."
+      }
+    ],
+    "options": [
+      { "text": "Azure Virtual Desktop", "correct": false },
+      { "text": "Máquinas virtuales de Azure", "correct": false },
+      { "text": "Azure Functions", "correct": false },
+      { "text": "Azure Container Instances", "correct": true },
+      { "text": "Azure Kubernetes Service (AKS)", "correct": true }
+    ]
+  },
+  {
+    "id": 152,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Para completar la oración, selecciona la opción apropiada en el área de respuesta."
+      },
+      {
+        "type": "p",
+        "text": "Cuando necesitas delegar permisos a varias máquinas virtuales de Azure simultáneamente, debes implementar las máquinas virtuales de Azure _____."
+      }
+    ],
+    "options": [
+      { "text": "En la misma región de Azure", "correct": true },
+      {
+        "text": "Usando la misma plantilla de Azure Resource Manager",
+        "correct": false
+      },
+      { "text": "En el mismo grupo de recursos", "correct": false },
+      { "text": "En la misma zona de disponibilidad", "correct": false }
+    ]
+  },
+  {
+    "id": 153,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Planeas implementar varias máquinas virtuales de Azure. Necesitas asegurarte de que los servicios que se ejecutan en las máquinas virtuales estén disponibles si falla un solo centro de datos."
+      },
+      {
+        "type": "p",
+        "text": "¿Cumple esta solución con el objetivo? Solución: Implementas las máquinas virtuales en dos o más zonas de disponibilidad."
+      }
+    ],
+    "options": [
+      { "text": "Sí", "correct": true },
+      { "text": "No", "correct": false }
+    ]
+  },
+  {
+    "id": 154,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Esta pregunta requiere que evalúes el texto subrayado para determinar si es correcto."
+      },
+      {
+        "type": "p",
+        "text": "Uno de los beneficios de Azure SQL Data Warehouse es que la alta disponibilidad está integrada en la plataforma."
+      },
+      {
+        "type": "p",
+        "text": "Instrucciones: Revisa el texto subrayado. Si hace la declaración correcta, selecciona 'No se necesita cambio'. Si la declaración es incorrecta, selecciona la opción de respuesta que hace que la declaración sea correcta."
+      }
+    ],
+    "options": [
+      { "text": "No se necesita cambio", "correct": true },
+      { "text": "escalado automático", "correct": false },
+      { "text": "compresión de datos", "correct": false },
+      { "text": "versionado", "correct": false }
+    ]
+  },
+  {
+    "id": 155,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Planeas implementar varias máquinas virtuales de Azure. Necesitas asegurarte de que los servicios que se ejecutan en las máquinas virtuales estén disponibles si falla un solo centro de datos."
+      },
+      {
+        "type": "p",
+        "text": "¿Cumple esta solución con el objetivo? Solución: Implementas las máquinas virtuales en dos o más regiones."
+      }
+    ],
+    "options": [
+      { "text": "Sí", "correct": true },
+      { "text": "No", "correct": false }
+    ]
+  },
+  {
+    "id": 156,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Selecciona la respuesta que completa correctamente la oración."
+      },
+      {
+        "type": "p",
+        "text": "Una instancia de contenedor de Azure es un ejemplo de un _____ de Azure."
+      }
+    ],
+    "options": [
+      { "text": "servicio de computación", "correct": true },
+      { "text": "servicio de identidad", "correct": false },
+      { "text": "servicio de redes", "correct": false },
+      { "text": "servicio de almacenamiento", "correct": false }
+    ]
+  },
+  {
+    "id": 157,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "¿En qué capa del modelo OSI opera ExpressRoute?"
+      }
+    ],
+    "options": [
+      { "text": "Capa 2", "correct": true },
+      { "text": "Capa 3", "correct": false },
+      { "text": "Capa 5", "correct": false },
+      { "text": "Capa 7", "correct": false }
+    ]
+  },
+  {
+    "id": 158,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Selecciona la respuesta que completa correctamente la oración."
+      },
+      {
+        "type": "p",
+        "text": "Application Insights es una característica de _____."
+      }
+    ],
+    "options": [
+      { "text": "Azure Advisor", "correct": false },
+      { "text": "Azure Application Gateway", "correct": false },
+      { "text": "Azure Arc", "correct": false },
+      { "text": "Azure Monitor", "correct": true }
+    ]
+  },
+  {
+    "id": 160,
+    "type": "checkbox",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Planeas almacenar 20 TB de datos en Azure. Los datos se accederán con poca frecuencia y se visualizarán utilizando Microsoft Power BI."
+      },
+      {
+        "type": "p",
+        "text": "Necesitas recomendar una solución de almacenamiento para los datos. ¿Qué dos soluciones deberías recomendar? Cada respuesta correcta presenta una solución completa."
+      }
+    ],
+    "options": [
+      { "text": "Azure Data Lake", "correct": true },
+      { "text": "Azure Cosmos DB", "correct": false },
+      { "text": "Azure SQL Data Warehouse", "correct": true },
+      { "text": "Azure SQL Database", "correct": false },
+      { "text": "Azure Database for PostgreSQL", "correct": false }
+    ]
+  },
+  {
+    "id": 161,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Tienes un entorno de Azure que contiene 10 aplicaciones web. ¿A qué URL debes conectarte para administrar todos los recursos de Azure?"
+      }
+    ],
+    "options": [
+      { "text": "admin.azure.com", "correct": false },
+      { "text": "portal.azure.com", "correct": true },
+      { "text": "www.microsoft.com", "correct": false },
+      { "text": "www.azurewebsites.com", "correct": false }
+    ]
+  },
+  {
+    "id": 163,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Selecciona la respuesta que completa correctamente la oración."
+      },
+      {
+        "type": "p",
+        "text": "Azure Blob Storage es un _____."
+      }
+    ],
+    "options": [
+      {
+        "text": "almacenamiento de datos para la puesta en cola y entrega confiable de mensajes entre aplicaciones",
+        "correct": false
+      },
+      {
+        "text": "compartición de archivos que puede ser mapeada como una unidad de red",
+        "correct": false
+      },
+      {
+        "text": "almacenamiento de claves/atributos para datos no relacionales y estructurados",
+        "correct": false
+      },
+      {
+        "text": "servicio de almacenamiento optimizado para objetos muy grandes, como archivos de video y mapas de bits",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": 164,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Un administrador de Azure planea ejecutar un script de PowerShell que cree recursos de Azure. Necesitas recomendar qué configuración de computadora utilizar para ejecutar el script."
+      },
+      {
+        "type": "p",
+        "text": "Solución: Ejecutar el script desde una computadora que ejecute Linux y tenga las herramientas de Azure CLI instaladas."
+      }
+    ],
+    "options": [
+      { "text": "Sí", "correct": false },
+      { "text": "No", "correct": true }
+    ]
+  },
+  {
+    "id": 165,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Un administrador de Azure planea ejecutar un script de PowerShell que cree recursos de Azure. Necesitas recomendar qué configuración de computadora utilizar para ejecutar el script."
+      },
+      {
+        "type": "p",
+        "text": "Solución: Ejecutar el script desde una computadora que ejecute Chrome OS y use Azure Cloud Shell."
+      }
+    ],
+    "options": [
+      { "text": "Sí", "correct": true },
+      { "text": "No", "correct": false }
+    ]
+  },
+  {
+    "id": 167,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Un administrador de Azure planea ejecutar un script de PowerShell que cree recursos de Azure. Necesitas recomendar qué configuración de computadora utilizar para ejecutar el script."
+      },
+      {
+        "type": "p",
+        "text": "Solución: Ejecutar el script desde una computadora que ejecute macOS y tenga PowerShell Core 6.0 instalado."
+      }
+    ],
+    "options": [
+      { "text": "Sí", "correct": true },
+      { "text": "No", "correct": false }
+    ]
+  },
+  {
+    "id": 168,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Necesitas ver una lista de eventos de mantenimiento planificados que puedan afectar la disponibilidad de una suscripción de Azure. ¿Qué blade deberías usar desde el portal de Azure?"
+      }
+    ],
+    "options": [
+      { "text": "Dashboard > Help+Support > Service Health", "correct": true },
+      { "text": "Todos los recursos", "correct": false },
+      { "text": "Servicios de aplicaciones", "correct": false },
+      { "text": "Balanceadores de carga", "correct": false }
+    ]
+  },
+  {
+    "id": 171,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "ul",
+        "text": "Necesitas identificar qué blades en el portal de Azure deben ser utilizados para realizar las siguientes tareas:",
+        "items": [
+          "Monitorizar la salud de los servicios de Azure.",
+          "Navegar por las imágenes de máquinas virtuales disponibles.",
+          "Ver recomendaciones de seguridad."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "¿Qué blade debes identificar para cada tarea?"
+      }
+    ],
+    "options": [
+      { "text": "Subscriptions, Monitor, Marketplace", "correct": false },
+      { "text": "Monitor, Marketplace, Advisor", "correct": true },
+      { "text": "Advisor, Monitor, Subscriptions", "correct": false },
+      { "text": "Subscriptions, Advisor, Marketplace", "correct": false }
+    ]
+  },
+  {
+    "id": 172,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Tienes un entorno de Azure. Necesitas crear una nueva máquina virtual de Azure desde una tablet que ejecute el sistema operativo Android."
+      },
+      {
+        "type": "p",
+        "text": "Solución: Usas Bash en Azure Cloud Shell."
+      }
+    ],
+    "options": [
+      { "text": "Sí", "correct": true },
+      { "text": "No", "correct": false }
+    ]
+  },
+  {
+    "id": 173,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Tienes una aplicación local que envía notificaciones por correo electrónico automáticamente basadas en una regla. Planeas migrar la aplicación a Azure."
+      },
+      {
+        "type": "p",
+        "text": "Necesitas recomendar una solución de computación sin servidor para la aplicación."
+      },
+      {
+        "type": "p",
+        "text": "¿Qué deberías incluir en la recomendación?"
+      }
+    ],
+    "options": [
+      { "text": "una aplicación web", "correct": false },
+      {
+        "text": "una imagen de servidor en Azure Marketplace",
+        "correct": false
+      },
+      { "text": "una lógica de aplicación", "correct": true },
+      { "text": "una aplicación de API", "correct": false }
+    ]
+  },
+  {
+    "id": 174,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Planeas desplegar un sitio web en Azure. El sitio web será accesado por usuarios de todo el mundo y hospedará archivos de video grandes."
+      },
+      {
+        "type": "p",
+        "text": "Necesitas recomendar qué característica de Azure se debe utilizar para proporcionar la mejor experiencia de reproducción de video."
+      },
+      {
+        "type": "p",
+        "text": "¿Qué deberías recomendar?"
+      }
+    ],
+    "options": [
+      { "text": "un gateway de aplicaciones", "correct": false },
+      { "text": "un circuito de Azure ExpressRoute", "correct": false },
+      { "text": "una red de entrega de contenido (CDN)", "correct": true },
+      { "text": "un perfil de Azure Traffic Manager", "correct": false }
+    ]
+  },
+  {
+    "id": 175,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Tu empresa planea desplegar varios millones de sensores que subirán datos a Azure."
+      },
+      {
+        "type": "p",
+        "text": "Necesitas identificar qué recursos de Azure deben ser creados para soportar la solución planeada."
+      },
+      {
+        "type": "p",
+        "text": "¿Qué dos recursos de Azure debes identificar? Cada respuesta correcta presenta parte de la solución."
+      }
+    ],
+    "options": [
+      { "text": "Azure Data Lake", "correct": true },
+      { "text": "Azure Queue storage", "correct": true },
+      { "text": "Azure File Storage", "correct": false },
+      { "text": "Azure IoT Hub", "correct": true },
+      { "text": "Azure Notification Hubs", "correct": false }
+    ]
+  },
+  {
+    "id": 176,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Tienes una aplicación web de Azure."
+      },
+      {
+        "type": "p",
+        "text": "Necesitas administrar la configuración de la aplicación web desde un iPhone."
+      },
+      {
+        "type": "p",
+        "text": "¿Qué dos herramientas de administración de Azure puedes usar? Cada respuesta correcta presenta una solución completa."
+      }
+    ],
+    "options": [
+      { "text": "Azure CLI", "correct": true },
+      { "text": "el portal de Azure", "correct": true },
+      { "text": "Azure Cloud Shell", "correct": true },
+      { "text": "Windows PowerShell", "correct": false },
+      { "text": "Azure Storage Explorer", "correct": false }
+    ]
+  },
+  {
+    "id": 177,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Tu empresa planea desplegar una solución de Inteligencia Artificial (IA) en Azure."
+      },
+      {
+        "type": "p",
+        "text": "¿Qué debe usar la empresa para construir, probar y desplegar soluciones de análisis predictivo?"
+      }
+    ],
+    "options": [
+      { "text": "Azure Logic Apps", "correct": false },
+      { "text": "Azure Machine Learning Designer", "correct": true },
+      { "text": "Azure Batch", "correct": false },
+      { "text": "Azure Cosmos DB", "correct": false }
+    ]
+  },
+  {
+    "id": 179,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "¿Qué puedes usar para enviar automáticamente una alerta si un administrador detiene una máquina virtual de Azure?"
+      }
+    ],
+    "options": [
+      { "text": "Azure Advisor", "correct": false },
+      { "text": "Azure Service Health", "correct": false },
+      { "text": "Azure Monitor", "correct": true },
+      { "text": "Azure Network Watcher", "correct": false }
+    ]
+  },
+  {
+    "id": 181,
+    "type": "checkbox",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Tienes un entorno de Azure. Necesitas crear una nueva máquina virtual de Azure desde una tablet que ejecuta el sistema operativo Android. ¿Cuáles son tres soluciones posibles?"
+      }
+    ],
+    "options": [
+      { "text": "Usar Bash en Azure Cloud Shell.", "correct": true },
+      { "text": "Usar PowerShell en Azure Cloud Shell.", "correct": true },
+      { "text": "Usar el portal de PowerApps.", "correct": false },
+      {
+        "text": "Usar el centro de administración de Seguridad y Cumplimiento.",
+        "correct": false
+      },
+      { "text": "Usar el portal de Azure.", "correct": true }
+    ]
+  },
+  {
+    "id": 182,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Un equipo de desarrolladores en tu empresa planea implementar y luego eliminar 50 máquinas virtuales cada semana. Todas las máquinas virtuales están configuradas utilizando plantillas de Azure Resource Manager. Necesitas recomendar qué servicio de Azure minimizará el esfuerzo administrativo requerido para implementar y eliminar las máquinas virtuales."
+      }
+    ],
+    "options": [
+      {
+        "text": "Instancias reservadas de máquina virtual (VM) de Azure",
+        "correct": false
+      },
+      { "text": "Azure DevTest Labs", "correct": true },
+      {
+        "text": "Conjuntos de escalado de máquinas virtuales de Azure",
+        "correct": false
+      },
+      { "text": "Escritorio Virtual de Azure", "correct": false }
+    ]
+  },
+  {
+    "id": 184,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Necesitas crear VM1 en la suscripción Subscription1 usando el siguiente comando: az vm create --resource-group RG1 --name VM1 --image UbuntuLTS --generate-ssh-keys. Solución: Desde el portal de Azure, inicia Azure Cloud Shell y selecciona PowerShell. Ejecuta el comando en Cloud Shell. ¿Cumple esto con el objetivo?"
+      }
+    ],
+    "options": [
+      { "text": "Sí", "correct": true },
+      { "text": "No", "correct": false }
+    ]
+  },
+  {
+    "id": 185,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Necesitas crear VM1 en la suscripción Subscription1 usando el siguiente comando: az vm create --resource-group RG1 --name VM1 --image UbuntuLTS --generate-ssh-keys. Solución: Desde una computadora con Windows 10, instala Azure CLI. Desde PowerShell, inicia sesión en Azure y luego ejecuta el comando. ¿Cumple esto con el objetivo?"
+      }
+    ],
+    "options": [
+      { "text": "Sí", "correct": true },
+      { "text": "No", "correct": false }
+    ]
+  },
+  {
+    "id": 186,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Necesitas crear VM1 en la suscripción Subscription1 usando el siguiente comando: az vm create --resource-group RG1 --name VM1 --image UbuntuLTS --generate-ssh-keys. Solución: Desde una computadora con Windows 10, instala Azure CLI. Desde una línea de comandos, inicia sesión en Azure y luego ejecuta el comando. ¿Cumple esto con el objetivo?"
+      }
+    ],
+    "options": [
+      { "text": "Sí", "correct": true },
+      { "text": "No", "correct": false }
+    ]
+  },
+  {
+    "id": 188,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Puedes acceder a Compliance Manager desde el _____."
+      }
+    ],
+    "options": [
+      {
+        "text": "Centro de administración de Azure Active Directory",
+        "correct": false
+      },
+      { "text": "Portal de Azure", "correct": false },
+      { "text": "Centro de administración de Microsoft 365", "correct": false },
+      {
+        "text": "Portal de confianza de servicios de Microsoft",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": 189,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "_____ una plataforma común para implementar objetos en una infraestructura en la nube y para implementar consistencia en el entorno de Azure."
+      }
+    ],
+    "options": [
+      { "text": "Las políticas de Azure proporcionan", "correct": false },
+      { "text": "Los grupos de recursos proporcionan", "correct": false },
+      {
+        "text": "Las plantillas de Azure Resource Manager proporcionan",
+        "correct": true
+      },
+      { "text": "Los grupos de administración proporcionan", "correct": false }
+    ]
+  },
+  {
+    "id": 191,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Un administrador de Azure planea ejecutar un script de PowerShell que crea recursos de Azure. Solución: Ejecutar el script desde una computadora que ejecuta Windows 10 y tiene instalado el módulo de Azure PowerShell. ¿Cumple esto con el objetivo?"
+      }
+    ],
+    "options": [
+      { "text": "Sí", "correct": true },
+      { "text": "No", "correct": false }
+    ]
+  },
+  {
+    "id": 193,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "¿Qué servicio proporciona computación sin servidor (serverless) en Azure?"
+      }
+    ],
+    "options": [
+      { "text": "Máquinas virtuales de Azure", "correct": false },
+      { "text": "Funciones de Azure", "correct": true },
+      { "text": "Cuenta de almacenamiento de Azure", "correct": false },
+      { "text": "Hosts dedicados de Azure", "correct": false }
+    ]
+  },
+  {
+    "id": 194,
+    "type": "checkbox",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Un administrador de Azure planea ejecutar un script de PowerShell que crea recursos de Azure. ¿Qué tres computadoras pueden ejecutar el script?"
+      }
+    ],
+    "options": [
+      {
+        "text": "Una computadora que ejecuta macOS y tiene PowerShell Core 6.0 instalado.",
+        "correct": true
+      },
+      {
+        "text": "Una computadora que ejecuta Windows 10 y tiene el módulo de Azure PowerShell instalado.",
+        "correct": true
+      },
+      {
+        "text": "Una computadora que ejecuta Linux y tiene el módulo de Azure PowerShell instalado.",
+        "correct": true
+      },
+      {
+        "text": "Una computadora que ejecuta Linux y tiene las herramientas de Azure CLI instaladas.",
+        "correct": false
+      },
+      {
+        "text": "Una computadora que ejecuta Chrome OS y usa Azure Cloud Shell.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 195,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Necesitas crear VM1 en la suscripción Subscription1 usando el siguiente comando: az vm create --resource-group RG1 --name VM1 --image UbuntuLTS --generate-ssh-keys. Solución: Desde el portal de Azure, inicia Azure Cloud Shell y selecciona Bash. Ejecuta el comando en Cloud Shell. ¿Cumple esto con el objetivo?"
+      }
+    ],
+    "options": [
+      { "text": "Sí", "correct": true },
+      { "text": "No", "correct": false }
+    ]
+  },
+  {
+    "id": 196,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Tu empresa tiene varias unidades de negocio. Cada unidad requiere 20 recursos de Azure diferentes para su operación diaria. Todas las unidades requieren el mismo tipo de recursos. Necesitas recomendar una solución para automatizar la creación de los recursos de Azure."
+      }
+    ],
+    "options": [
+      { "text": "Plantillas de Azure Resource Manager", "correct": true },
+      {
+        "text": "Conjuntos de escalado de máquinas virtuales",
+        "correct": false
+      },
+      {
+        "text": "El servicio de administración de API de Azure",
+        "correct": false
+      },
+      { "text": "Grupos de administración", "correct": false }
+    ]
+  },
+  {
+    "id": 198,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "¿Qué puedes usar para identificar máquinas virtuales de Azure infrautilizadas o sin uso?"
+      }
+    ],
+    "options": [
+      { "text": "Azure Advisor", "correct": true },
+      { "text": "Azure Cost Management + Billing", "correct": false },
+      { "text": "Reservas de Azure", "correct": false },
+      { "text": "Azure Policy", "correct": false }
+    ]
+  },
+  {
+    "id": 199,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "¿Qué nodo en el portal de Azure debes usar para asignar a un usuario el rol de Lector (Reader) para un grupo de recursos?"
+      }
+    ],
+    "options": [
+      { "text": "Resumen", "correct": false },
+      { "text": "Registro de actividad", "correct": false },
+      { "text": "Control de acceso (IAM)", "correct": true },
+      { "text": "Etiquetas", "correct": false },
+      { "text": "Visualizador de recursos", "correct": false },
+      { "text": "Eventos", "correct": false },
+      { "text": "Costos del recurso", "correct": false },
+      { "text": "Implementaciones", "correct": false },
+      { "text": "Seguridad", "correct": false },
+      { "text": "Políticas", "correct": false },
+      { "text": "Propiedades", "correct": false }
+    ]
+  },
+  {
+    "id": 203,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Un equipo de desarrolladores en tu empresa planea implementar y luego eliminar 50 máquinas virtuales personalizadas cada semana. Treinta de las máquinas virtuales ejecutan Windows Server 2016 y veinte ejecutan Ubuntu Linux. Necesitas recomendar qué servicio de Azure minimizará el esfuerzo administrativo requerido para implementar y eliminar las máquinas virtuales."
+      }
+    ],
+    "options": [
+      {
+        "text": "Instancias reservadas de máquina virtual (VM) de Azure",
+        "correct": false
+      },
+      {
+        "text": "Conjuntos de escalado de máquinas virtuales de Azure",
+        "correct": false
+      },
+      { "text": "Azure DevTest Labs", "correct": true },
+      { "text": "Microsoft Managed Desktop", "correct": false }
+    ]
+  },
+  {
+    "id": 205,
+    "type": "checkbox",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Un ingeniero de soporte planea realizar varias tareas de administración de Azure usando la CLI de Azure. Has instalado la CLI en una computadora. Necesitas decirle al ingeniero de soporte qué herramientas usar para ejecutar la CLI."
+      }
+    ],
+    "options": [
+      { "text": "Símbolo del sistema (Command Prompt)", "correct": true },
+      { "text": "Azure Resource Explorer", "correct": false },
+      { "text": "Windows PowerShell", "correct": true },
+      { "text": "Firewall de Windows Defender", "correct": false },
+      { "text": "Centro de redes y recursos compartidos", "correct": false }
+    ]
+  },
+  {
+    "id": 206,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Tienes un entorno de Azure. Necesitas crear una nueva máquina virtual de Azure desde una tablet que ejecuta el sistema operativo Android. Solución: Usas PowerShell en Azure Cloud Shell. ¿Cumple esto con el objetivo?"
+      }
+    ],
+    "options": [
+      { "text": "Sí", "correct": true },
+      { "text": "No", "correct": false }
+    ]
+  },
+  {
+    "id": 207,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Tienes un entorno de Azure. Necesitas crear una nueva máquina virtual de Azure desde una tablet que ejecuta el sistema operativo Android. Solución: Usas el portal de PowerApps. ¿Cumple esto con el objetivo?"
+      }
+    ],
+    "options": [
+      { "text": "Sí", "correct": false },
+      { "text": "No", "correct": true }
+    ]
+  },
+  {
+    "id": 208,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Tienes un entorno de Azure. Necesitas crear una nueva máquina virtual de Azure desde una tablet que ejecuta el sistema operativo Android. Solución: Usas el portal de Azure. ¿Cumple esto con el objetivo?"
+      }
+    ],
+    "options": [
+      { "text": "Sí", "correct": true },
+      { "text": "No", "correct": false }
+    ]
+  },
+  {
+    "id": 209,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Selecciona la respuesta que completa correctamente la oración: _____ proporciona información detallada sobre seguridad, privacidad, cumplimiento, ofertas, políticas y características en los productos de nube de Microsoft."
+      }
+    ],
+    "options": [
+      {
+        "text": "El Centro de administración de cumplimiento de Microsoft 365",
+        "correct": false
+      },
+      { "text": "El portal Microsoft 365 Defender", "correct": false },
+      {
+        "text": "Microsoft Defender for Cloud en el portal de Azure",
+        "correct": false
+      },
+      {
+        "text": "Centro de confianza de Microsoft (Microsoft Trust Center)",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": 210,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Selecciona la respuesta que completa correctamente la oración: Puedes administrar un servidor Windows local como un recurso de Azure usando _____."
+      }
+    ],
+    "options": [
+      { "text": "Azure AD Connect", "correct": false },
+      { "text": "Azure Arc", "correct": true },
+      { "text": "Un agente de Azure Pipelines", "correct": false },
+      { "text": "Azure VPN Gateway", "correct": false }
+    ]
+  },
+  {
+    "id": 212,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Para completar la oración, selecciona la opción apropiada en el área de respuesta:"
+      },
+      {
+        "type": "p",
+        "text": "_____ es un servicio de análisis basado en Apache Spark."
+      }
+    ],
+    "options": [
+      { "text": "Azure Databricks", "correct": true },
+      { "text": "Azure Data Factory", "correct": false },
+      { "text": "Azure DevOps", "correct": false },
+      { "text": "Azure Synapse Analytics", "correct": false }
+    ]
+  },
+  {
+    "id": 214,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "¿Qué servicio de Azure proporciona un conjunto de herramientas de control de versiones"
+      },
+      { "type": "p", "text": "para administrar código?" }
+    ],
+    "options": [
+      { "text": "Azure Repos", "correct": true },
+      { "text": "Azure DevTest Labs", "correct": false },
+      { "text": "Azure Storage", "correct": false },
+      { "text": "Azure Cosmos DB", "correct": false }
+    ]
+  },
+  {
+    "id": 216,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Tienes una máquina virtual llamada VM1 que ejecuta Windows Server 2016."
+      },
+      {
+        "type": "p",
+        "text": "VM1 está en la región Este de EE. UU. de Azure."
+      },
+      {
+        "type": "p",
+        "text": "¿Qué servicio de Azure deberías usar desde el portal de Azure"
+      },
+      {
+        "type": "p",
+        "text": "para ver notificaciones de fallos de servicio que puedan afectar la disponibilidad de VM1?"
+      }
+    ],
+    "options": [
+      { "text": "Azure Service Fabric", "correct": false },
+      { "text": "Azure Monitor", "correct": false },
+      { "text": "Máquinas virtuales de Azure", "correct": false },
+      { "text": "Azure Advisor", "correct": false }
+    ]
+  },
+  {
+    "id": 217,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Tu entorno de Azure contiene varias máquinas virtuales."
+      },
+      {
+        "type": "p",
+        "text": "Necesitas asegurarte de que una máquina virtual llamada VM1"
+      },
+      { "type": "p", "text": "sea accesible desde Internet mediante HTTP." },
+      {
+        "type": "p",
+        "text": "Solución: modificas un perfil de Azure Traffic Manager."
+      },
+      { "type": "p", "text": "¿Cumple esto con el objetivo?" }
+    ],
+    "options": [
+      { "text": "Sí", "correct": false },
+      { "text": "No", "correct": true }
+    ]
+  },
+  {
+    "id": 218,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Tu empresa planea implementar varios servidores web y varios servidores de base de datos en Azure."
+      },
+      {
+        "type": "p",
+        "text": "Necesitas recomendar una solución de Azure para limitar los tipos de conexiones"
+      },
+      {
+        "type": "p",
+        "text": "desde los servidores web hacia los servidores de base de datos."
+      },
+      { "type": "p", "text": "¿Qué deberías incluir en la recomendación?" }
+    ],
+    "options": [
+      { "text": "Grupos de seguridad de red (NSG)", "correct": true },
+      { "text": "Azure Service Bus", "correct": false },
+      { "text": "Una puerta de enlace de red local", "correct": false },
+      { "text": "Un filtro de rutas", "correct": false }
+    ]
+  },
+  {
+    "id": 219,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Para completar la oración, selecciona la opción apropiada en el área de respuesta:"
+      },
+      {
+        "type": "p",
+        "text": "Desde _____ puedes ver qué usuario apagó una máquina virtual específica durante los últimos 114 días."
+      }
+    ],
+    "options": [
+      { "text": "Azure Access Control (IAM)", "correct": false },
+      { "text": "Azure Event Hubs", "correct": false },
+      {
+        "text": "Registro de actividad de Azure (Activity Log)",
+        "correct": true
+      },
+      { "text": "Azure Service Health", "correct": false }
+    ]
+  },
+  {
+    "id": 220,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "¿Qué servicio proporciona filtrado de tráfico de red entre varias suscripciones de Azure y redes virtuales?"
+      }
+    ],
+    "options": [
+      { "text": "Azure Firewall", "correct": true },
+      { "text": "Un grupo de seguridad de aplicaciones", "correct": false },
+      { "text": "Protección DDoS de Azure", "correct": false },
+      { "text": "Un grupo de seguridad de red (NSG)", "correct": false }
+    ]
+  },
+  {
+    "id": 221,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "¿Qué servicio de Azure deberías usar para almacenar certificados?"
+      }
+    ],
+    "options": [
+      { "text": "Centro de seguridad de Azure", "correct": false },
+      { "text": "Una cuenta de almacenamiento de Azure", "correct": false },
+      { "text": "Azure Key Vault", "correct": true },
+      { "text": "Azure Information Protection", "correct": false }
+    ]
+  },
+  {
+    "id": 222,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "¿Qué servicio de Azure puedes usar como una solución de gestión de información y eventos de seguridad (SIEM)?"
+      }
+    ],
+    "options": [
+      { "text": "Azure Analysis Services", "correct": false },
+      { "text": "Azure Sentinel", "correct": true },
+      { "text": "Azure Information Protection", "correct": false },
+      { "text": "Azure Cognitive Services", "correct": false }
+    ]
+  },
+  {
+    "id": 228,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Tienes una máquina virtual de Azure llamada VM1."
+      },
+      {
+        "type": "p",
+        "text": "Planeas cifrar VM1 usando Azure Disk Encryption."
+      },
+      { "type": "p", "text": "¿Qué recurso de Azure debes crear primero?" }
+    ],
+    "options": [
+      { "text": "Una cuenta de almacenamiento de Azure", "correct": false },
+      { "text": "Un Azure Key Vault", "correct": true },
+      {
+        "text": "Una política de Azure Information Protection",
+        "correct": false
+      },
+      { "text": "Una clave de cifrado", "correct": false }
+    ]
+  },
+  {
+    "id": 229,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "¿Qué recursos pueden usarse como origen para una regla de seguridad de entrada de un grupo de seguridad de red (NSG)?"
+      }
+    ],
+    "options": [
+      { "text": "Solo etiquetas de servicio (Service Tags)", "correct": false },
+      {
+        "text": "Direcciones IP, etiquetas de servicio y grupos de seguridad de aplicaciones",
+        "correct": true
+      },
+      { "text": "Solo grupos de seguridad de aplicaciones", "correct": false },
+      { "text": "Solo direcciones IP", "correct": false }
+    ]
+  },
+  {
+    "id": 230,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Para completar la oración, selecciona la opción apropiada en el área de respuesta:"
+      },
+      {
+        "type": "p",
+        "text": "Azure Sentinel utiliza libros de jugadas (playbooks) para _____."
+      }
+    ],
+    "options": [
+      { "text": "Responder automáticamente a amenazas", "correct": true },
+      { "text": "Recopilar datos de servicios de Azure", "correct": false },
+      {
+        "text": "Especificar cuánto tiempo se conservan los datos",
+        "correct": false
+      },
+      { "text": "Almacenar contraseñas y certificados", "correct": false }
+    ]
+  },
+  {
+    "id": 231,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Para completar la oración, selecciona la opción apropiada en el área de respuesta."
+      },
+      {
+        "type": "p",
+        "text": "_____ en Azure Firewall permite a los usuarios en Internet acceder a un servidor en una red virtual."
+      }
+    ],
+    "options": [
+      { "text": "Reglas de aplicación", "correct": false },
+      {
+        "text": "Reglas de traducción de direcciones de red (NAT)",
+        "correct": true
+      },
+      { "text": "Reglas de red", "correct": false },
+      { "text": "Etiquetas de servicio", "correct": false }
+    ]
+  },
+  {
+    "id": 232,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Para completar la oración, selecciona la opción apropiada en el área de respuesta."
+      },
+      {
+        "type": "p",
+        "text": "La protección contra ataques distribuidos de denegación de servicio (DDoS) en Azure es un ejemplo de protección implementada en el _____"
+      }
+    ],
+    "options": [
+      { "text": "capa de aplicación", "correct": false },
+      { "text": "capa de cómputo", "correct": false },
+      { "text": "capa de red", "correct": true },
+      { "text": "capa perimetral", "correct": false }
+    ]
+  },
+  {
+    "id": 233,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Tienes un espacio de trabajo de Azure Sentinel."
+      },
+      {
+        "type": "p",
+        "text": "Necesitas automatizar las respuestas a amenazas detectadas por Azure Sentinel."
+      },
+      { "type": "p", "text": "¿Qué deberías usar?" }
+    ],
+    "options": [
+      {
+        "text": "Endurecimiento adaptativo de red en Azure Security Center",
+        "correct": false
+      },
+      { "text": "Azure Service Health", "correct": false },
+      { "text": "Libretas de trabajo de Azure Monitor", "correct": false },
+      {
+        "text": "Controles de aplicación adaptativos en Azure Security Center",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 235,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "¿Qué servicio de Azure puedes usar como una solución de administración de eventos e información de seguridad (SIEM)?"
+      }
+    ],
+    "options": [
+      { "text": "Azure Analysis Services", "correct": false },
+      { "text": "Microsoft Sentinel", "correct": true },
+      { "text": "Azure Information Protection", "correct": false },
+      { "text": "Azure Cognitive Services", "correct": false }
+    ]
+  },
+  {
+    "id": 236,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Selecciona la respuesta que completa correctamente la oración."
+      },
+      {
+        "type": "p",
+        "text": "Una definición de iniciativa de Azure Policy es un _____."
+      }
+    ],
+    "options": [
+      { "text": "conjunto de definiciones de políticas", "correct": true },
+      {
+        "text": "conjunto de asignaciones de definiciones de Azure Policy",
+        "correct": false
+      },
+      { "text": "grupo de definiciones de Azure Blueprints", "correct": false },
+      {
+        "text": "grupo de asignaciones de roles de control de acceso basado en roles (RBAC)",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 237,
+    "type": "select_one",
+    "question_texts": [
+      { "type": "p", "text": "Tienes una suscripción de Azure." },
+      {
+        "type": "p",
+        "text": "Necesitas revisar tu puntaje de seguridad (secure score)."
+      },
+      { "type": "p", "text": "¿Qué deberías usar?" }
+    ],
+    "options": [
+      { "text": "Azure Monitor", "correct": false },
+      { "text": "Azure Advisor", "correct": false },
+      { "text": "Ayuda + soporte", "correct": false },
+      { "text": "Microsoft Defender for Cloud", "correct": true }
+    ]
+  },
+  {
+    "id": 238,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Selecciona la respuesta que completa correctamente la oración."
+      },
+      {
+        "type": "p",
+        "text": "Puedes habilitar el acceso Just-in-Time (JIT) a máquinas virtuales usando _____."
+      }
+    ],
+    "options": [
+      { "text": "Azure Bastion", "correct": false },
+      { "text": "Azure Firewall", "correct": false },
+      { "text": "Azure Front Door", "correct": false },
+      { "text": "Microsoft Defender for Cloud", "correct": true }
+    ]
+  },
+  {
+    "id": 239,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Selecciona la respuesta que completa correctamente la oración."
+      },
+      {
+        "type": "p",
+        "text": "Puedes ver el informe de cumplimiento normativo de tu empresa desde _____."
+      }
+    ],
+    "options": [
+      { "text": "Azure Advisor", "correct": false },
+      { "text": "Azure Analysis Services", "correct": false },
+      { "text": "Azure Monitor", "correct": false },
+      { "text": "Microsoft Defender for Cloud", "correct": true }
+    ]
+  },
+  {
+    "id": 240,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Necesitas recopilar y analizar automáticamente eventos de seguridad de Azure Active Directory (Azure AD)."
+      },
+      { "type": "p", "text": "¿Qué deberías usar?" }
+    ],
+    "options": [
+      { "text": "Microsoft Sentinel", "correct": true },
+      { "text": "Azure Synapse Analytics", "correct": false },
+      { "text": "Azure AD Connect", "correct": false },
+      { "text": "Azure Key Vault", "correct": false }
+    ]
+  },
+  {
+    "id": 241,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Selecciona la opción que completa correctamente la frase."
+      },
+      {
+        "type": "p",
+        "text": "_____ permite a los usuarios autenticarse en múltiples aplicaciones usando inicio de sesión único (SSO)."
+      }
+    ],
+    "options": [
+      {
+        "text": "Grupos de seguridad de aplicaciones en Azure",
+        "correct": false
+      },
+      { "text": "Azure Active Directory (Azure AD)", "correct": true },
+      { "text": "Azure Key Vault", "correct": false },
+      { "text": "Microsoft Defender for Cloud", "correct": false }
+    ]
+  },
+  {
+    "id": 244,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Tu empresa planea automatizar el despliegue de servidores en Azure."
+      },
+      {
+        "type": "p",
+        "text": "Tu gerente está preocupado por la posible exposición de credenciales administrativas durante el despliegue."
+      },
+      {
+        "type": "p",
+        "text": "Necesitas recomendar una solución de Azure que cifre las credenciales administrativas durante el despliegue."
+      }
+    ],
+    "options": [
+      { "text": "Azure Key Vault", "correct": true },
+      { "text": "Azure Information Protection", "correct": false },
+      { "text": "Microsoft Defender for Cloud", "correct": false },
+      { "text": "Azure Multi-Factor Authentication (MFA)", "correct": false }
+    ]
+  },
+  {
+    "id": 245,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Selecciona la opción que completa correctamente la frase."
+      },
+      {
+        "type": "p",
+        "text": "Después de crear una máquina virtual, necesitas modificar la configuración para permitir conexiones al puerto TCP 8080 en la máquina virtual _____."
+      }
+    ],
+    "options": [
+      { "text": "grupo de seguridad de red (NSG)", "correct": true },
+      { "text": "puerta de enlace de red virtual", "correct": false },
+      { "text": "red virtual", "correct": false },
+      { "text": "tabla de rutas", "correct": false }
+    ]
+  },
+  {
+    "id": 246,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Selecciona la opción que completa correctamente la frase."
+      },
+      {
+        "type": "p",
+        "text": "La protección contra denegación de servicio distribuido (DDoS) de Azure es un ejemplo de protección implementada en el _____."
+      }
+    ],
+    "options": [
+      { "text": "capa de aplicación", "correct": false },
+      { "text": "capa de cómputo", "correct": false },
+      { "text": "capa de red", "correct": false },
+      { "text": "capa perimetral", "correct": true }
+    ]
+  },
+  {
+    "id": 247,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Selecciona la opción que completa correctamente la frase."
+      },
+      {
+        "type": "p",
+        "text": "Microsoft Sentinel utiliza libros de estrategias (playbooks) para _____."
+      }
+    ],
+    "options": [
+      { "text": "responder automáticamente a amenazas", "correct": true },
+      {
+        "text": "visualizar datos recolectados por conectores",
+        "correct": false
+      },
+      {
+        "text": "especificar cuánto tiempo se retienen los datos",
+        "correct": false
+      },
+      { "text": "almacenar contraseñas y certificados", "correct": false }
+    ]
+  },
+  {
+    "id": 248,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "ul",
+        "text": "Necesitas configurar una solución de Azure que cumpla con los siguientes requisitos:",
+        "items": [
+          "Proteja sitios web contra ataques",
+          "Genere informes con detalles de ataques intentados"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "¿Qué deberías incluir en la solución?"
+      }
+    ],
+    "options": [
+      { "text": "Azure Firewall", "correct": false },
+      { "text": "un grupo de seguridad de red (NSG)", "correct": false },
+      { "text": "Azure Information Protection", "correct": false },
+      { "text": "Protección DDoS", "correct": true }
+    ]
+  },
+  {
+    "id": 250,
+    "type": "checkbox",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Tu entorno de Azure contiene múltiples máquinas virtuales."
+      },
+      {
+        "type": "p",
+        "text": "Necesitas asegurarte de que una máquina virtual llamada VM1 sea accesible desde Internet a través de HTTP."
+      },
+      {
+        "type": "p",
+        "text": "¿Cuáles son dos soluciones posibles? Cada respuesta correcta presenta una solución completa."
+      }
+    ],
+    "options": [
+      {
+        "text": "Modificar un perfil de Azure Traffic Manager",
+        "correct": false
+      },
+      {
+        "text": "Modificar un grupo de seguridad de red (NSG)",
+        "correct": true
+      },
+      { "text": "Modificar un plan de protección DDoS", "correct": false },
+      { "text": "Modificar un firewall de Azure", "correct": true }
+    ]
+  },
+  {
+    "id": 251,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Para completar la frase, selecciona la opción apropiada en el área de respuestas."
+      },
+      {
+        "type": "p",
+        "text": "Puedes habilitar el acceso Just-In-Time (JIT) a máquinas virtuales mediante _____."
+      }
+    ],
+    "options": [
+      { "text": "Azure Bastion", "correct": false },
+      { "text": "Azure Firewall", "correct": false },
+      { "text": "Azure Front Door", "correct": false },
+      { "text": "Azure Security Center", "correct": true }
+    ]
+  },
+  {
+    "id": 253,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Tienes un entorno de Azure que contiene 10 redes virtuales y 100 máquinas virtuales."
+      },
+      {
+        "type": "p",
+        "text": "Necesitas limitar la cantidad de tráfico entrante hacia todas las redes virtuales de Azure."
+      },
+      {
+        "type": "p",
+        "text": "¿Qué deberías crear?"
+      }
+    ],
+    "options": [
+      {
+        "text": "un grupo de seguridad de aplicaciones (ASG)",
+        "correct": false
+      },
+      { "text": "10 puertas de enlace de red virtual", "correct": false },
+      { "text": "10 circuitos de Azure ExpressRoute", "correct": false },
+      { "text": "un firewall de Azure", "correct": true }
+    ]
+  },
+  {
+    "id": 254,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Azure Key Vault se utiliza para almacenar secretos de cuentas de usuario de Azure Active Directory (Azure AD)."
+      },
+      {
+        "type": "p",
+        "text": "Revisa el texto subrayado. Si hace que la afirmación sea correcta, selecciona 'No se necesita ningún cambio'."
+      },
+      {
+        "type": "p",
+        "text": "Si la afirmación es incorrecta, selecciona la opción que la haga correcta."
+      }
+    ],
+    "options": [
+      { "text": "No se necesita ningún cambio", "correct": false },
+      {
+        "text": "cuentas administrativas de Azure Active Directory (Azure AD)",
+        "correct": false
+      },
+      {
+        "text": "Información de Identificación Personal (PII)",
+        "correct": false
+      },
+      { "text": "aplicaciones de servidor", "correct": true }
+    ]
+  },
+  {
+    "id": 255,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Tu empresa planea automatizar el despliegue de servidores en Azure."
+      },
+      {
+        "type": "p",
+        "text": "Tu gerente está preocupado por la posible exposición de credenciales administrativas durante el despliegue."
+      },
+      {
+        "type": "p",
+        "text": "Necesitas recomendar una solución de Azure que encripte las credenciales administrativas durante el despliegue."
+      },
+      {
+        "type": "p",
+        "text": "¿Qué deberías incluir en la recomendación?"
+      }
+    ],
+    "options": [
+      { "text": "Azure Key Vault", "correct": true },
+      { "text": "Azure Information Protection", "correct": false },
+      { "text": "Azure Security Center", "correct": false },
+      { "text": "Autenticación multifactor de Azure (MFA)", "correct": false }
+    ]
+  },
+  {
+    "id": 256,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Planeas desplegar varias máquinas virtuales en Azure."
+      },
+      {
+        "type": "p",
+        "text": "Necesitas controlar los puertos que los dispositivos en Internet pueden usar para acceder a las máquinas virtuales."
+      },
+      {
+        "type": "p",
+        "text": "¿Qué deberías usar?"
+      }
+    ],
+    "options": [
+      { "text": "un grupo de seguridad de red (NSG)", "correct": true },
+      {
+        "text": "un rol de Azure Active Directory (Azure AD)",
+        "correct": false
+      },
+      { "text": "un grupo de Azure Active Directory", "correct": false },
+      { "text": "una clave de Azure Key Vault", "correct": false }
+    ]
+  },
+  {
+    "id": 257,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Para completar la frase, selecciona la opción apropiada en el área de respuestas."
+      },
+      {
+        "type": "p",
+        "text": "Después de crear una máquina virtual, necesitas modificar el/la _____."
+      }
+    ],
+    "options": [
+      { "text": "grupo de seguridad de red (NSG)", "correct": true },
+      { "text": "puerta de enlace de red virtual", "correct": false },
+      { "text": "red virtual", "correct": false },
+      { "text": "tabla de enrutamiento", "correct": false }
+    ]
+  },
+  {
+    "id": 259,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Tu entorno de Azure contiene múltiples máquinas virtuales."
+      },
+      {
+        "type": "p",
+        "text": "Necesitas asegurarte de que una máquina virtual llamada VM1 sea accesible desde Internet mediante HTTP."
+      },
+      {
+        "type": "p",
+        "text": "Solución: modificas un grupo de seguridad de red (NSG)."
+      },
+      {
+        "type": "p",
+        "text": "¿Cumple esto con el objetivo?"
+      }
+    ],
+    "options": [
+      { "text": "Sí", "correct": true },
+      { "text": "No", "correct": false }
+    ]
+  },
+  {
+    "id": 260,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Tu entorno de Azure contiene múltiples máquinas virtuales."
+      },
+      {
+        "type": "p",
+        "text": "Necesitas asegurarte de que una máquina virtual llamada VM1 sea accesible desde Internet mediante HTTP."
+      },
+      {
+        "type": "p",
+        "text": "Solución: modificas un plan de protección DDoS."
+      },
+      {
+        "type": "p",
+        "text": "¿Cumple esto con el objetivo?"
+      }
+    ],
+    "options": [
+      { "text": "Sí", "correct": false },
+      { "text": "No", "correct": true }
+    ]
+  },
+  {
+    "id": 261,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Necesitas recopilar y analizar automáticamente eventos de seguridad desde Azure Active Directory (Azure AD)."
+      },
+      {
+        "type": "p",
+        "text": "¿Qué deberías usar?"
+      }
+    ],
+    "options": [
+      { "text": "Azure Sentinel", "correct": true },
+      { "text": "Azure Synapse Analytics", "correct": false },
+      { "text": "Azure AD Connect", "correct": false },
+      { "text": "Azure Key Vault", "correct": false }
+    ]
+  },
+  {
+    "id": 262,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Tu entorno de Azure contiene múltiples máquinas virtuales."
+      },
+      {
+        "type": "p",
+        "text": "Necesitas asegurarte de que una máquina virtual llamada VM1 sea accesible desde Internet mediante HTTP."
+      },
+      {
+        "type": "p",
+        "text": "Solución: modificas un firewall de Azure."
+      },
+      {
+        "type": "p",
+        "text": "¿Cumple esto con el objetivo?"
+      }
+    ],
+    "options": [
+      { "text": "Sí", "correct": false },
+      { "text": "No", "correct": true }
+    ]
+  },
+  {
+    "id": 263,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Azure Alemania solo puede ser utilizada por residentes legales de Alemania."
+      },
+      {
+        "type": "p",
+        "text": "Revisa el texto subrayado. Si hace que la afirmación sea correcta, selecciona 'No se necesita ningún cambio'."
+      },
+      {
+        "type": "p",
+        "text": "Si la afirmación es incorrecta, selecciona la opción que la haga correcta."
+      }
+    ],
+    "options": [
+      { "text": "No se necesita ningún cambio", "correct": false },
+      { "text": "solo empresas registradas en Alemania", "correct": false },
+      {
+        "text": "solo empresas que compran sus licencias de Azure a un socio con sede en Alemania",
+        "correct": false
+      },
+      {
+        "text": "cualquier usuario o empresa que requiera que sus datos residan en Alemania",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": 265,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Para completar la frase, selecciona la opción apropiada en el área de respuestas."
+      },
+      {
+        "type": "p",
+        "text": "Puedes ver el informe de cumplimiento regulatorio de tu empresa desde _____."
+      }
+    ],
+    "options": [
+      { "text": "Azure Advisor", "correct": false },
+      { "text": "Azure Analysis Services", "correct": false },
+      { "text": "Azure Monitor", "correct": false },
+      { "text": "Azure Security Center", "correct": true }
+    ]
+  },
+  {
+    "id": 267,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Para completar la frase, selecciona la opción apropiada en el área de respuestas."
+      },
+      {
+        "type": "p",
+        "text": "Tu empresa implementa _____ para agregar automáticamente una marca de agua a documentos de Microsoft Word que contienen información de tarjetas de crédito."
+      }
+    ],
+    "options": [
+      { "text": "Políticas de Azure", "correct": false },
+      { "text": "Protección DDoS", "correct": false },
+      { "text": "Azure Information Protection", "correct": true },
+      {
+        "text": "Protección de identidad de Azure Active Directory (Azure AD)",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 269,
+    "type": "checkbox",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "¿Qué dos tipos de clientes son elegibles para usar Azure Government para desarrollar una solución en la nube?"
+      },
+      {
+        "type": "p",
+        "text": "NOTA: Cada selección correcta vale un punto."
+      }
+    ],
+    "options": [
+      { "text": "un contratista del gobierno canadiense", "correct": false },
+      { "text": "un contratista del gobierno europeo", "correct": false },
+      { "text": "una entidad del gobierno de Estados Unidos", "correct": true },
+      {
+        "text": "un contratista del gobierno de Estados Unidos",
+        "correct": true
+      },
+      { "text": "una entidad del gobierno europeo", "correct": false }
+    ]
+  },
+
+  {
+    "id": 271,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Debes asegurarte de que cuando los usuarios de Azure Active Directory (Azure AD) se conecten a Azure AD desde Internet usando una dirección IP anónima, se les solicite automáticamente cambiar su contraseña."
+      },
+      {
+        "type": "p",
+        "text": "¿Qué servicio de Azure deberías usar?"
+      }
+    ],
+    "options": [
+      { "text": "Azure AD Connect Health", "correct": false },
+      { "text": "Azure AD Privileged Identity Management", "correct": false },
+      { "text": "Azure Advanced Threat Protection (ATP)", "correct": false },
+      { "text": "Azure AD Identity Protection", "correct": true }
+    ]
+  },
+  {
+    "id": 273,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "¿A qué debe conectarse una aplicación para recuperar tokens de seguridad?"
+      }
+    ],
+    "options": [
+      { "text": "una cuenta de almacenamiento de Azure", "correct": false },
+      { "text": "Azure Active Directory (Azure AD)", "correct": true },
+      { "text": "un almacén de certificados", "correct": false },
+      { "text": "un Azure Key Vault", "correct": false }
+    ]
+  },
+  {
+    "id": 274,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Tu red contiene un bosque de Active Directory con 5,000 cuentas de usuario."
+      },
+      {
+        "type": "p",
+        "text": "Tu empresa planea migrar todos los recursos de red a Azure y desmantelar el centro de datos local."
+      },
+      {
+        "type": "p",
+        "text": "Necesitas recomendar una solución para minimizar el impacto en los usuarios después de la migración."
+      }
+    ],
+    "options": [
+      {
+        "text": "Implementar Azure Multi-Factor Authentication (MFA)",
+        "correct": false
+      },
+      {
+        "text": "Sincronizar todas las cuentas de usuario de Active Directory con Azure Active Directory (Azure AD)",
+        "correct": true
+      },
+      {
+        "text": "Indicar a todos los usuarios que cambien su contraseña",
+        "correct": false
+      },
+      {
+        "text": "Crear una cuenta de usuario invitado en Azure Active Directory (Azure AD) para cada usuario",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 276,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Creas un grupo de recursos llamado RG1 en Azure Resource Manager."
+      },
+      {
+        "type": "p",
+        "text": "Necesitas evitar la eliminación accidental de los recursos en RG1."
+      },
+      {
+        "type": "p",
+        "text": "¿Qué configuración debes usar?"
+      }
+    ],
+    "options": [
+      { "text": "Inicio rápido (Quickstart)", "correct": false },
+      { "text": "Costos de recursos (Resource Costs)", "correct": false },
+      { "text": "Implementaciones (Deployments)", "correct": false },
+      { "text": "Políticas (Policies)", "correct": false },
+      { "text": "Propiedades (Properties)", "correct": false },
+      { "text": "Bloqueos (Locks)", "correct": true },
+      { "text": "Exportar plantilla (Export Template)", "correct": false }
+    ]
+  },
+  {
+    "id": 277,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Tienes un grupo de recursos llamado RG1."
+      },
+      {
+        "type": "p",
+        "text": "Necesitas evitar la creación de máquinas virtuales en RG1. La solución debe permitir la creación de otros objetos en RG1."
+      },
+      {
+        "type": "p",
+        "text": "¿Qué deberías usar?"
+      }
+    ],
+    "options": [
+      { "text": "un bloqueo (lock)", "correct": false },
+      { "text": "una función de Azure (Azure role)", "correct": false },
+      { "text": "una etiqueta (tag)", "correct": false },
+      { "text": "una política de Azure (Azure policy)", "correct": true }
+    ]
+  },
+  {
+    "id": 278,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Tienes una suscripción de Azure y 100 dispositivos con Windows 10."
+      },
+      {
+        "type": "p",
+        "text": "Necesitas asegurarte de que solo los usuarios cuyos dispositivos tengan instalados los parches de seguridad más recientes puedan acceder a aplicaciones integradas con Azure Active Directory (Azure AD)."
+      },
+      {
+        "type": "p",
+        "text": "¿Qué deberías implementar?"
+      }
+    ],
+    "options": [
+      {
+        "text": "una directiva de acceso condicional (conditional access policy)",
+        "correct": true
+      },
+      { "text": "Azure Bastion", "correct": false },
+      { "text": "Azure Firewall", "correct": false },
+      { "text": "Azure Policy", "correct": false }
+    ]
+  },
+  {
+    "id": 279,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "¿Qué puede cifrar Azure Information Protection?"
+      }
+    ],
+    "options": [
+      { "text": "tráfico de red", "correct": false },
+      {
+        "text": "documentos y mensajes de correo electrónico",
+        "correct": true
+      },
+      { "text": "una cuenta de almacenamiento de Azure", "correct": false },
+      { "text": "una base de datos de Azure SQL", "correct": false }
+    ]
+  },
+  {
+    "id": 280,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "¿Qué deberías usar para evaluar si el entorno de Azure de tu empresa cumple con los requisitos regulatorios?"
+      }
+    ],
+    "options": [
+      { "text": "el sitio web del Knowledge Center", "correct": false },
+      { "text": "la sección Advisor en el portal de Azure", "correct": false },
+      {
+        "text": "Compliance Manager del Service Trust Portal",
+        "correct": true
+      },
+      { "text": "la sección Solutions en el portal de Azure", "correct": false }
+    ]
+  },
+  {
+    "id": 281,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "_____ permite a los usuarios autenticarse en múltiples aplicaciones usando inicio de sesión único (SSO)."
+      }
+    ],
+    "options": [
+      {
+        "text": "Grupos de seguridad de aplicaciones en Azure",
+        "correct": false
+      },
+      { "text": "Azure Active Directory (Azure AD)", "correct": true },
+      { "text": "Azure Key Vault", "correct": false },
+      { "text": "Azure Security Center", "correct": false }
+    ]
+  },
+  {
+    "id": 282,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Tienes una suscripción de Azure."
+      },
+      {
+        "type": "p",
+        "text": "¿Dónde puedes encontrar detalles sobre los datos personales recopilados por Microsoft, cómo los utiliza y para qué se usan?"
+      }
+    ],
+    "options": [
+      {
+        "text": "el Anexo de Protección de Datos (Data Protection Addendum)",
+        "correct": false
+      },
+      {
+        "text": "los Términos de Servicios Online de Microsoft (Microsoft Online Services Terms)",
+        "correct": false
+      },
+      {
+        "text": "la Declaración de Privacidad de Microsoft (Microsoft Privacy Statement)",
+        "correct": true
+      },
+      { "text": "Azure Security Center", "correct": false }
+    ]
+  },
+  {
+    "id": 284,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Tienes una red virtual de Azure llamada VNET1 en un grupo de recursos llamado RG1."
+      },
+      {
+        "type": "p",
+        "text": "Asignas la definición de política de Azure 'Recurso No Permitido' y especificas que las redes virtuales no son un tipo de recurso permitido en RG1."
+      },
+      {
+        "type": "p",
+        "text": "VNET1 _____."
+      }
+    ],
+    "options": [
+      { "text": "se elimina automáticamente", "correct": false },
+      {
+        "text": "se mueve automáticamente a otro grupo de recursos",
+        "correct": false
+      },
+      { "text": "continúa funcionando normalmente", "correct": true },
+      { "text": "se convierte en un objeto de solo lectura", "correct": false }
+    ]
+  },
+  {
+    "id": 288,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Requerir que un usuario ingrese una contraseña y responda una pregunta de seguridad al iniciar sesión en Azure Active Directory (Azure AD) es un ejemplo de _____."
+      }
+    ],
+    "options": [
+      {
+        "text": "servicios de identidad business-to-customer (B2C)",
+        "correct": false
+      },
+      { "text": "identidades administradas", "correct": false },
+      { "text": "autenticación multifactor (MFA)", "correct": true },
+      { "text": "control de acceso basado en roles (RBAC)", "correct": false }
+    ]
+  },
+  {
+    "id": 289,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Azure China _____."
+      }
+    ],
+    "options": [
+      { "text": "es operado por Microsoft", "correct": false },
+      {
+        "text": "tiene paridad de funcionalidades con Azure global",
+        "correct": false
+      },
+      { "text": "solo puede ser accedido desde China", "correct": false },
+      {
+        "text": "es una instancia separada y distinta de Microsoft Azure",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": 290,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "¿Qué deberías usar para evaluar si el entorno de Azure de tu empresa cumple con los requisitos regulatorios?"
+      }
+    ],
+    "options": [
+      { "text": "Azure Service Health", "correct": false },
+      { "text": "Azure Knowledge Center", "correct": false },
+      { "text": "Microsoft Defender for Cloud", "correct": true },
+      { "text": "Azure Advisor", "correct": false }
+    ]
+  },
+
+  {
+    "id": 291,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Puedes revisar informes de auditoría e información relacionada con el cumplimiento para los servicios de Azure desde _____."
+      }
+    ],
+    "options": [
+      { "text": "Microsoft Defender for Cloud", "correct": false },
+      {
+        "text": "el centro de administración de Microsoft Defender for Identity",
+        "correct": false
+      },
+      {
+        "text": "el Centro de Cumplimiento de Microsoft 365",
+        "correct": false
+      },
+      {
+        "text": "el Portal de Confianza de Servicios de Microsoft (Service Trust Portal)",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": 293,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Tu empresa tiene una suscripción de Azure que contiene recursos en varias regiones."
+      },
+      {
+        "type": "p",
+        "text": "Necesitas crear el recurso de Azure que debe usarse para cumplir con el requisito de política."
+      },
+      {
+        "type": "p",
+        "text": "¿Qué deberías crear?"
+      }
+    ],
+    "options": [
+      { "text": "un bloqueo de solo lectura", "correct": false },
+      { "text": "una política de Azure", "correct": true },
+      { "text": "un grupo de administración", "correct": false },
+      { "text": "una reserva", "correct": false }
+    ]
+  },
+  {
+    "id": 294,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Esta pregunta requiere que evalúes el texto subrayado para determinar si es correcto."
+      },
+      {
+        "type": "p",
+        "text": "Desde Azure Cloud Shell, puedes realizar un seguimiento de los estándares y regulaciones regulatorias de tu empresa, como ISO 27001."
+      },
+      {
+        "type": "p",
+        "text": "Instrucciones: Revisa el texto subrayado. Si hace que la afirmación sea correcta, selecciona 'No se necesita ningún cambio'. Si la afirmación es incorrecta, selecciona la opción que la corrija."
+      }
+    ],
+    "options": [
+      { "text": "No se necesita ningún cambio", "correct": false },
+      {
+        "text": "el Portal de Confianza de Servicios de Microsoft (Service Trust Portal)",
+        "correct": true
+      },
+      { "text": "Azure Monitor", "correct": false },
+      { "text": "Azure Advisor", "correct": false }
+    ]
+  },
+  {
+    "id": 296,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "El _____ explica qué datos procesa Microsoft, cómo los procesa y con qué propósito."
+      }
+    ],
+    "options": [
+      {
+        "text": "Declaración de Privacidad de los Servicios Online de Microsoft",
+        "correct": true
+      },
+      { "text": "Términos del Producto de Microsoft", "correct": false },
+      {
+        "text": "Acuerdo de Nivel de Servicio de los Servicios Online de Microsoft",
+        "correct": false
+      },
+      {
+        "text": "Acuerdo de Suscripción Online para Microsoft Azure",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 297,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "_____ es el proceso de verificar las credenciales de un usuario."
+      }
+    ],
+    "options": [
+      { "text": "Autorización", "correct": false },
+      { "text": "Autenticación", "correct": true },
+      { "text": "Federación", "correct": false },
+      { "text": "Generación de tickets", "correct": false }
+    ]
+  },
+  {
+    "id": 298,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Una definición de iniciativa de política de Azure es _____."
+      }
+    ],
+    "options": [
+      { "text": "una colección de definiciones de políticas", "correct": true },
+      {
+        "text": "una colección de asignaciones de definiciones de políticas de Azure",
+        "correct": false
+      },
+      {
+        "text": "un grupo de definiciones de Azure Blueprints",
+        "correct": false
+      },
+      {
+        "text": "un grupo de asignaciones de roles de control de acceso basado en roles (RBAC)",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 299,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "_____ proporcionan a las organizaciones la capacidad de administrar el cumplimiento de los recursos de Azure en múltiples suscripciones."
+      }
+    ],
+    "options": [
+      { "text": "Grupos de recursos", "correct": false },
+      { "text": "Grupos de administración", "correct": true },
+      { "text": "Políticas de Azure", "correct": false },
+      { "text": "Planes de Azure App Service", "correct": false }
+    ]
+  }
 ]

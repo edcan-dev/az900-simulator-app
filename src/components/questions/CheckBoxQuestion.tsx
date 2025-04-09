@@ -70,7 +70,7 @@ export const CheckBoxQuestion = ({ question, moveToNextQuestion }: Props) => {
                 className="mr-[10px]"
                 onClick={() => setSelected(true)}
               />
-              <label htmlFor={`checkbox-${id}-${index}`} className="text-gray-500">{question_text.text}</label>
+              <label htmlFor={`checkbox-${id}-${index}`} className="text-gray-500 select-none">{question_text.text}</label>
             </div>
           ))
         }

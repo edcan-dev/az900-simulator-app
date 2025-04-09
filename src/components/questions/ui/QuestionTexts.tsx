@@ -27,7 +27,7 @@ export const QuestionTexts = ({ question_texts }: Props) => {
                   </p>
                   {(question_text as UnorderedListQuestionText).items.map(
                     (item, index) => (
-                      <li key={index}>{item}</li>
+                      <li key={index}>- {item}</li>
                     )
                   )}
                 </ul>
