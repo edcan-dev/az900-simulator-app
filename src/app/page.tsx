@@ -1,3 +1,4 @@
+import { ResultsGrid } from '@/components/results/ResultsGrid';
 import { StartExam } from '../components/ui/StartExam';
 
 export const metadata = {
@@ -40,15 +41,12 @@ export default function Home() {
 
 
       <section className="w-full rounded-md max-w-[1000px] mt-[80px] m-auto bg-gray-200 p-[40px] flex flex-col flex-wrap">
-          <span>
-            <h2 className="font-bold text-start text-gray-600">Ultimos Resultados</h2>
-          </span>
-          <span>
-            <p className="text-gray-500 text-justify">
-            Todavia no hay resultados disponibles.
-            </p>
-          </span>
-        
+        <span>
+          <h2 className="font-bold text-start text-gray-600">
+            Ultimos Resultados
+          </h2>
+        </span>
+        <ResultsGrid />
       </section>
     </main>
   );

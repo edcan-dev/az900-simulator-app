@@ -1,18 +1,23 @@
 'use client';
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
-import Link from "next/link";
 import React from "react";
-import { startNewQuiz } from "@/utils/local-storage-utils";
+import { getCurrentUserName, saveUserName, startNewQuiz } from "@/utils/local-storage-utils";
 
 export const StartExam = () => {
 
 
 
-  const [name, setName] = useState<string>("");
+  const [name, setName] = useState<string>('');
+
+  useEffect(() => {
+    setName(getCurrentUserName())
+  }, [])
+
 
   const handleClick = () => {
-    startNewQuiz()
+    saveUserName(name);
+    startNewQuiz();
     window.location.href = `/exam/start`;
   }
   
