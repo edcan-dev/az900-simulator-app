@@ -6,7 +6,7 @@ export default function StartExamPage() {
 
   return (
     <main>
-      <QuestionsContainer questions={questions.slice(202)} />
+      <QuestionsContainer questions={questions} />
     </main>
   );
 }
