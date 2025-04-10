@@ -6906,5 +6906,904 @@
       { "text": "D. Azure Cosmos DB", "correct": false },
       { "text": "E. Cuentas de almacenamiento", "correct": true }
     ]
+  },
+  {
+    "id": 401,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "¿Qué deberías usar para evitar que el tráfico de una red virtual de Azure se enrute a una cuenta de almacenamiento de Azure a través de Internet?"
+      }
+    ],
+    "options": [
+      { "text": "Un grupo de seguridad de red (NSG)", "correct": false },
+      { "text": "Un punto de conexión público", "correct": false },
+      { "text": "Azure VPN Gateway", "correct": false },
+      { "text": "Un punto de conexión de servicio", "correct": true }
+    ]
+  },
+  {
+    "id": 402,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "¿Qué servicio puede reemplazar automáticamente un bloqueo de recursos si este es eliminado?"
+      }
+    ],
+    "options": [
+      { "text": "Azure Information Protection (AIP)", "correct": false },
+      { "text": "Azure Blueprints", "correct": true },
+      { "text": "Azure Backup", "correct": false },
+      { "text": "Azure Advisor", "correct": false }
+    ]
+  },
+  {
+    "id": 403,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Necesitas crear un nuevo usuario para una suscripción de Azure. ¿Qué servicio deberías usar?"
+      }
+    ],
+    "options": [
+      { "text": "Máquinas virtuales", "correct": false },
+      { "text": "Suscripción", "correct": false },
+      { "text": "Servicios de aplicaciones", "correct": false },
+      { "text": "Azure Active Directory (Azure AD)", "correct": true }
+    ]
+  },
+  {
+    "id": 404,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Los templates de Azure Resource Manager (ARM) utilizan el formato _____"
+      }
+    ],
+    "options": [
+      { "text": "CSV", "correct": false },
+      { "text": "HTML", "correct": false },
+      { "text": "JSON", "correct": true },
+      { "text": "XML", "correct": false }
+    ]
+  },
+  {
+    "id": 405,
+    "type": "checkbox",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Planeas recopilar y analizar los detalles de eventos de cinco máquinas virtuales de Azure. Necesitas ejecutar consultas para comparar los detalles recopilados de todas las máquinas virtuales. ¿Qué dos herramientas deberías usar?"
+      }
+    ],
+    "options": [
+      { "text": "Azure Service Health", "correct": false },
+      { "text": "Azure Service Bus", "correct": false },
+      { "text": "Azure Monitor", "correct": true },
+      { "text": "Azure Advisor", "correct": false },
+      { "text": "Log Analytics", "correct": true }
+    ]
+  },
+  {
+    "id": 406,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Un SLA de Azure es un acuerdo formal entre Microsoft y el cliente que define _____"
+      }
+    ],
+    "options": [
+      {
+        "text": "Un compromiso de entregar las características de una hoja de ruta tecnológica",
+        "correct": false
+      },
+      {
+        "text": "Un compromiso con los estándares de rendimiento",
+        "correct": true
+      },
+      {
+        "text": "Los límites máximos de escalabilidad de la infraestructura disponible",
+        "correct": false
+      },
+      {
+        "text": "Los límites mínimos de escalabilidad de la infraestructura disponible",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 407,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "¿Qué deberías usar para hacer seguimiento de los costos de los recursos de Azure?"
+      }
+    ],
+    "options": [
+      { "text": "Plantillas de inicio rápido de Azure", "correct": false },
+      { "text": "Etiquetas", "correct": false },
+      { "text": "Presupuestos", "correct": true },
+      { "text": "Uso y cuotas", "correct": false }
+    ]
+  },
+  {
+    "id": 408,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Tienes una suscripción de Azure. Planeas crear una máquina virtual. ¿Dónde se ubicará la máquina virtual en Azure?"
+      }
+    ],
+    "options": [
+      { "text": "En una cuenta de almacenamiento", "correct": false },
+      { "text": "En un grupo de recursos", "correct": true },
+      { "text": "En una unidad administrativa", "correct": false },
+      { "text": "En un grupo de aplicaciones", "correct": false }
+    ]
+  },
+  {
+    "id": 409,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Necesitas migrar un servidor local usando una migración tipo lift-and-shift. ¿A qué tipo de servicio en la nube deberías migrarlo?"
+      }
+    ],
+    "options": [
+      { "text": "Infraestructura como servicio (IaaS)", "correct": true },
+      { "text": "Software como servicio (SaaS)", "correct": false },
+      { "text": "Plataforma como servicio (PaaS)", "correct": false }
+    ]
+  },
+  {
+    "id": 410,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Selecciona la opción que completa correctamente la frase:"
+      },
+      {
+        "type": "p",
+        "text": "_____ proporciona una vista global del estado de los servicios de Azure, regiones y recursos específicos."
+      }
+    ],
+    "options": [
+      { "text": "Application Insights", "correct": false },
+      { "text": "Azure Advisor", "correct": false },
+      { "text": "Azure Service Health", "correct": true }
+    ]
+  },
+  {
+    "id": 411,
+    "type": "checkbox",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Planeas reducir los gastos continuos de Azure. Necesitas identificar qué factores afectan los costos de un recurso. ¿Qué tres factores deberías identificar?"
+      }
+    ],
+    "options": [
+      { "text": "El volumen de datos salientes", "correct": true },
+      { "text": "El volumen de datos entrantes", "correct": false },
+      { "text": "El nivel del servicio (tier)", "correct": true },
+      { "text": "La región de Azure", "correct": true },
+      { "text": "El tipo de datos procesados", "correct": false }
+    ]
+  },
+  {
+    "id": 412,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Tu empresa tiene una suscripción de Azure que contiene varios recursos. Necesitas identificar qué departamento es responsable del costo de cada recurso. ¿Qué deberías usar?"
+      }
+    ],
+    "options": [
+      { "text": "Presupuestos", "correct": false },
+      { "text": "Alertas", "correct": false },
+      { "text": "Etiquetas", "correct": true }
+    ]
+  },
+  {
+    "id": 413,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Selecciona la opción que completa correctamente la frase:"
+      },
+      {
+        "type": "p",
+        "text": "Azure Cosmos DB es un ejemplo de una oferta de tipo _____."
+      }
+    ],
+    "options": [
+      { "text": "Plataforma como servicio (PaaS)", "correct": true },
+      { "text": "Infraestructura como servicio (IaaS)", "correct": false },
+      { "text": "Contenido como servicio", "correct": false },
+      { "text": "Software como servicio (SaaS)", "correct": false }
+    ]
+  },
+  {
+    "id": 414,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Selecciona la opción que completa correctamente la frase:"
+      },
+      {
+        "type": "p",
+        "text": "Los datos almacenados en la capa de acceso Archive de una cuenta de almacenamiento de Azure _____."
+      }
+    ],
+    "options": [
+      {
+        "text": "Pueden accederse en cualquier momento usando azcopy.exe",
+        "correct": false
+      },
+      { "text": "Solo pueden leerse usando Azure Backup", "correct": false },
+      {
+        "text": "Deben restaurarse antes de que se pueda acceder a los datos",
+        "correct": false
+      },
+      {
+        "text": "Deben rehidratarse antes de que se pueda acceder a los datos",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": 420,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Tienes servidores locales que ejecutan Windows Server. ¿Qué deberías implementar para administrar los servidores usando el portal de Azure?"
+      }
+    ],
+    "options": [
+      { "text": "Azure Kubernetes Service (AKS)", "correct": false },
+      { "text": "Azure Arc", "correct": true },
+      { "text": "Docker", "correct": false },
+      { "text": "Control de acceso basado en roles (RBAC)", "correct": false }
+    ]
+  },
+  {
+    "id": 421,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Puedes usar _____ en Azure para enviar alertas por correo electrónico cuando el costo del período de facturación actual para una suscripción de Azure excede un límite específico."
+      }
+    ],
+    "options": [
+      { "text": "Recomendaciones de Advisor", "correct": false },
+      { "text": "Control de acceso (IAM)", "correct": false },
+      { "text": "Alertas de presupuesto", "correct": true },
+      { "text": "Cumplimiento", "correct": false }
+    ]
+  },
+  {
+    "id": 422,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Si las licencias de Windows Server o Microsoft SQL Server están cubiertas por _____, puedes reutilizarlas en máquinas virtuales de Azure."
+      }
+    ],
+    "options": [
+      {
+        "text": "un Acuerdo de Licencia de Usuario Final (EULA)",
+        "correct": false
+      },
+      { "text": "Política de Ciclo de Vida de Microsoft", "correct": false },
+      { "text": "Software Assurance", "correct": true }
+    ]
+  },
+  {
+    "id": 423,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Tienes una aplicación web que se ejecuta en Azure."
+      },
+      {
+        "type": "p",
+        "text": "Necesitas identificar el tiempo que tarda en cargarse una página web en el navegador del usuario."
+      }
+    ],
+    "options": [
+      { "text": "Alertas de Azure Monitor", "correct": false },
+      { "text": "Application Insights en Azure Monitor", "correct": true },
+      { "text": "Log Analytics", "correct": false },
+      { "text": "Azure Network Watcher", "correct": false }
+    ]
+  },
+  {
+    "id": 424,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "_____ garantiza el acceso a los recursos en la nube en caso de una falla del servicio."
+      }
+    ],
+    "options": [
+      { "text": "Alta disponibilidad", "correct": true },
+      { "text": "Previsibilidad", "correct": false },
+      { "text": "Confiabilidad", "correct": false },
+      { "text": "Escalabilidad", "correct": false }
+    ]
+  },
+  {
+    "id": 425,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "¿Qué debe usar una aplicación de escritorio para interactuar con Azure y administrar recursos?"
+      }
+    ],
+    "options": [
+      { "text": "APIs", "correct": true },
+      {
+        "text": "Plantillas de Azure Resource Manager (ARM)",
+        "correct": false
+      },
+      {
+        "text": "Interfaz de línea de comandos de Azure (CLI)",
+        "correct": false
+      },
+      { "text": "Azure Cloud Shell", "correct": false }
+    ]
+  },
+  {
+    "id": 429,
+    "type": "checkbox",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "¿Qué dos características o servicios se pueden integrar con Azure Monitor?"
+      }
+    ],
+    "options": [
+      { "text": "Estado de Azure", "correct": false },
+      { "text": "Application Insights", "correct": true },
+      { "text": "Azure Advisor", "correct": false },
+      { "text": "Log Analytics", "correct": true },
+      { "text": "Azure Service Health", "correct": false }
+    ]
+  },
+  {
+    "id": 430,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "¿Qué proporciona una manera unificada de proyectar y administrar recursos que no están en Azure dentro de Azure Resource Manager (ARM)?"
+      }
+    ],
+    "options": [
+      { "text": "Azure Migrate", "correct": false },
+      { "text": "Azure AD Connect", "correct": false },
+      { "text": "Azure Arc", "correct": true },
+      { "text": "Azure Front Door", "correct": false }
+    ]
+  },
+  {
+    "id": 432,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "_____ es un servicio de migración física usado para transferir grandes cantidades de datos de manera rápida, económica y confiable."
+      }
+    ],
+    "options": [
+      { "text": "Azure Data Box", "correct": true },
+      { "text": "Azure Databricks", "correct": false },
+      { "text": "Azure File Sync", "correct": false },
+      { "text": "Azure Migrate", "correct": false }
+    ]
+  },
+  {
+    "id": 433,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Tu empresa tiene una suscripción de Azure y tres unidades de negocio."
+      },
+      {
+        "type": "p",
+        "text": "Planeas implementar nuevos recursos para cada unidad de negocio y necesitas asegurarte de que se implementen utilizando un método repetible y confiable que aplique las mismas configuraciones."
+      }
+    ],
+    "options": [
+      { "text": "Azure Policy", "correct": false },
+      { "text": "Azure Arc", "correct": false },
+      { "text": "Un grupo de recursos", "correct": false },
+      { "text": "Plantillas de Azure Resource Manager (ARM)", "correct": true }
+    ]
+  },
+  {
+    "id": 436,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "_____ extiende el cumplimiento y monitoreo de Azure a configuraciones híbridas y multinube."
+      }
+    ],
+    "options": [
+      { "text": "Azure AD Connect", "correct": false },
+      { "text": "Azure Arc", "correct": true },
+      { "text": "Azure Front Door", "correct": false },
+      { "text": "Azure Policy", "correct": false }
+    ]
+  },
+  {
+    "id": 437,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "En el modelo de servicio en la nube software como servicio (SaaS), ¿qué responsabilidad es compartida entre Microsoft y el cliente?"
+      }
+    ],
+    "options": [
+      {
+        "text": "Gestión de identidad e infraestructura de directorios",
+        "correct": false
+      },
+      { "text": "Gestión de aplicaciones", "correct": false },
+      { "text": "Gestión de información y datos", "correct": true },
+      { "text": "Actualizaciones del sistema operativo", "correct": false }
+    ]
+  },
+  {
+    "id": 438,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "¿Dónde almacena Azure Monitor los datos de eventos?"
+      }
+    ],
+    "options": [
+      { "text": "Una cuenta de Azure Blob Storage", "correct": false },
+      { "text": "Azure Storage Queue", "correct": false },
+      { "text": "Azure SQL Database", "correct": false },
+      { "text": "Un espacio de trabajo de Log Analytics", "correct": true }
+    ]
+  },
+  {
+    "id": 439,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Has implementado un recurso de Azure. El recurso se vuelve inaccesible durante un período prolongado debido a una interrupción del servicio. Microsoft _____."
+      }
+    ],
+    "options": [
+      { "text": "reembolsará tu cuenta bancaria", "correct": false },
+      { "text": "migrará el recurso a otra suscripción", "correct": false },
+      { "text": "acreditará tu cuenta de Azure", "correct": true },
+      {
+        "text": "te enviará un cupón para canjear créditos de Azure",
+        "correct": false
+      }
+    ]
+  },
+
+  {
+    "id": 442,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Tienes una suscripción de Azure. Necesitas usar Azure Cloud Shell para ejecutar un script de implementación."
+      },
+      { "type": "p", "text": "¿Qué deberías usar para acceder a Cloud Shell?" }
+    ],
+    "options": [
+      { "text": "Azure Resource Manager (ARM)", "correct": false },
+      { "text": "Microsoft Visual Studio", "correct": false },
+      { "text": "Una consola de comandos de Windows", "correct": false },
+      { "text": "Un navegador web", "correct": true }
+    ]
+  },
+  {
+    "id": 443,
+    "type": "checkbox",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Un administrador de Azure planea ejecutar un script de PowerShell que crea recursos de Azure."
+      },
+      {
+        "type": "p",
+        "text": "¿Qué tres configuraciones de equipo pueden usarse para ejecutar el script?"
+      }
+    ],
+    "options": [
+      {
+        "text": "Un equipo con Windows 11 y las herramientas de Azure CLI instaladas",
+        "correct": true
+      },
+      {
+        "text": "Un equipo con Linux y las herramientas de Azure CLI instaladas",
+        "correct": false
+      },
+      {
+        "text": "Un equipo con macOS y PowerShell Core 6.0 instalado",
+        "correct": false
+      },
+      {
+        "text": "Un equipo con Chrome OS que usa Azure Cloud Shell",
+        "correct": true
+      },
+      {
+        "text": "Un equipo con Windows 10 y el módulo Azure PowerShell instalado",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": 445,
+    "type": "checkbox",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "En el modelo de servicio en la nube Infraestructura como Servicio (IaaS), ¿cuáles dos componentes son responsabilidad del proveedor de servicios en la nube?"
+      }
+    ],
+    "options": [
+      {
+        "text": "La configuración y el mantenimiento del almacenamiento",
+        "correct": false
+      },
+      {
+        "text": "La instalación y configuración del sistema operativo",
+        "correct": false
+      },
+      { "text": "El mantenimiento del hardware", "correct": true },
+      { "text": "La configuración de la red", "correct": false },
+      {
+        "text": "La seguridad física de la infraestructura del centro de datos",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": 446,
+    "type": "select_one",
+    "question_texts": [
+      { "type": "p", "text": "La capa de acceso Cool está optimizada _____." }
+    ],
+    "options": [
+      {
+        "text": "para datos que se acceden con poca frecuencia y se almacenan por al menos 30 días",
+        "correct": true
+      },
+      {
+        "text": "para datos que se acceden rara vez, se almacenan por al menos 180 días y tienen requisitos de latencia flexibles",
+        "correct": false
+      },
+      {
+        "text": "para almacenar datos que se acceden con frecuencia",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 447,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "_____ proporciona una visión general del estado de los servicios y regiones de Azure."
+      }
+    ],
+    "options": [
+      { "text": "Azure Monitor", "correct": false },
+      { "text": "Azure Resource Health", "correct": false },
+      { "text": "Azure Service Health", "correct": false },
+      { "text": "Azure Status", "correct": true }
+    ]
+  },
+  {
+    "id": 449,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Al usar _____, puedes agrupar máquinas virtuales en un dominio de actualización o un dominio de fallos."
+      }
+    ],
+    "options": [
+      { "text": "conjuntos de disponibilidad", "correct": true },
+      { "text": "zonas de disponibilidad", "correct": false },
+      { "text": "Azure Load Balancer", "correct": false },
+      {
+        "text": "Conjuntos de escalado de máquinas virtuales de Azure",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 450,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Tienes una cuenta de almacenamiento de Azure llamada storage1. Necesitas asegurarte de que se puedan crear contenedores en storage1, pero no eliminarlos."
+      }
+    ],
+    "options": [
+      {
+        "text": "Crear un bloqueo de solo lectura para storage1",
+        "correct": false
+      },
+      {
+        "text": "Crear un bloqueo de eliminación para storage1",
+        "correct": true
+      },
+      {
+        "text": "Habilitar eliminación reversible de contenedores",
+        "correct": false
+      },
+      { "text": "Habilitar eliminación reversible de blobs", "correct": false }
+    ]
+  },
+  {
+    "id": 451,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Puedes asignar una definición de Azure Policy a un _____."
+      }
+    ],
+    "options": [
+      { "text": "aplicativo en contenedor", "correct": false },
+      { "text": "grupo de recursos", "correct": true },
+      { "text": "bloqueo de recursos", "correct": false },
+      { "text": "grupo de seguridad", "correct": false }
+    ]
+  },
+  {
+    "id": 452,
+    "type": "checkbox",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Tienes un entorno de Azure. Necesitas crear una nueva máquina virtual de Azure desde una tableta con sistema operativo Android."
+      },
+      { "type": "p", "text": "¿Cuáles son tres posibles soluciones?" }
+    ],
+    "options": [
+      { "text": "Usar la app de Configuración", "correct": false },
+      { "text": "Usar el portal de Azure", "correct": true },
+      { "text": "Usar Bash en Azure Cloud Shell", "correct": true },
+      { "text": "Usar el portal de PowerApps", "correct": false },
+      { "text": "Usar PowerShell en Azure Cloud Shell", "correct": true }
+    ]
+  },
+  {
+    "id": 455,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "ul",
+        "text": "Los usuarios NO deben poder realizar las siguientes operaciones:",
+        "items": [
+          "Eliminar RG1.",
+          "Modificar recursos en RG1.",
+          "Eliminar recursos de RG1."
+        ]
+      },
+      { "type": "p", "text": "¿Qué deberías hacer?" }
+    ],
+    "options": [
+      { "text": "Aplicar un bloqueo de eliminación a RG1", "correct": false },
+      { "text": "Aplicar un bloqueo de solo lectura a RG1", "correct": true },
+      { "text": "Conceder permisos RBAC a RG1", "correct": false },
+      { "text": "Agregar una etiqueta a RG1", "correct": false }
+    ]
+  },
+  {
+    "id": 456,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Un servicio que tiene un tiempo de actividad del 99.999% tiene más _____ que un servicio con 99.9%."
+      }
+    ],
+    "options": [
+      { "text": "disponibilidad", "correct": true },
+      { "text": "elasticidad", "correct": false },
+      { "text": "gestionabilidad", "correct": false },
+      { "text": "escalabilidad", "correct": false }
+    ]
+  },
+  {
+    "id": 457,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "¿A qué tipo de servicio en la nube puedes instalar un sistema operativo?"
+      }
+    ],
+    "options": [
+      { "text": "solo infraestructura como servicio (IaaS)", "correct": true },
+      { "text": "solo plataforma como servicio (PaaS)", "correct": false },
+      { "text": "solo software como servicio (SaaS)", "correct": false },
+      {
+        "text": "infraestructura como servicio (IaaS) y plataforma como servicio (PaaS)",
+        "correct": false
+      },
+      {
+        "text": "plataforma como servicio (PaaS) y software como servicio (SaaS)",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 458,
+    "type": "select_one",
+    "question_texts": [
+      { "type": "p", "text": "Un bloqueo de recursos puede aplicarse a _____." }
+    ],
+    "options": [
+      { "text": "unidades administrativas", "correct": false },
+      { "text": "políticas de Azure", "correct": false },
+      { "text": "suscripciones de Azure", "correct": true },
+      { "text": "cuentas de usuario", "correct": false }
+    ]
+  },
+  {
+    "id": 459,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "El emparejamiento de redes virtuales puede configurarse entre _____."
+      }
+    ],
+    "options": [
+      {
+        "text": "dos redes virtuales en la misma región de Azure solamente",
+        "correct": false
+      },
+      {
+        "text": "dos redes virtuales en el mismo grupo de recursos solamente",
+        "correct": false
+      },
+      {
+        "text": "dos redes virtuales en la misma suscripción de Azure solamente",
+        "correct": false
+      },
+      { "text": "Cualquier par de redes virtuales", "correct": true }
+    ]
+  },
+  {
+    "id": 460,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Muchos recursos de Azure requieren que especifiques un _____ al cual deben ser implementados."
+      }
+    ],
+    "options": [
+      { "text": "área geográfica", "correct": false },
+      { "text": "región", "correct": true },
+      { "text": "centro de datos", "correct": false },
+      { "text": "ciudad", "correct": false }
+    ]
+  },
+  {
+    "id": 466,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Puedes usar _____ para hacer recomendaciones sobre ahorros de costos."
+      }
+    ],
+    "options": [
+      { "text": "Application Insights", "correct": false },
+      { "text": "Azure Advisor", "correct": true },
+      { "text": "Etiquetas de recursos de Azure", "correct": false },
+      { "text": "Azure Service Health", "correct": false }
+    ]
+  },
+  {
+    "id": 470,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "¿Cuántas copias de datos se almacenan en el almacenamiento redundante geográficamente (GZRS)?"
+      }
+    ],
+    "options": [
+      { "text": "2", "correct": false },
+      { "text": "3", "correct": false },
+      { "text": "6", "correct": true },
+      { "text": "12", "correct": false }
+    ]
+  },
+  {
+    "id": 471,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "Si eliminas datos de _____ antes de que hayan transcurrido 30 días, debes pagar una tarifa por eliminación anticipada."
+      }
+    ],
+    "options": [
+      { "text": "una base de datos de Azure Cosmos DB", "correct": false },
+      { "text": "Azure SQL Database", "correct": false },
+      {
+        "text": "la capa de acceso frío de Azure Blob Storage",
+        "correct": true
+      },
+      {
+        "text": "la capa de acceso caliente de Azure Blob Storage",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 473,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "El acuerdo de nivel de servicio (SLA) de un proveedor de servicios en la nube expresa _____ como un porcentaje de tiempo de actividad durante un año dado."
+      }
+    ],
+    "options": [
+      { "text": "Disponibilidad", "correct": true },
+      { "text": "elasticidad", "correct": false },
+      { "text": "fiabilidad", "correct": false },
+      { "text": "escalabilidad", "correct": false }
+    ]
+  },
+  {
+    "id": 474,
+    "type": "select_one",
+    "question_texts": [
+      {
+        "type": "p",
+        "text": "¿Qué puedes usar para hacer recomendaciones que reducirán los costos de Azure?"
+      }
+    ],
+    "options": [
+      { "text": "Azure Advisor", "correct": true },
+      { "text": "Log Analytics", "correct": false },
+      { "text": "Azure Service Health", "correct": false },
+      { "text": "el calculador de precios de Azure", "correct": false }
+    ]
   }
 ]

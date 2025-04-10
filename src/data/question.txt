@@ -2226,11 +2226,417 @@ E. Storage Accounts
 
 
 
->> CONTINUAR <<
+P401
+What should you use to prevent traffic from an Azure virtual network from being routed to an Azure Storage account via the internet?
+A. a network security group (NSG)
+B. a public endpoint
+C. Azure VPN Gateway
+D. a service endpoint
+
+P402
+Which service can replace a resource lock automatically if the lock is removed?
+A. Azure Information Protection (AIP)
+B. Azure Blueprints
+C. Azure Backup
+D. Azure Advisor
+
+P403
+You need to create a new user for an Azure subscription.
+What should you use? To answer, select the service in the answer area.
+
+A. Virtual Machines
+B. Subscription
+C. App Services
+D. Azure Active Directory (Azure AD)
+
+P404
+Select the answer that correctly completes the sentence.
+Azure Resource Manager (ARM) templates use the _____.
+A. CSV format
+B. HTML format
+C. JSON format
+D. XML format
+
+P405
+You plan to collect and analyze event details for five Azure virtual machines.
+You need to run queries to compare the event details collected from all the virtual machines.
+Which two tools should you use? Each correct answer presents part of the solution.
+NOTE: Each correct selection is worth one point.
+A. Azure Service Health
+B. Azure Service Bus
+C. Azure Monitor
+D. Azure Advisor
+E. Log Analytics
+
+P406
+An Azure SLA is a formal agreement between Microsoft and cosutomer that defines _____.
+A. a commitment to deliver the features on a technology roadmap
+B. a commitment to performance standards
+C. the maximum scalability limits of an available infrastructure.
+D. the minimum scalability limits of an available infrastructure.
+
+P407.
+What should you use to track the costs of Azure resources?
+A. Azure Quickstart templates
+B. tags
+C. budgets
+D. usage and quotas
+
+P408
+You have an Azure subscription.
+You plan to create a virtual machine.
+Where will the virtual machine be placed in Azure?
+A. In a storage account
+B. In a resource group
+C. In an administrative unit
+D. In an application group
+
+P409
+You need to migrate an on-premises server by using a lift-and-shift migration.
+To which type of cloud service should you migrate?
+A. infrastructure as a service (IaaS)
+B. software as a service (SaaS)
+C. platform as a service (PaaS)
+
+P410
+Select the answer that correctly completes the sentence.
+_____ provides a global view of the status of Azure services, regions, and specific resources.
+A. Applicacion Insights
+B. Azure Advisor
+C. Azure Service Health
+
+P411
+You plan to reduce ongoing Azure expenditures.
+You need to identify which factors affect the costs of a resource.
+Which three factors should you identify? Each correct answer presents a complete solution.
+NOTE: Each correct selection is worth one point.
+A. the volume of outbound data
+B. the volume of inbound data
+C. the service tier
+D. the Azure region
+E. the type of processed data
+
+P412
+Your company has an Azure subscription that contains several resources.
+You need to identify which department is responsible for the cost of each resource.
+What should you use?
+A. budgets
+B. alerts
+C. tags
+
+P413
+Select the answer that correctly completes the sentence.
+Azure Cosmos DB is an example of a _____ offering.
+A. paltform as a service (PaaS)
+B. infrastructure as a service (IaaS)
+C. content as a service
+D. software as a service (SaaS)
+
+P414
+Select the answer that correctly completes the sentence.
+Data that is stored in the Archive access tier of an Azure Storage account _____.
+A. can be accessed at any time by using azcopy.exe
+B. can only be read by using Azure Backup
+C. must be restored before the data can be accessed
+D. must be rehydrated before the data can be accessed
+
+P420
+You have on-premises servers that run Windows Server.
+What should you implement to manage the servers by using the Azure portal?
+
+A. Azure Kubernetes Service (AKS)
+B. Azure Arc
+C. Docker
+D. role-based access control (RBAC)
+
+
+
+
+
+P421
+Select the answer that correctly completes the sentence.
+You can use _____ in Azure to send email alerts when the cost of the current billing period for an Azure subscription exceeds a specific limit.
+A. Advisor recommendations
+B. Access control (IAM)
+C. Budget alerts
+D. Compliance
+
+P422
+Select the answer that correctly completes the sentence.
+If Windows Server or Microsoft SQL Server licenses are covered by _____, you can repurpose the licenses on Azure virtual machines.
+A. an End User License Agreement (EULA)
+B. Microsoft Lifecycle Policy
+C. Software Assurance
+
+P423
+You have a web app that runs in Azure.
+You need to identify the amount of time it takes for web pages to load in a user's browser.
+What should you use?
+A. Azure Monitor alerts
+B. Application Insights in Azure Monitor
+C. Log Analytics
+D. Azure Network Watcher
+
+P424
+Select the answer that correctly completes the sentence.
+_____ ensures access to cloud resources in the event of a service failure.
+A. High availability
+B. Predictability
+C. Reliability
+D. Scalability
+
+P425
+What should a desktop application use to interact with Azure and manage resources?
+A. APIs
+B. Azure Resource Manager (ARM) templates
+C. Azure Command-Line Interface (CLI)
+D. Azure Cloud Shell
+
+P429
+Which two features or services can be integrated with Azure Monitor? Each correct answer presents part of the solution.
+NOTE: Each correct answer is worth one point.
+A. Azure status
+B. Application Insights
+C. Azure Advisor
+D. Log Analytics
+E. Azure Service Health
+
+P430
+What provides a unified way to project and manage non-Azure resources in Azure Resource Manager (ARM)?
+A. Azure Migrate
+B. Azure AD Connect
+C. Azure Arc
+D. Azure Front Door
+
+P432
+Select the answer that correctly completes the sentence.
+_____is a physical migration service used to tranfer large amounts of data in a quick, inexpensive, and reliable way.
+A. Azure Data Box
+B. Azure Databricks
+C. Azure File Sync
+D. Azure Migrate
+
+P433
+Your company has an Azure subscription and three business units.
+You plan to deploy new resources for each business unit.
+You need to ensure that the new resources are deployed by using a repeatable and reliable method that applies the same configurations to each resource.
+What should you use?
+A. Azure Policy
+B. Azure Arc
+C. a resource group
+D. Azure Resource Manager (ARM) templates
+
+P436
+Select the answer that correctly completes the sentence.
+_____ extends Azure compliance and monitoring to hybrid and multicloud configurations
+A. Azure AD Connect
+B. Azure Arc
+C. Azure Front Door
+D. Azure Policy
+
+P437
+In the software as a service (SaaS) cloud service, which responsibility is shared between Microsoft and the customer?
+A. identity and directory infrastructure management
+B. application management
+C. information and data management
+D. operating system updates
+
+P438
+Where does Azure Monitor store event data?
+A. an Azure Blob Storage account
+B. Azure Storage Queue
+C. Azure SQL Database
+D. a Log Analytics workspace
+
+P439
+Select the answer that correctly completes the sentence.
+You deploy an Azure resource. The resource becomes unavaliable for an extended period due to a service outage. Microsoft will _____.
+A. refund your bank account
+B. migrate the resource to another subscription
+C. credit your Azure account
+D. send you a coupon code that you can redeem for Azure credits
+
+
+
+
+
+P442
+You have an Azure subscription.
+You need to use Azure Cloud Shell to run a deployment script.
+What should you use to access Cloud Shell?
+A. Azure Resource Manager (ARM)
+B. Microsoft Visual Studio
+C. a Windows command prompt
+D. a web browser
+
+P443
+An Azure administrator plans to run a PowerShell script that creates Azure resources.
+You need to recommend which computer configuration to use to run the script.
+Which three computers can run the script? Each correct answer presents a complete solution.
+NOTE: Each correct selection is worth one point.
+A. a computer that runs Windows 11 and has the Azure CLI tools installed
+B. a computer that runs Linux and has the Azure CLI tools installed
+C. a computer that runs macOS and has PowerShell Core 6.0 installed
+D. a computer that runs Chrome OS and uses Azure Cloud Shell
+E. a computer that runs Windows 10 and has the Azure PowerShell module installed
+
+P445
+In the infrastructure as a service (IaaS) cloud service model, which two components are the responsibility of the cloud service provider? Each correct answer presents a complete solution.
+NOTE: Each correct selection is worth one point.
+A. the configuration and maintenance of storage
+B. the installation and configuration of the operating system
+C. maintaining the hardware
+D. the network configuration
+E. physical security of the datacenter infrastructure
+
+P446
+Select the answer that correctly completes the sentence.
+The Cool access tier is optimized _____.
+A. for data that is accessed infrequently and stored for at least 30 days
+B. for data that is accessed rarely, is stored for at least 180 days, and has flexible latency requirements
+C. for storing data that is accessed frequently
+
+P447
+Select the answer that correctly completes the sentence.
+_____ provides a health Overview of Azure services and regions.
+A. Azure Monitor
+B. Azure Resource Health
+C. Azure Service Health
+D. Azure Status
+
+P449
+Select the answer that correctly completes the sentence.
+When using _____, you can group virtual machines into an update domain or fault domain.
+A. availability sets
+B. availability zones
+C. Azure Load Balancer
+D. Azure Virtual Machine Scale Sets
+
+P450
+You have an Azure Storage account named storage1.
+You need to ensure that containers can be created in, but not deleted from, storage1.
+What should you do?
+
+A. Create a ReadOnly lock for storage1.
+B. Create a delete lock for storage1.
+C. Enable container soft delete.
+D. Enable blob soft delete.
+
+P451
+Select the answer that correctly completes the sentence.
+You can assign an Azure Policy definition to a _____.
+A. container app
+B. resource group
+C. resource lock
+D. security group
+
+P452
+You have an Azure environment.
+You need to create a new Azure virtual machine from a tablet that runs the Android operating system.
+What are three possible solutions? Each correct answer presents a complete solution.
+NOTE: Each correct selection is worth one point.
+A. Use the Settings app.
+B. Use the Azure portal.
+C. Use Bash in Azure Cloud Shell.
+D. Use the PowerApps portal.
+E. Use PowerShell in Azure Cloud Shell.
+
+P455
+You have an Azure subscription that contains a resource group named RG1.
+Users must NOT be able to perform the following operations:
+• Delete RG1.
+• Modify resources in RG1.
+• Delete resources from RG1.
+What should you do?
+A. Apply a delete lock to RG1.
+B. Apply a read-only lock to RG1.
+C. Grant role-based access control (RBAC) permissions to RG1.
+D. Add a tag to RG1.
+
+P456
+Select the answer that correctly completes the sentence.
+A service that has an uptime of 99.999% has more _____ than a service that has an uptime of 99.9%
+A. availability
+B. elasticity
+C. manageability
+D. scalability
+
+P457
+To which type of cloud service can you install an operating system?
+A. infrastructure as a service (IaaS) only
+B. platform as a service (PaaS) only
+C. software as a service (SaaS) only
+D. infrastructure as a service (IaaS) and platform as a service (PaaS) only
+E. platform as a service (PaaS) and software as a service (SaaS) only
+
+P458
+Select the answer that correctly completes the sentence.
+A resource lock can be applied to _____.
+A. administrative units
+B. Azure policies
+C. Azure subscriptions
+D. user accounts
+
+P459
+Select the answer that correctly completes the sentence.
+Virtual network peering can be configured between _____.
+A. two virtual networks in the same Azure region only
+B. two virtual networks in the same resource group only
+C. two virtual networks in the same Azure subscription only
+D. Any two virtual networks
+
+P460
+Select the answer that correctly completes the sentence.
+Many Azure resources require you to specify a _____ to which they should be deployed.
+A. geography
+B. region
+C. datacenter
+D. city
+
+
+
+
+P466
+Select the answer that correctly completes the sentence.
+You can use _____ to make recommendations on cost savings.
+A. Applicacion Insights
+B. Azure Advisor
+C. Azure Resource Tags
+D. Azure Service Health
+
+P470
+How many data copies are stored in gee-zone-redundant storage (GZRS)?
+A. 2
+B. 3
+C. 6
+D. 12
+
+P471
+Select the answer that correctly completes the sentence.
+If you delete data from _____ before 30 days has elapsed, you must pay an early deletion fee.
+A. an Azure Cosmos DB datastore
+B. Azure SQL Database
+C. the cool access tier of Azure Blob Storage
+C. the hot access tier of Azure Blob Storage
+
+P473
+Select the answer that correctly completes the sentence.
+A cloud service provider's service-level agreement (SLA) expresses _____ as a percentage of uptime over a given year.
+A. Availability
+B. elasticity
+C. reliability
+D. scalability
+
+P474
+What can you use to make recommendations that will reduce Azure costs?
+A. Azure Advisor
+B. Log Analytics
+C. Azure Service Health
+D. the Azure pricing calculator
 
 
 
 
 
 Preguntas Faltantes:
-34, 35, 48, 54, 55, 56, 58, 61, 62, 64, 67, 69, 70, 71, 75, 76, 78, 79, 80, 94, 100, 103, 107, 114, 119, 120, 121, 124, 125, 127, 128, 130, 133, 134, 137, 138, 139, 140, 149, 150, 159, 162, 166, 169, 170, 178, 180, 183, 187, 190, 192, 197, 200, 201, 202, 204, 211, 213, 215, 223, 224, 225, 226, 227, 234, 242, 243, 250, 252, 258, 264, 266, 268, 270, 272, 275, 283, 285, 286, 287, 292, 295, 300, 301, 302, 303, 305, 308, 315, 321, 322, 323, 324, 326, 330, 331, 334, 335, 336, 340, 348, 350, 353, 354, 356, 358,360, 361, 365, 366, 373, 379, 380, 382, 385, 386, 387, 390, 394, 395, 396, 400, 
+34, 35, 48, 54, 55, 56, 58, 61, 62, 64, 67, 69, 70, 71, 75, 76, 78, 79, 80, 94, 100, 103, 107, 114, 119, 120, 121, 124, 125, 127, 128, 130, 133, 134, 137, 138, 139, 140, 149, 150, 159, 162, 166, 169, 170, 178, 180, 183, 187, 190, 192, 197, 200, 201, 202, 204, 211, 213, 215, 223, 224, 225, 226, 227, 234, 242, 243, 250, 252, 258, 264, 266, 268, 270, 272, 275, 283, 285, 286, 287, 292, 295, 300, 301, 302, 303, 305, 308, 315, 321, 322, 323, 324, 326, 330, 331, 334, 335, 336, 340, 348, 350, 353, 354, 356, 358,360, 361, 365, 366, 373, 379, 380, 382, 385, 386, 387, 390, 394, 395, 396, 400, 415, 416, 417, 418, 419, 426, 427, 428, 431, 434, 435, 440, 441, 444, 446, 448, 453, 454, 461, 462, 463, 464, 465, 467, 468, 472, 
