@@ -3,9 +3,10 @@
 import {  useEffect, useState } from "react";
 import { CurrentQuestion } from "./CurrentQuestion";
 import { redirect } from "next/navigation";
+import { Question } from "@/types/questions/Question";
 
 interface Props {
-  questions: any[];
+  questions: Question[];
 }
 
 export const QuestionsContainer = ({ questions }: Props) => {
